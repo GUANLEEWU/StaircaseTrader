@@ -421,3 +421,4 @@ symbol = "ETHUSDT"
 targetDB = na.db(secret=secret0.NotionStaticSecret, id=secret0.OrderDBID)
 grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='1.1')
 grid_trader.run()
+#test update
