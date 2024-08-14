@@ -388,8 +388,6 @@ class GridTrader:
         while True:
             if not self.trader.websocket.ws.is_connected():
                 raise
-            else:
-                print('connected')
             current_price = self.trader.get_index_price(self.symbol)
             next_buy_level = self.calculate_next_buy_level(current_price)
             if next_buy_level not in self.buy_orders:
