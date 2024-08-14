@@ -413,7 +413,7 @@ api_key = secret0.api_key_real
 secret_key = secret0.secret_key_real
 grid_size = 10
 buy_size = 0.008
-initial_price = 0 
+initial_price = 6.7
 symbol = "ETHUSDT"
 
 targetDB = na.db(secret=secret0.NotionStaticSecret, id=secret0.OrderDBID)
