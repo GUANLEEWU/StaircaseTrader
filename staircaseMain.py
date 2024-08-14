@@ -411,8 +411,8 @@ class GridTrader:
 
 api_key = secret0.api_key_real
 secret_key = secret0.secret_key_real
-grid_size = 7
-buy_size = 0.001
+grid_size = 10
+buy_size = 0.008
 initial_price = 0 
 symbol = "ETHUSDT"
 

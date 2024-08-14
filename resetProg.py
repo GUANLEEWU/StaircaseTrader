@@ -4,7 +4,6 @@ import shutil
 # List of files and directories to remove
 remove_items = [
     "buy_orders.json",
-    "grid_trader.log",
     "open_orders.json",
     "portfolio.json",
     "sell_orders.json",
