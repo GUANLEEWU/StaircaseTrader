@@ -7,6 +7,7 @@ keep_files = {
     "bybitTrader.py", 
     "napilib.py", 
     "secret0.py"
+    ".git"
 }
 keep_dirs = {"__pycache__"}
 
