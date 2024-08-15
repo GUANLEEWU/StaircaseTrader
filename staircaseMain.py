@@ -129,6 +129,7 @@ class GridTrader:
         self.trader = BybitTrader(api_key, secret_key, testnet=testnet)
         self.db = naDB
         self.logDB = na.db(naDB.secret,'36458b82ef9740b68eb401b732136476')
+        self.ActionDB = na.db(naDB.secret,'18b3e4c0c19746e8b114702f6e310846')
         self.OpenOrderDB = na.db(naDB.secret,'06fd76415bf4441f81aeaeb1f8fd12b2')
         self.grid_size = grid_size
         self.buy_size = buy_size
@@ -370,6 +371,31 @@ class GridTrader:
         next_level = self.initial_price + n * self.grid_size
         return round(next_level, 2)
 
+    def get_param(self):
+        self.ActionDB.grab()
+        for x in self.ActionDB.lrows:
+            if x.get('state') == 'adjusting':
+                if x.get('Name') == 'Buy Size':
+                    value = x.get('value')
+                    if value > 0.08:
+                        logging.info('too large')
+                        self.buy_size = 0.08
+                    else:
+                        self.buy_size = value
+                    logging.info(f"Buy size changed to {str(self.buy_size)}")
+                    try:
+                        x.data_d['properties'] = {}
+                        x.set('state','is set','select')
+                        x.set('note',f"changed to {str(self.buy_size)}",'rich_text')
+                        x.secret = secret0.NotionStaticSecret
+                        x.update()
+                        logging.info("param modification info updated")
+                    except Exception as e:
+                        logging.error(f"Failed to update modification info: {e}")
+                        logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                        
+                    
+    
     @retry_with_backoff(retries=12, backoff_in_seconds=1)
     def run(self):
         count = 0
@@ -395,6 +421,8 @@ class GridTrader:
             if count >= 12:
                 self.checkpoint_state()
                 count = 0
+            if count % 1 == 0:
+                self.get_param()
             count += 1
             time.sleep(self.polling_interval)
 
@@ -405,7 +433,6 @@ class GridTrader:
         temp = na.row()
         temp.set('Name','shutdown','title')
         temp.set('detail','\n'.join(get_latest_logs('grid_trader.log',15)),'rich_text')
-        temp
         self.logDB.add(temp)
         sys.exit(0)
 
@@ -417,6 +444,6 @@ initial_price = 6.7
 symbol = "ETHUSDT"
 
 targetDB = na.db(secret=secret0.NotionStaticSecret, id=secret0.OrderDBID)
-grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='1.1')
+grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='0.1')
 grid_trader.run()
 #test update
