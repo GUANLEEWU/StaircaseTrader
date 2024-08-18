@@ -4,8 +4,8 @@ from staircaseMain import GridTrader
 sys.path.append(os.path.expanduser('~/docus'))
 import secret0 # type: ignore
 
-api_key = secret0.apiKeySelf
-secret_key = secret0.apiSecretSelf
+api_key = secret0.api_key_real
+secret_key = secret0.secret_key_real
 grid_size = 200
 buy_size = 0.00006
 initial_price = 13.7
