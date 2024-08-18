@@ -1,10 +1,13 @@
-2024-08-18 15:27:35,198 - INFO - WebSocket Unified V5 (Auth) attempting connection...
-2024-08-18 15:27:35,687 - INFO - Websocket connected
-2024-08-18 15:27:35,687 - INFO - WebSocket Unified V5 (Auth) connected
-2024-08-18 15:27:35,925 - INFO - Placed buy order at 2607.7, Order ID: 1755148921006754560
-2024-08-18 15:27:35,927 - INFO - Processing order with ID: 1755148921006754560, Status: New
-2024-08-18 15:28:56,382 - INFO - WebSocket Unified V5 (Auth) attempting connection...
-2024-08-18 15:28:56,972 - INFO - Websocket connected
-2024-08-18 15:28:56,972 - INFO - WebSocket Unified V5 (Auth) connected
-2024-08-18 15:28:58,240 - INFO - Processing order with ID: 1755149611481467648, Status: New
-2024-08-18 15:28:58,377 - INFO - Placed buy order at 2605.7, Order ID: 1755149611481467648
+2024-08-18 15:41:46,322 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-18 15:41:46,990 - INFO - Websocket connected
+2024-08-18 15:41:46,990 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-18 15:41:47,235 - INFO - Placed buy order at 2607.7, Order ID: 1755156061868034816
+2024-08-18 15:41:47,238 - INFO - Processing order with ID: 1755156061868034816, Status: New
+2024-08-18 15:42:00,663 - INFO - Processing order with ID: 1755156061868034816, Status: Filled
+2024-08-18 15:42:00,664 - INFO - Order filled - ID: 1755156061868034816, Side: Buy, Price: 2607.7, Qty: 0.001
+2024-08-18 15:42:05,772 - INFO - Placed sell order at 2608.7
+2024-08-18 15:42:05,878 - INFO - Placed corresponding sell order with ID: 1755156177052011264
+2024-08-18 15:42:06,300 - INFO - Logged filled sell order to database
+2024-08-18 15:42:06,300 - INFO - Processing order with ID: 1755156177052011264, Status: New
+2024-08-18 15:42:15,382 - INFO - Shutting down gracefully...
+2024-08-18 15:42:15,383 - INFO - State checkpointed successfully.
