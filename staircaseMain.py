@@ -3,7 +3,7 @@ import csv
 import numpy as np
 from bybitTrader import BybitTrader
 import time
-import secret0, os
+import os
 import napilib as na
 import signal
 import sys
@@ -12,9 +12,21 @@ import logging, threading
 import requests as requests
 from logging.handlers import RotatingFileHandler
 import traceback
+import pytz
+from datetime import datetime
+
+sys.path.append(os.path.expanduser('~/docus'))
+import secret0
 
 
 grid_trader = None
+
+# Set the timezone for logging
+tz_Taiwan = pytz.timezone('Asia/Taipei')
+
+# Corrected time_in_taiwan function
+def time_in_taiwan(*args):
+    return datetime.now(tz_Taiwan).timetuple()
 
 # Initialize logging
 logger = logging.getLogger()
@@ -26,6 +38,9 @@ file_handler.setLevel(logging.INFO)
 file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
+
+# Modify the converter function for the logging module to use Taiwan time
+logging.Formatter.converter = time_in_taiwan
 
 # Create a stream handler to print to console
 console_handler = logging.StreamHandler()
@@ -142,7 +157,7 @@ class GridTrader:
         self.buy_orders = self.state_manager.load_state('buy_orders', {})
         self.sell_orders = self.state_manager.load_state('sell_orders', {})
         self.order_tracking = self.state_manager.load_state('order_tracking', {})
-        portfolio_data = self.state_manager.load_state('portfolio', {'cumulative_income': 0.0, 'balance': 2000.0, 'eth_holdings': 0.0})
+        portfolio_data = self.state_manager.load_state('portfolio', {'cumulative_income': 0.0, 'balance': 0.0, 'eth_holdings': 0.0})
 
         self.cumulative_income = portfolio_data['cumulative_income']
         self.balance = portfolio_data['balance']
@@ -160,7 +175,7 @@ class GridTrader:
         if not os.path.exists(self.csv_file):
             with open(self.csv_file, 'w', newline='') as f:
                 writer = csv.writer(f)
-                writer.writerow(['Buy Price', 'Sell Price', 'Quantity', 'Pair Profit', 'Cumulative Income', 'Portfolio Value', 'Balance', 'ETH Holdings', 'session'])
+                writer.writerow(['Time','Buy Price', 'Sell Price', 'Quantity', 'Pair Profit', 'Cumulative Income', 'Portfolio Value', 'Balance', 'ETH Holdings', 'session'])
 
         # Signal handling for graceful shutdown
         signal.signal(signal.SIGINT, self.graceful_shutdown)
@@ -237,7 +252,8 @@ class GridTrader:
     def record_trade(self, buy_price, sell_price, qty, pair_profit):
         self.cumulative_income += pair_profit
         portfolio_value = self.get_portfolio_value()
-        self.pending_updates.append([buy_price, sell_price, qty, pair_profit, self.cumulative_income, portfolio_value, self.balance, self.eth_holdings, self.session])
+        cur_time = datetime.now(pytz.timezone('Asia/Taipei')).strftime('%Y-%m-%d %H:%M:%S')
+        self.pending_updates.append([cur_time,buy_price, sell_price, qty, pair_profit, self.cumulative_income, portfolio_value, self.balance, self.eth_holdings, self.session])
         if len(self.pending_updates) >= self.batch_size:
             self.flush_updates()
 
@@ -257,27 +273,37 @@ class GridTrader:
                 return
             try:
                 for order in message['data']:
+                    print(json.dumps(order,indent=2))
                     order_status = order.get('orderStatus')
                     order_id = order.get('orderId')
                     logging.info(f"Processing order with ID: {order_id}, Status: {order_status}")
 
                     if order_status == 'Filled':
-                        filled_price = float(order['avgPrice'])
-                        qty = float(order['cumExecQty'])
+                        
+                        filled_price = order.get('avgPrice','')
+                        qty = float(order.get('cumExecQty',order['qty']))
+                        if not filled_price:
+                            value = order.get('cumExecValue','')
+                            if value:
+                                filled_price = float(value)/float(qty)
+                            else:
+                                filled_price = order['price']
+                        filled_price = float(filled_price)
                         fee = float(order['cumExecFee'])
                         logging.info(f"Order filled - ID: {order_id}, Side: {order['side']}, Price: {filled_price}, Qty: {qty}")
                         
                         if order['side'] == 'Buy':
-                            contribution = - (filled_price * qty) - fee
+                            fee_in_usdt = fee * filled_price
+                            contribution = - (filled_price * qty) - fee_in_usdt
                             sell_order_id = self.place_sell_order(float(order['price']), qty)
                             self.order_tracking[sell_order_id] = {
                                 'filled_price': filled_price,
                                 'buy-price': round(float(order['price']), 2),
                                 'qty': qty,
-                                'fee': fee,
+                                'fee': fee_in_usdt,
                                 'contribution': contribution
                             }
-                            self.update_portfolio(filled_price, qty, fee, 'Buy')
+                            self.update_portfolio(filled_price, qty, fee_in_usdt, 'Buy')
                             logging.info(f"Placed corresponding sell order with ID: {sell_order_id}")
                             # self.state_manager.save_state('order_tracking', self.order_tracking)
 
@@ -436,14 +462,16 @@ class GridTrader:
         self.logDB.add(temp)
         sys.exit(0)
 
-api_key = secret0.api_key_real
-secret_key = secret0.secret_key_real
-grid_size = 10
-buy_size = 0.008
-initial_price = 6.7
+# api_key = secret0.api_key_real
+# secret_key = secret0.secret_key_real
+api_key = secret0.apiKeySelf
+secret_key = secret0.apiSecretSelf
+grid_size = 1
+buy_size = 0.001
+initial_price = 3.7
 symbol = "ETHUSDT"
 
 targetDB = na.db(secret=secret0.NotionStaticSecret, id=secret0.OrderDBID)
-grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='0.1')
+grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='test0')
 grid_trader.run()
 #test update

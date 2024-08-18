@@ -1,0 +1,10 @@
+2024-08-18 15:27:35,198 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-18 15:27:35,687 - INFO - Websocket connected
+2024-08-18 15:27:35,687 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-18 15:27:35,925 - INFO - Placed buy order at 2607.7, Order ID: 1755148921006754560
+2024-08-18 15:27:35,927 - INFO - Processing order with ID: 1755148921006754560, Status: New
+2024-08-18 15:28:56,382 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-18 15:28:56,972 - INFO - Websocket connected
+2024-08-18 15:28:56,972 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-18 15:28:58,240 - INFO - Processing order with ID: 1755149611481467648, Status: New
+2024-08-18 15:28:58,377 - INFO - Placed buy order at 2605.7, Order ID: 1755149611481467648
