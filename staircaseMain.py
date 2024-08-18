@@ -18,31 +18,21 @@ from datetime import datetime
 sys.path.append(os.path.expanduser('~/docus'))
 import secret0
 
-
 grid_trader = None
 
-# Set the timezone for logging
 tz_Taiwan = pytz.timezone('Asia/Taipei')
-
-# Corrected time_in_taiwan function
 def time_in_taiwan(*args):
     return datetime.now(tz_Taiwan).timetuple()
 
-# Initialize logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-
-# Create a rotating file handler
-file_handler = RotatingFileHandler('grid_trader.log', maxBytes=5*1024*1024, backupCount=5)
+file_handler = RotatingFileHandler('grid_trader.log', maxBytes=5*1024*1024, backupCount=2)
 file_handler.setLevel(logging.INFO)
 file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
-
-# Modify the converter function for the logging module to use Taiwan time
 logging.Formatter.converter = time_in_taiwan
 
-# Create a stream handler to print to console
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
 console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
@@ -60,20 +50,13 @@ def get_latest_logs(file_name, num_lines=30):
 
 class StateManager:
     def __init__(self):
-        # self.lock = threading.Lock()
-        self.state_files = {
-            'buy_orders': 'buy_orders.json',
-            'sell_orders': 'sell_orders.json',
-            'order_tracking': 'order_tracking.json',
-            'portfolio': 'portfolio.json',
-            'open_orders': 'open_orders.json'
-        }
+        pass
 
     def load_state(self, key, default_value):
-        return self.load_json_file(self.state_files[key], default_value)
+        return self.load_json_file(key, default_value)
 
     def save_state(self, key, data):
-        self.save_json_file_atomic(self.state_files[key], data)
+        self.save_json_file(key, data)
 
     def load_json_file(self, file_name, default_value):
         if os.path.exists(file_name):
@@ -90,17 +73,7 @@ class StateManager:
                 return default_value
         else:
             return default_value
-
-    # def save_json_file_atomic(self, file_name, data):
-    #     temp_file_name = 'temp_' + file_name
-    #     try:
-    #         with open(temp_file_name, 'w') as f:
-    #             json.dump(data, f, indent=4)
-    #         os.replace(temp_file_name, file_name)
-    #     except Exception as e:
-    #         logging.critical(f"Failed to save file {file_name}: {e}")
-    #         raise
-    def save_json_file_atomic(self, file_name, data):
+    def save_json_file(self, file_name, data):
         try:
             with open(file_name, 'w') as f:
                 json.dump(data, f, indent=4)
@@ -140,7 +113,7 @@ def retry_with_backoff(retries=8, backoff_in_seconds=1):
     return decorator
 
 class GridTrader:
-    def __init__(self, api_key, secret_key,naDB,grid_size, buy_size, initial_price, symbol, polling_interval=5, testnet=True,session='2'):
+    def __init__(self, api_key, secret_key,naDB,grid_size, buy_size, initial_price, symbol, polling_interval=5, testnet=True,session='not set'):
         self.trader = BybitTrader(api_key, secret_key, testnet=testnet)
         self.db = naDB
         self.logDB = na.db(naDB.secret,'36458b82ef9740b68eb401b732136476')
@@ -154,28 +127,28 @@ class GridTrader:
 
         # Initialize state manager and load states
         self.state_manager = StateManager()
-        self.buy_orders = self.state_manager.load_state('buy_orders', {})
-        self.sell_orders = self.state_manager.load_state('sell_orders', {})
-        self.order_tracking = self.state_manager.load_state('order_tracking', {})
-        portfolio_data = self.state_manager.load_state('portfolio', {'cumulative_income': 0.0, 'balance': 0.0, 'eth_holdings': 0.0})
-
+        self.buy_orders = self.state_manager.load_state(f'buy_orders_{self.symbol}.json', {})
+        self.sell_orders = self.state_manager.load_state(f'sell_orders_{self.symbol}.json', {})
+        self.order_tracking = self.state_manager.load_state(f'order_tracking_{self.symbol}.json', {})
+        portfolio_data = self.state_manager.load_state(f'portfolio_{self.symbol}.json', {'cumulative_income': 0.0, 'balance': 0.0, 'crypto_holdings': 0.0})
+        self.openOrders = self.state_manager.load_state(f'open_orders_{self.symbol}.json', {})
+        
         self.cumulative_income = portfolio_data['cumulative_income']
         self.balance = portfolio_data['balance']
-        self.eth_holdings = portfolio_data['eth_holdings']
+        self.crypto_holdings = portfolio_data['crypto_holdings']
         self.portfolio_value = self.get_portfolio_value()
 
-        self.csv_file = 'trades_record.csv'
-        self.batch_size = 3  # How often to batch save
+        self.csv_file = f'trades_record_{self.symbol}.csv'
+        self.batch_size = 5  # How often to batch save
         self.pending_updates = []
         self.polling_interval = polling_interval
         self.session = session
-        self.openOrders = {}
-
+        
         # Initialize CSV if it doesn't exist
         if not os.path.exists(self.csv_file):
             with open(self.csv_file, 'w', newline='') as f:
                 writer = csv.writer(f)
-                writer.writerow(['Time','Buy Price', 'Sell Price', 'Quantity', 'Pair Profit', 'Cumulative Income', 'Portfolio Value', 'Balance', 'ETH Holdings', 'session'])
+                writer.writerow(['Time','Buy Price', 'Sell Price', 'Quantity', 'Pair Profit', 'Cumulative Income', 'Portfolio Value', 'Balance', 'Crypto Holdings', 'session'])
 
         # Signal handling for graceful shutdown
         signal.signal(signal.SIGINT, self.graceful_shutdown)
@@ -189,7 +162,6 @@ class GridTrader:
                 order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=price)
                 if order_id:
                     self.buy_orders[price] = order_id
-                    # self.state_manager.save_state('buy_orders', self.buy_orders)
                     logging.info(f"Placed buy order at {price}, Order ID: {order_id}")
                 else:
                     logging.warning(f"Failed to place buy order at {price}, no Order ID returned.")
@@ -232,20 +204,20 @@ class GridTrader:
     def update_portfolio(self, price, qty, fee, side):
         if side == 'Buy':
             self.balance -= (price * qty) + fee
-            self.eth_holdings += qty
+            self.crypto_holdings += qty
         elif side == 'Sell':
             self.balance += (price * qty) - fee
-            self.eth_holdings -= qty
+            self.crypto_holdings -= qty
         self.get_portfolio_value()
         # self.state_manager.save_state('portfolio', {
         #     'cumulative_income': self.cumulative_income,
         #     'balance': self.balance,
-        #     'eth_holdings': self.eth_holdings
+        #     'crypto_holdings': self.crypto_holdings
         # })
 
     def get_portfolio_value(self):
         current_eth_price = self.trader.get_index_price(self.symbol)
-        portfolio_value = self.balance + (self.eth_holdings * current_eth_price)
+        portfolio_value = self.balance + (self.crypto_holdings * current_eth_price)
         self.portfolio_value = portfolio_value
         return portfolio_value
 
@@ -253,7 +225,7 @@ class GridTrader:
         self.cumulative_income += pair_profit
         portfolio_value = self.get_portfolio_value()
         cur_time = datetime.now(pytz.timezone('Asia/Taipei')).strftime('%Y-%m-%d %H:%M:%S')
-        self.pending_updates.append([cur_time,buy_price, sell_price, qty, pair_profit, self.cumulative_income, portfolio_value, self.balance, self.eth_holdings, self.session])
+        self.pending_updates.append([cur_time,buy_price, sell_price, qty, pair_profit, self.cumulative_income, portfolio_value, self.balance, self.crypto_holdings, self.session])
         if len(self.pending_updates) >= self.batch_size:
             self.flush_updates()
 
@@ -314,7 +286,7 @@ class GridTrader:
                             temp.set('session', self.session, 'select')
                             temp.set('price', round(float(order['price']), 2), 'number')
                             temp.set('qty', qty, 'number')
-                            temp.set('crypto_holding', self.eth_holdings, 'number')
+                            temp.set('crypto_holding', self.crypto_holdings, 'number')
                             temp.set('portfolio_value',self.portfolio_value, 'number')
                             self.db.add(temp)
                             logging.info(f"Logged filled sell order to database")
@@ -343,7 +315,7 @@ class GridTrader:
                                 temp.set('session', self.session, 'select')
                                 temp.set('pair', f"buy price: {buy_order_details['buy-price']}", 'rich_text')
                                 temp.set('qty', qty, 'number')
-                                temp.set('crypto_holding', self.eth_holdings, 'number')
+                                temp.set('crypto_holding', self.crypto_holdings, 'number')
                                 temp.set('portfolio_value',self.portfolio_value, 'number')
                                 self.db.add(temp)
                                 logging.info(f"Logged filled sell order to database")
@@ -381,16 +353,22 @@ class GridTrader:
                 raise
 
     def checkpoint_state(self):
-        self.state_manager.save_state('buy_orders', self.buy_orders)
-        self.state_manager.save_state('sell_orders', self.sell_orders)
-        self.state_manager.save_state('order_tracking', self.order_tracking)
-        self.state_manager.save_state('open_orders', self.openOrders)
-        self.state_manager.save_state('portfolio', {
-            'cumulative_income': self.cumulative_income,
-            'balance': self.balance,
-            'eth_holdings': self.eth_holdings
-        })
-        logging.info("State checkpointed successfully.")
+        try:
+            self.state_manager.save_state(f'buy_orders_{self.symbol}.json', self.buy_orders)
+            self.state_manager.save_state(f'sell_orders_{self.symbol}.json', self.sell_orders)
+            self.state_manager.save_state(f'order_tracking_{self.symbol}.json', self.order_tracking)
+            self.state_manager.save_state(f'open_orders_{self.symbol}.json', self.openOrders)
+            self.state_manager.save_state(f'portfolio_{self.symbol}.json', {
+                'cumulative_income': self.cumulative_income,
+                'balance': self.balance,
+                'crypto_holdings': self.crypto_holdings
+            })
+            logging.info("State checkpointed successfully.")
+        except Exception as e:
+            logging.error(f"Failed to checkpoint state: {e}")
+            logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
+            self.upload_logs('checkpoint_state')
+            
         
     def calculate_next_buy_level(self, current_price):
         n = np.floor((current_price - self.initial_price) / self.grid_size)
@@ -398,68 +376,118 @@ class GridTrader:
         return round(next_level, 2)
 
     def get_param(self):
-        self.ActionDB.grab()
-        for x in self.ActionDB.lrows:
-            if x.get('state') == 'adjusting':
-                if x.get('Name') == 'Buy Size':
-                    value = x.get('value')
-                    if value > 0.08:
-                        logging.info('too large')
-                        self.buy_size = 0.08
-                    else:
-                        self.buy_size = value
-                    logging.info(f"Buy size changed to {str(self.buy_size)}")
-                    try:
-                        x.data_d['properties'] = {}
-                        x.set('state','is set','select')
-                        x.set('note',f"changed to {str(self.buy_size)}",'rich_text')
-                        x.secret = secret0.NotionStaticSecret
-                        x.update()
-                        logging.info("param modification info updated")
-                    except Exception as e:
-                        logging.error(f"Failed to update modification info: {e}")
-                        logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-                        
+        try:
+            self.ActionDB.grab()
+            for x in self.ActionDB.lrows:
+                if x.get('state') == 'adjusting':
+                    if x.get('Name') == 'Buy Size':
+                        value = x.get('value')
+                        if value > 0.08:
+                            logging.info('too large')
+                            self.buy_size = 0.08
+                        else:
+                            self.buy_size = value
+                        logging.info(f"Buy size changed to {str(self.buy_size)}")
+                        try:
+                            x.data_d['properties'] = {}
+                            x.set('state','is set','select')
+                            x.set('note',f"changed to {str(self.buy_size)}",'rich_text')
+                            x.secret = secret0.NotionStaticSecret
+                            x.update()
+                            logging.info("param modification info updated")
+                        except Exception as e:
+                            logging.error(f"Failed to update modification info: {e}")
+                            logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                            raise
+        except Exception as e:
+            logging.error(f"Failed to get param: {e}")
+            logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+            self.upload_logs('get_param')
+    def subscribe_to_websocket(self):
+        attempt = 0
+        max_retries = 60
+        steady_wait_time = 0.5  # Number of seconds to wait between retries
+
+        while True:
+            try:
+                self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
+                logging.info(f"Successfully subscribed to WebSocket updates for {self.symbol}")
+                break
+            except Exception as e:
+                if attempt < max_retries:
+                    wait_time = steady_wait_time * (attempt + 1)
+                else:
+                    wait_time = steady_wait_time * max_retries  # Stabilize wait time after max_retries
+                logging.error(f"Error during WebSocket subscription: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                time.sleep(wait_time)
+                attempt += 1
+    def get_index_price(self):
+        attempt = 0
+        max_retries = 60
+        steady_wait_time = 0.5  # Number of seconds to wait between retries
+
+        while True:
+            try:
+                return self.trader.get_index_price(self.symbol)
+            except Exception as e:
+                if attempt < max_retries:
+                    wait_time = steady_wait_time * (attempt + 1)
+                else:
+                    wait_time = max_retries * steady_wait_time  # Stabilize wait time after max_retries
+                logging.error(f"Error getting index price for {self.symbol}: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                time.sleep(wait_time)
+                attempt += 1                
                     
     
     @retry_with_backoff(retries=12, backoff_in_seconds=1)
     def run(self):
         count = 0
-        for i in range(30):
-            try:
-                self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
-                break
-            except Exception as e:
-                logging.error(f"Failed to subscribe to WebSocket updates: {e}")
-                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-                if i == 29:
-                    logging.critical("Max retries reached. Could not subscribe to WebSocket updates.")
-                    raise
-                else:
-                    time.sleep(5)
+        # for i in range(30):
+        #     try:
+        #         self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
+        #         break
+        #     except Exception as e:
+        #         logging.error(f"Failed to subscribe to WebSocket updates: {e}")
+        #         logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+        #         if i == 29:
+        #             logging.critical("Max retries reached. Could not subscribe to WebSocket updates.")
+        #             raise
+        #         else:
+        #             time.sleep(5)
+        self.subscribe_to_websocket()
         while True:
             if not self.trader.websocket.ws.is_connected():
-                raise
-            current_price = self.trader.get_index_price(self.symbol)
-            next_buy_level = self.calculate_next_buy_level(current_price)
-            if next_buy_level not in self.buy_orders:
-                self.place_buy_order(next_buy_level)
-            if count >= 12:
-                self.checkpoint_state()
-                count = 0
-            if count % 1 == 0:
-                self.get_param()
-            count += 1
-            time.sleep(self.polling_interval)
+                self.subscribe_to_websocket()
+            current_price = self.get_index_price(self.symbol)
+            try:
+                next_buy_level = self.calculate_next_buy_level(current_price)
+                if next_buy_level not in self.buy_orders:
+                    self.place_buy_order(next_buy_level)
+                if count >= 12:
+                    self.checkpoint_state()
+                    count = 0
+                if count % 2 == 0:
+                    self.get_param()
+                count += 1
+                time.sleep(self.polling_interval)
+            except Exception as e:
+                logging.error(f"Error occurred: {e}")
+                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                self.graceful_shutdown()
+                
 
-
+    def upload_logs(self,title='logging'):
+        temp = na.row()
+        temp.set('Name',title,'title')
+        temp.set('detail','\n'.join(get_latest_logs('grid_trader.log',15)),'rich_text')
+        self.logDB.add(temp)
     def graceful_shutdown(self, signum=None, frame=None):
         logging.info("Shutting down gracefully...")
         self.checkpoint_state()
         temp = na.row()
-        temp.set('Name','shutdown','title')
-        temp.set('detail','\n'.join(get_latest_logs('grid_trader.log',15)),'rich_text')
-        self.logDB.add(temp)
+        self.upload_logs('graceful_shutdown')
         sys.exit(0)
 
 # api_key = secret0.api_key_real
