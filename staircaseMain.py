@@ -253,7 +253,9 @@ class GridTrader:
                 return
             try:
                 for order in message['data']:
-                    print(json.dumps(order,indent=2))
+                    # print(json.dumps(order,indent=2))
+                    if order.get('symbol') != self.symbol:
+                        continue
                     order_status = order.get('orderStatus')
                     order_id = order.get('orderId')
                     logging.info(f"Processing order with ID: {order_id}, Status: {order_status}")
