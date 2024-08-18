@@ -15,29 +15,33 @@ import traceback
 import pytz
 from datetime import datetime
 
-sys.path.append(os.path.expanduser('~/docus'))
-import secret0
+def setup_logger(log_file_name):
+    tz_Taiwan = pytz.timezone('Asia/Taipei')
+    
+    def time_in_taiwan(*args):
+        return datetime.now(tz_Taiwan).timetuple()
 
-grid_trader = None
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    
+    # File handler
+    file_handler = RotatingFileHandler(log_file_name, maxBytes=5*1024*1024, backupCount=2)
+    file_handler.setLevel(logging.INFO)
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
+    
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
+    
+    # Adjust time converter
+    logging.Formatter.converter = time_in_taiwan
 
-tz_Taiwan = pytz.timezone('Asia/Taipei')
-def time_in_taiwan(*args):
-    return datetime.now(tz_Taiwan).timetuple()
-
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-file_handler = RotatingFileHandler('grid_trader.log', maxBytes=5*1024*1024, backupCount=2)
-file_handler.setLevel(logging.INFO)
-file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(file_formatter)
-logger.addHandler(file_handler)
-logging.Formatter.converter = time_in_taiwan
-
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
-console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-console_handler.setFormatter(console_formatter)
-logger.addHandler(console_handler)
+    return logger
 
 def get_latest_logs(file_name, num_lines=30):
     try:
@@ -79,41 +83,10 @@ class StateManager:
                 json.dump(data, f, indent=4)
         except Exception as e:
             logging.critical(f"Failed to save file {file_name}: {e}")
-            raise
-
-def retry_with_backoff(retries=8, backoff_in_seconds=1):
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            max_retries = retries
-            for attempt in range(max_retries):
-                try:
-                    return func(*args, **kwargs)
-                except (requests.exceptions.RequestException, ConnectionError, TimeoutError, socket.gaierror, socket.timeout) as e:
-                    wait_time = backoff_in_seconds * (2 ** attempt) + random.uniform(0, 1)
-                    logging.error(f"Connection error: {e}. Retrying in {wait_time:.2f} seconds...")
-                    time.sleep(wait_time)
-                except Exception as e:
-                    if "insufficient" in str(e).lower():
-                        logging.error(f"Insufficient balance: {e}. Retrying in {wait_time:.2f} seconds...")
-                        time.sleep(wait_time)
-                    elif "nodename nor servname provided" in str(e).lower():
-                        logging.error(f"DNS resolution error: {e}. Retrying in {wait_time:.2f} seconds...")
-                        time.sleep(wait_time)
-                    else:
-                        logging.critical(f"Unhandled error: {e}. Aborting operation.")
-                        if grid_trader:
-                            grid_trader.graceful_shutdown()
-                        raise
-                time.sleep(3)
-            logging.critical("Max retries exceeded. Could not complete the request.")
-            if grid_trader:
-                grid_trader.graceful_shutdown()
-            raise
-        return wrapper
-    return decorator
 
 class GridTrader:
     def __init__(self, api_key, secret_key,naDB,grid_size, buy_size, initial_price, symbol, polling_interval=5, testnet=True,session='not set'):
+        setup_logger(f'trader_log_{symbol}.log')
         self.trader = BybitTrader(api_key, secret_key, testnet=testnet)
         self.db = naDB
         self.logDB = na.db(naDB.secret,'36458b82ef9740b68eb401b732136476')
@@ -155,51 +128,86 @@ class GridTrader:
         signal.signal(signal.SIGTERM, self.graceful_shutdown)
 
 
-    @retry_with_backoff(retries=8, backoff_in_seconds=1)
+
     def place_buy_order(self, price):
-        try:
-            if price not in self.buy_orders:
-                order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=price)
-                if order_id:
-                    self.buy_orders[price] = order_id
-                    logging.info(f"Placed buy order at {price}, Order ID: {order_id}")
+        attempt = 0
+        max_retries = 60
+        steady_wait_time = 0.5
+        order_id = None
+        while True:
+            try:
+                if price not in self.buy_orders:
+                    order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=price)
+                    if not order_id:
+                        raise(Exception(f"Failed to place buy order at {price}"))
+                    else:
+                        break
                 else:
-                    logging.warning(f"Failed to place buy order at {price}, no Order ID returned.")
-            else:
-                logging.info(f"{price} buy order already exists")
-        except:
+                    logging.info(f"{price} buy order already exists")
+                    return None
+            except Exception as e:
+                if attempt < max_retries:
+                    wait_time = steady_wait_time * (attempt + 1)
+                else:
+                    wait_time = steady_wait_time * max_retries
+                logging.error(f"Error placing buy order at {price}: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                time.sleep(wait_time)
+                attempt += 1
+        try:
+            self.buy_orders[price] = order_id
+            logging.info(f"Placed buy order at {price}, Order ID: {order_id}")
+        except Exception as e:
             logging.error(f"Exception occurred while placing buy order at {price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-            raise
+            self.upload_logs('buy_orders')
+            
+            
 
-    @retry_with_backoff(retries=8, backoff_in_seconds=1)
     def place_sell_order(self, buy_price, qty):
-        try:
-            sell_price = round(buy_price + self.grid_size, 2)
-            if sell_price not in self.sell_orders:
-                sell_order_id = self.trader.create_order("spot", self.symbol, "Sell", "limit", qty, price=sell_price)
-                if sell_order_id:
-                    self.sell_orders[sell_price] = sell_order_id
-                    # self.state_manager.save_state('sell_orders', self.sell_orders)
-                    temp = na.row()
-                    temp.set('Name', "open", 'title')
-                    temp.set('side', 'Sell', 'select')
-                    temp.set('session', self.session, 'select')
-                    temp.set('price', sell_price, 'number')
-                    temp.set('qty', qty, 'number')
-                    temp.set('status','open','select')
-                    self.openOrders.update({sell_order_id:self.OpenOrderDB.add(temp)})
-                    logging.info(f"Placed sell order at {sell_price}")
-                    return sell_order_id
+        attempt = 0
+        max_retries = 60
+        steady_wait_time = 0.5
+        sell_order_id = None
+        while True:
+            try:
+                sell_price = round(buy_price + self.grid_size, 2)
+                if sell_price not in self.sell_orders:
+                    sell_order_id = self.trader.create_order("spot", self.symbol, "Sell", "limit", qty, price=sell_price)
+                    if not sell_order_id:
+                        raise(Exception(f"Failed to place sell order at {sell_price}"))
+                    else:
+                        break
                 else:
-                    logging.warning(f"Failed to place sell order at {sell_price}, no Order ID returned.")
-            else:
-                logging.info(f"Sell order at {sell_price} already exists.")
+                    logging.info(f"Sell order at {sell_price} already exists.")
+                    return None
+            except Exception as e:
+                if attempt < max_retries:
+                    wait_time = steady_wait_time * (attempt + 1)
+                else:
+                    wait_time = steady_wait_time * max_retries
+                logging.error(f"Error placing sell order at {sell_price}: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                time.sleep(wait_time)
+                attempt += 1
+        try:
+            self.sell_orders[sell_price] = sell_order_id
+            temp = na.row()
+            temp.set('Name', "open", 'title')
+            temp.set('side', 'Sell', 'select')
+            temp.set('session', self.session, 'select')
+            temp.set('price', sell_price, 'number')
+            temp.set('qty', qty, 'number')
+            temp.set('status','open','select')
+            temp.set('symbol',self.symbol,'select')
+            notionRowID = self.OpenOrderDB.add(temp)
+            self.openOrders.update({sell_order_id:notionRowID})
+            logging.info(f"Placed sell order at {sell_price}, Order ID: {sell_order_id}")
         except Exception as e:
             logging.error(f"Exception occurred while placing sell order at {sell_price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-            raise
-            # logging.error(f"Stack trace: {traceback.format_exc()}")
+            self.upload_logs('sell_orders')
+        return sell_order_id
 
     def update_portfolio(self, price, qty, fee, side):
         if side == 'Buy':
@@ -288,6 +296,7 @@ class GridTrader:
                             temp.set('qty', qty, 'number')
                             temp.set('crypto_holding', self.crypto_holdings, 'number')
                             temp.set('portfolio_value',self.portfolio_value, 'number')
+                            temp.set('symbol',self.symbol,'select')
                             self.db.add(temp)
                             logging.info(f"Logged filled sell order to database")
                             
@@ -317,6 +326,7 @@ class GridTrader:
                                 temp.set('qty', qty, 'number')
                                 temp.set('crypto_holding', self.crypto_holdings, 'number')
                                 temp.set('portfolio_value',self.portfolio_value, 'number')
+                                temp.set('symbol',self.symbol,'select')
                                 self.db.add(temp)
                                 logging.info(f"Logged filled sell order to database")
                                 
@@ -340,17 +350,17 @@ class GridTrader:
                 logging.error(f"KeyError in filled order callback: {e}")
                 logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
                 logging.error(f'Traceback: {traceback.format_exc()}')
-                raise
+                self.upload_logs('KeyError in filled order callback')
             except TypeError as e:
                 logging.error(f"TypeError occurred: {e}")
                 logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
                 logging.error(f'Traceback: {traceback.format_exc()}')
-                raise
+                self.upload_logs('TypeError in filled order callback')
             except Exception as e:
                 logging.error(f"Unhandled error in filled order callback: {e}")
                 logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
                 logging.error(f'Traceback: {traceback.format_exc()}')
-                raise
+                self.upload_logs('Unhandled error in filled order callback')
 
     def checkpoint_state(self):
         try:
@@ -380,25 +390,24 @@ class GridTrader:
             self.ActionDB.grab()
             for x in self.ActionDB.lrows:
                 if x.get('state') == 'adjusting':
-                    if x.get('Name') == 'Buy Size':
+                    if x.get('Name') == f'Buy Size {self.symbol}':
                         value = x.get('value')
-                        if value > 0.08:
+                        if (self.symbol == 'BTCUSDT' and value > 0.005) or (self.symbol == 'ETHUSDT' and value > 0.1):
                             logging.info('too large')
-                            self.buy_size = 0.08
                         else:
                             self.buy_size = value
-                        logging.info(f"Buy size changed to {str(self.buy_size)}")
+                            logging.info(f"Buy size changed to {str(self.buy_size)}")
                         try:
                             x.data_d['properties'] = {}
                             x.set('state','is set','select')
                             x.set('note',f"changed to {str(self.buy_size)}",'rich_text')
-                            x.secret = secret0.NotionStaticSecret
+                            x.secret = self.db.secret
                             x.update()
                             logging.info("param modification info updated")
                         except Exception as e:
                             logging.error(f"Failed to update modification info: {e}")
                             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-                            raise
+                            self.upload_logs('update_modification_info')
         except Exception as e:
             logging.error(f"Failed to get param: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
@@ -439,28 +448,14 @@ class GridTrader:
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                 time.sleep(wait_time)
                 attempt += 1                
-                    
-    
-    @retry_with_backoff(retries=12, backoff_in_seconds=1)
+
     def run(self):
         count = 0
-        # for i in range(30):
-        #     try:
-        #         self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
-        #         break
-        #     except Exception as e:
-        #         logging.error(f"Failed to subscribe to WebSocket updates: {e}")
-        #         logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-        #         if i == 29:
-        #             logging.critical("Max retries reached. Could not subscribe to WebSocket updates.")
-        #             raise
-        #         else:
-        #             time.sleep(5)
         self.subscribe_to_websocket()
         while True:
             if not self.trader.websocket.ws.is_connected():
                 self.subscribe_to_websocket()
-            current_price = self.get_index_price(self.symbol)
+            current_price = self.get_index_price()
             try:
                 next_buy_level = self.calculate_next_buy_level(current_price)
                 if next_buy_level not in self.buy_orders:
@@ -476,30 +471,21 @@ class GridTrader:
                 logging.error(f"Error occurred: {e}")
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                 self.graceful_shutdown()
-                
 
     def upload_logs(self,title='logging'):
         temp = na.row()
         temp.set('Name',title,'title')
-        temp.set('detail','\n'.join(get_latest_logs('grid_trader.log',15)),'rich_text')
+        temp.set('detail','\n'.join(get_latest_logs(f'trader_log_{self.symbol}.log',15)),'rich_text')
         self.logDB.add(temp)
     def graceful_shutdown(self, signum=None, frame=None):
         logging.info("Shutting down gracefully...")
-        self.checkpoint_state()
-        temp = na.row()
-        self.upload_logs('graceful_shutdown')
+        try:
+            self.checkpoint_state()
+            self.flush_updates()
+            if self.trader.websocket and self.trader.websocket.ws:
+                self.trader.websocket.ws.close()
+                logging.info("WebSocket connection closed.")
+            self.upload_logs('graceful_shutdown')
+        except:
+            logging.error("Graceful shutdown failed.")
         sys.exit(0)
-
-# api_key = secret0.api_key_real
-# secret_key = secret0.secret_key_real
-api_key = secret0.apiKeySelf
-secret_key = secret0.apiSecretSelf
-grid_size = 1
-buy_size = 0.001
-initial_price = 3.7
-symbol = "ETHUSDT"
-
-targetDB = na.db(secret=secret0.NotionStaticSecret, id=secret0.OrderDBID)
-grid_trader = GridTrader(api_key, secret_key, targetDB, grid_size, buy_size, initial_price, symbol, testnet=False,session='test0')
-grid_trader.run()
-#test update

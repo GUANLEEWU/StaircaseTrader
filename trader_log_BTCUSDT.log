@@ -1,0 +1,126 @@
+2024-08-19 02:45:35,851 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:45:36,405 - INFO - Websocket connected
+2024-08-19 02:45:36,405 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-19 02:45:36,406 - INFO - Successfully subscribed to WebSocket updates for BTCUSDT
+2024-08-19 02:45:37,557 - INFO - Processing order with ID: 1755490183085853440, Status: New
+2024-08-19 02:45:37,678 - INFO - Placed buy order at 59573.7, Order ID: 1755490183085853440
+2024-08-19 02:45:43,483 - INFO - Processing order with ID: 1755490183085853440, Status: Filled
+2024-08-19 02:45:43,485 - INFO - Order filled - ID: 1755490183085853440, Side: Buy, Price: 59573.7, Qty: 5e-05
+2024-08-19 02:45:44,444 - INFO - Placed buy order at 59553.7, Order ID: 1755490239767677696
+2024-08-19 02:45:44,640 - INFO - Placed sell order at 59593.7, Order ID: 1755490237922183936
+2024-08-19 02:45:45,274 - INFO - Placed corresponding sell order with ID: 1755490237922183936
+2024-08-19 02:45:49,041 - INFO - Logged filled sell order to database
+2024-08-19 02:45:49,042 - INFO - Processing order with ID: 1755490237922183936, Status: New
+2024-08-19 02:45:49,043 - INFO - Processing order with ID: 1755490239767677696, Status: New
+2024-08-19 02:45:49,044 - INFO - Processing order with ID: 1755490239767677696, Status: Filled
+2024-08-19 02:45:49,044 - INFO - Order filled - ID: 1755490239767677696, Side: Buy, Price: 59553.7, Qty: 5e-05
+2024-08-19 02:45:50,788 - INFO - Placed buy order at 59533.7, Order ID: 1755490292934675200
+2024-08-19 02:45:51,219 - INFO - Placed sell order at 59573.7, Order ID: 1755490284319574784
+2024-08-19 02:45:51,826 - INFO - Placed corresponding sell order with ID: 1755490284319574784
+2024-08-19 02:45:53,668 - INFO - Logged filled sell order to database
+2024-08-19 02:45:53,669 - INFO - Processing order with ID: 1755490284319574784, Status: New
+2024-08-19 02:45:53,670 - INFO - Processing order with ID: 1755490292934675200, Status: New
+2024-08-19 02:46:13,509 - INFO - Processing order with ID: 1755490284319574784, Status: Filled
+2024-08-19 02:46:13,511 - INFO - Order filled - ID: 1755490284319574784, Side: Sell, Price: 59573.7, Qty: 5e-05
+2024-08-19 02:46:14,864 - INFO - Processed filled sell order - Pair Profit: -0.004956369999999932
+2024-08-19 02:46:15,438 - INFO - Logged filled sell order to database
+2024-08-19 02:46:17,704 - INFO - marked sell order 651f8ef5-8bc4-43c0-b259-88c0780e8933
+2024-08-19 02:46:20,988 - INFO - Processing order with ID: 1755490547386321664, Status: New
+2024-08-19 02:46:21,110 - INFO - Placed buy order at 59553.7, Order ID: 1755490547386321664
+2024-08-19 02:46:54,241 - INFO - State checkpointed successfully.
+2024-08-19 02:47:16,835 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1069c4a50>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 0.5 seconds...
+2024-08-19 02:47:16,845 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:17,356 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a4dc10>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 1.0 seconds...
+2024-08-19 02:47:17,357 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:18,363 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a4f690>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 1.5 seconds...
+2024-08-19 02:47:18,364 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:19,873 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a61610>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 2.0 seconds...
+2024-08-19 02:47:19,875 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:21,885 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a635d0>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 2.5 seconds...
+2024-08-19 02:47:21,888 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:24,398 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a71450>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 3.0 seconds...
+2024-08-19 02:47:24,402 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:26,538 - ERROR - WebSocket Unified V5 (Auth) (wss://stream.bybit.com/v5/private) encountered error: ping/pong timed out.
+2024-08-19 02:47:27,413 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a73210>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 3.5 seconds...
+2024-08-19 02:47:27,415 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:29,541 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,551 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052f8a40>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,576 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,595 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,602 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052faf20>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,608 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,633 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,640 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052fb600>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,653 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,665 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,672 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052fbd80>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,677 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,695 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,702 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x106a74540>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,714 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,720 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,727 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x106a74cc0>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,746 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,762 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,770 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x106a75440>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,783 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,795 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,803 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052fbd80>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,803 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,803 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,809 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052fb6a0>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,822 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,841 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:29,848 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052fade0>: [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,855 - INFO - tearing down on exception [Errno 8] nodename nor servname provided, or not known
+2024-08-19 02:47:29,866 - ERROR - error from callback <function _WebSocketManager._connect.<locals>.<lambda> at 0x1052d3420>: WebSocket Unified V5 (Auth) (wss://stream.bybit.com/v5/private) connection failed. Too many connection attempts. pybit will no longer try to reconnect.
+2024-08-19 02:47:29,867 - ERROR - ping/pong timed out - goodbye
+2024-08-19 02:47:30,925 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a62c10>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 4.0 seconds...
+2024-08-19 02:47:30,928 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:34,934 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a4e590>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 4.5 seconds...
+2024-08-19 02:47:34,937 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:39,447 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a70890>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 5.0 seconds...
+2024-08-19 02:47:39,451 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:44,462 - ERROR - Error getting index price for BTCUSDT: HTTPSConnectionPool(host='api.bybit.com', port=443): Max retries exceeded with url: /v5/market/tickers?symbol=BTCUSDT&category=spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x106a80550>: Failed to resolve 'api.bybit.com' ([Errno 8] nodename nor servname provided, or not known)")). Retrying in 5.5 seconds...
+2024-08-19 02:47:44,463 - ERROR - Error occurred on line     raise ConnectionError(e, request=request)
+2024-08-19 02:47:56,242 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 02:47:57,331 - INFO - Websocket connected
+2024-08-19 02:47:57,331 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-19 02:47:57,331 - INFO - Successfully subscribed to WebSocket updates for BTCUSDT
+2024-08-19 02:48:38,788 - INFO - State checkpointed successfully.
+2024-08-19 02:49:03,011 - INFO - Processing order with ID: 1755490547386321664, Status: Filled
+2024-08-19 02:49:03,012 - INFO - Order filled - ID: 1755490547386321664, Side: Buy, Price: 59553.7, Qty: 5e-05
+2024-08-19 02:49:04,859 - INFO - Placed sell order at 59573.7, Order ID: 1755491911172655872
+2024-08-19 02:49:05,491 - INFO - Placed corresponding sell order with ID: 1755491911172655872
+2024-08-19 02:49:06,560 - INFO - Logged filled sell order to database
+2024-08-19 02:49:06,561 - INFO - Processing order with ID: 1755491911172655872, Status: New
+2024-08-19 02:49:08,209 - INFO - Processing order with ID: 1755490292934675200, Status: Filled
+2024-08-19 02:49:08,209 - INFO - Order filled - ID: 1755490292934675200, Side: Buy, Price: 59533.69999999999, Qty: 5e-05
+2024-08-19 02:49:09,566 - INFO - Placed sell order at 59553.7, Order ID: 1755491957075118848
+2024-08-19 02:49:09,784 - INFO - Placed buy order at 59513.7, Order ID: 1755491962326387456
+2024-08-19 02:49:10,265 - INFO - Placed corresponding sell order with ID: 1755491957075118848
+2024-08-19 02:49:12,203 - INFO - Logged filled sell order to database
+2024-08-19 02:49:12,204 - INFO - Processing order with ID: 1755491957075118848, Status: New
+2024-08-19 02:49:12,204 - INFO - Processing order with ID: 1755491962326387456, Status: New
+2024-08-19 02:49:21,772 - INFO - Processing order with ID: 1755491962326387456, Status: Filled
+2024-08-19 02:49:21,773 - INFO - Order filled - ID: 1755491962326387456, Side: Buy, Price: 59513.7, Qty: 5e-05
+2024-08-19 02:49:23,010 - INFO - Placed buy order at 59493.7, Order ID: 1755492073232173824
+2024-08-19 02:49:23,436 - INFO - Placed sell order at 59533.7, Order ID: 1755492068886874880
+2024-08-19 02:49:24,358 - INFO - Placed corresponding sell order with ID: 1755492068886874880
+2024-08-19 02:49:25,055 - INFO - Logged filled sell order to database
+2024-08-19 02:49:25,056 - INFO - Processing order with ID: 1755492068886874880, Status: New
+2024-08-19 02:49:25,057 - INFO - Processing order with ID: 1755492073232173824, Status: New
+2024-08-19 02:49:37,463 - INFO - Processing order with ID: 1755492068886874880, Status: Filled
+2024-08-19 02:49:37,464 - INFO - Order filled - ID: 1755492068886874880, Side: Sell, Price: 59533.69999999999, Qty: 5e-05
+2024-08-19 02:49:39,034 - INFO - Processed filled sell order - Pair Profit: -0.004952370000000261
+2024-08-19 02:49:39,439 - INFO - Logged filled sell order to database
+2024-08-19 02:49:40,613 - INFO - marked sell order 99dc4baa-1305-410d-8707-538a36ee9f37
+2024-08-19 02:49:41,661 - INFO - Placed buy order at 59513.7, Order ID: 1755492228975069952
+2024-08-19 02:49:41,663 - INFO - Processing order with ID: 1755492228975069952, Status: New
+2024-08-19 02:49:43,407 - INFO - Buy size changed to 6e-05
+2024-08-19 02:49:44,282 - INFO - param modification info updated
+2024-08-19 02:49:55,657 - INFO - State checkpointed successfully.
+2024-08-19 02:50:27,595 - INFO - Shutting down gracefully...
+2024-08-19 02:50:27,598 - INFO - State checkpointed successfully.
+2024-08-19 02:50:27,598 - INFO - Flushed pending updates to CSV.
+2024-08-19 02:50:27,599 - ERROR - Graceful shutdown failed.
