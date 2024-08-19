@@ -224,8 +224,13 @@ class BybitTrader:
             return order_id
         else:
             if verbose:
-                print(f"Failed to create order: {response['retMsg']}")
-            return None
+                print(f"Failed to create order: {response['retMsg']}{response}")
+                print(response)
+            if response['retCode'] == 170193:
+                raise Exception('price too high')
+            elif response['retCode'] == 170194:
+                raise Exception('price too low')
+            raise Exception(response['retCode'])
 
     def cancel_order(self, order_name, verbose=True):
         for link_id, order_info in self.orders.items():

@@ -34,4 +34,8 @@ def test_get_order_history():
         print("No order history found or an error occurred.")
 
 if __name__ == "__main__":
-    test_get_order_history()
+    # test_get_order_history()
+    api_key = secret0.api_key_real
+    secret_key = secret0.secret_key_real
+    trader = BybitTrader(api_key, secret_key, testnet=False)
+    trader.create_order("spot", 'ETHUSDT', "Sell", "limit", 0.001, price=2500)

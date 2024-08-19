@@ -135,77 +135,79 @@ class GridTrader:
         max_retries = 60
         steady_wait_time = 0.5
         order_id = None
+        temp_price = price
         while True:
             try:
-                if price not in self.buy_orders:
-                    order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=price)
-                    if not order_id:
-                        raise(Exception(f"Failed to place buy order at {price}"))
-                    else:
-                        break
+                if temp_price not in self.buy_orders:
+                    order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=temp_price)
+                    break
                 else:
-                    logging.info(f"{price} buy order already exists")
+                    logging.info(f"{temp_price} buy order already exists")
                     return None
             except Exception as e:
+                if 'price too high' in str(e):
+                    time.sleep(0.05)
+                    cur_price = self.get_index_price()
+                    temp_price = round(cur_price+0.01,2)
+                    logging.error(f'price too high, set to {temp_price}')
                 if attempt < max_retries:
                     wait_time = steady_wait_time * (attempt + 1)
                 else:
                     wait_time = steady_wait_time * max_retries
-                logging.error(f"Error placing buy order at {price}: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error placing buy order at {temp_price}: {e}. Retrying in {wait_time} seconds...")
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                 time.sleep(wait_time)
                 attempt += 1
         try:
-            self.buy_orders[price] = order_id
-            logging.info(f"Placed buy order at {price}, Order ID: {order_id}")
+            self.buy_orders[temp_price] = order_id
+            logging.info(f"Placed buy order at {temp_price}, Order ID: {order_id}")
         except Exception as e:
-            logging.error(f"Exception occurred while placing buy order at {price}: {e}")
+            logging.error(f"Exception occurred while placing buy order at {temp_price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
             self.upload_logs('buy_orders')
             
             
 
-    def place_sell_order(self, buy_price, qty):
+    def place_sell_order(self, sell_price, qty):
         attempt = 0
         max_retries = 60
         steady_wait_time = 0.5
+        temp_price = sell_price
         sell_order_id = None
         while True:
             try:
-                sell_price = round(buy_price + self.grid_size, 2)
-                if sell_price not in self.sell_orders:
-                    sell_order_id = self.trader.create_order("spot", self.symbol, "Sell", "limit", qty, price=sell_price)
-                    if not sell_order_id:
-                        raise(Exception(f"Failed to place sell order at {sell_price}"))
-                    else:
-                        break
-                else:
-                    logging.info(f"Sell order at {sell_price} already exists.")
-                    return None
+                sell_order_id = self.trader.create_order("spot", self.symbol, "Sell", "limit", qty, price=temp_price)
+                break
             except Exception as e:
+                if 'price too low' in str(e):
+                    time.sleep(0.05)
+                    cur_price = self.get_index_price()
+                    temp_price = round(cur_price+0.01,2)
+                    logging.error(f'price too low, set to {temp_price}')
+                    continue
                 if attempt < max_retries:
                     wait_time = steady_wait_time * (attempt + 1)
                 else:
                     wait_time = steady_wait_time * max_retries
-                logging.error(f"Error placing sell order at {sell_price}: {e}. Retrying in {wait_time} seconds...")
+                logging.error(f"Error placing sell order at {temp_price}: {e}. Retrying in {wait_time} seconds...")
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                 time.sleep(wait_time)
                 attempt += 1
         try:
-            self.sell_orders[sell_price] = sell_order_id
+            self.sell_orders[temp_price] = sell_order_id
             temp = na.row()
             temp.set('Name', "open", 'title')
             temp.set('side', 'Sell', 'select')
             temp.set('session', self.session, 'select')
-            temp.set('price', sell_price, 'number')
+            temp.set('price', temp_price, 'number')
             temp.set('qty', qty, 'number')
             temp.set('status','open','select')
             temp.set('symbol',self.symbol,'select')
             notionRowID = self.OpenOrderDB.add(temp)
             self.openOrders.update({sell_order_id:notionRowID})
-            logging.info(f"Placed sell order at {sell_price}, Order ID: {sell_order_id}")
+            logging.info(f"Placed sell order at {temp_price}, Order ID: {sell_order_id}")
         except Exception as e:
-            logging.error(f"Exception occurred while placing sell order at {sell_price}: {e}")
+            logging.error(f"Exception occurred while placing sell order at {temp_price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
             self.upload_logs('sell_orders')
         return sell_order_id
@@ -280,7 +282,7 @@ class GridTrader:
                         if order['side'] == 'Buy':
                             fee_in_usdt = fee * filled_price
                             contribution = - (filled_price * qty) - fee_in_usdt
-                            sell_order_id = self.place_sell_order(float(order['price']), qty)
+                            sell_order_id = self.place_sell_order(round(float(order['price']) + self.grid_size, 2), qty)
                             if self.variables['last_checked_time'] is None or order_time > self.variables['last_checked_time']:
                                 self.variables['last_checked_time'] = order_time
                             self.order_tracking[sell_order_id] = {
@@ -322,7 +324,6 @@ class GridTrader:
                                 )
                                 self.update_portfolio(filled_price, qty, fee, 'Sell')
                                 logging.info(f"Processed filled sell order - Pair Profit: {pair_profit}")
-                                # self.state_manager.save_state('order_tracking', self.order_tracking)
                                 
                                 temp = na.row()
                                 temp.set('Name', "filled", 'title')
@@ -349,7 +350,7 @@ class GridTrader:
                                 except Exception as e:
                                     logging.error(f'Failed to mark sell order as closed: {e}')
                                     logging.error(f'Exception type: {type(e).__name__}')
-                                    # logging.error(f'Traceback: {traceback.format_exc()}')
+                                    logging.error(f'Traceback: {traceback.format_exc()}')
                                 self.buy_orders.pop(buy_order_details["buy-price"], None)
                                 self.sell_orders.pop(round(float(order["price"]), 2))
                             else:
