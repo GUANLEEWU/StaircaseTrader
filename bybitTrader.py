@@ -175,6 +175,25 @@ class BybitTrader:
         else:
             print(f"Error fetching index price: {response['retMsg']}")
             raise Exception(f"Error fetching index price: {response['retMsg']}") 
+        
+    def get_order_history(self, symbol, start_time, end_time, category="spot"):
+        endpoint = "/v5/order/history"
+        params = {
+            "category": category,
+            "symbol": symbol,
+            "startTime": start_time,
+            "endTime": end_time,
+            "limit": 50
+        }
+        response = self.http_request(endpoint, "GET", params=params, info="Get Order History")
+        if response.get('retCode') == 0:
+            res = response['result']['list']
+            res.reverse()
+            return res
+        else:
+            print(f"Error fetching order history: {response['retMsg']}")
+            return []
+
     def create_order(self, category, symbol, side, order_type, qty, price=None, time_in_force="GTC", reduce_only=False, verbose=True):
         order_link_id = uuid.uuid4().hex
         order_payload = {

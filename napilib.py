@@ -1,24 +1,35 @@
-import requests
+import requests, time
 
 urlMain = 'https://api.notion.com/v1/'
 
 class db:  # database object
     NOTION_URL = 'https://api.notion.com/v1/databases/'
     def req(self,oper, data, url):
-        response = requests.request(
-            oper,
-            url,  # endpoint URL
-            headers={
-                "Authorization": f"Bearer {self.secret}",  # authorization
-                "Notion-Version": "2021-08-16",
-                "Content-Type": "application/json"
-            },
-            json=data  # json data
-        )
-        status = response.status_code
-        if status != 200:
-            raise Exception(f"Error {status}: {response.text}")
-        return response
+        max_retries = 5
+        wait_time = 0.01
+        for attempt in range(max_retries):
+            try:
+                response = requests.request(
+                    oper,
+                    url,  # endpoint URL
+                    headers={
+                        "Authorization": f"Bearer {self.secret}",  # authorization
+                        "Notion-Version": "2021-08-16",
+                        "Content-Type": "application/json"
+                    },
+                    json=data  # json data
+                )
+                status = response.status_code
+                if status != 200:
+                    raise Exception(f"Error {status}: {response.text}")
+                return response
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"Error on attempt {attempt + 1} for {oper} request to {url}: {e}. Retrying in {wait_time:.1f} seconds...")
+                    time.sleep(wait_time)
+                    wait_time += 0.2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
     def __init__(self, secret, id):  # instantiation
         self.dbID = id  # its id(can be derived from its URL)
         self.secret = secret
@@ -50,20 +61,31 @@ class row:  # a object that represents a row (entry) for the database
         else:
             self.data_d = {"parent": {}, "properties": {}}  # else construct empty json data
     def req(self,oper, data, url):
-        response = requests.request(
-            oper,
-            url,  # endpoint URL
-            headers={
-                "Authorization": f"Bearer {self.secret}",  # authorization
-                "Notion-Version": "2021-08-16",
-                "Content-Type": "application/json"
-            },
-            json=data  # json data
-        )
-        status = response.status_code
-        if status != 200:
-            raise Exception(f"Error {status}: {response.text}")        
-        return response
+        max_retries = 5
+        wait_time = 0.01
+        for attempt in range(max_retries):
+            try:
+                response = requests.request(
+                    oper,
+                    url,  # endpoint URL
+                    headers={
+                        "Authorization": f"Bearer {self.secret}",  # authorization
+                        "Notion-Version": "2021-08-16",
+                        "Content-Type": "application/json"
+                    },
+                    json=data  # json data
+                )
+                status = response.status_code
+                if status != 200:
+                    raise Exception(f"Error {status}: {response.text}")        
+                return response
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    print(f"Error on attempt {attempt + 1} for {oper} request to {url}: {e}. Retrying in {wait_time:.1f} seconds...")
+                    time.sleep(wait_time)
+                    wait_time += 0.2
+                else:
+                    print(f"Failed after {max_retries} attempts: {e}")
 
     def getJson(self):
         return self.data_d

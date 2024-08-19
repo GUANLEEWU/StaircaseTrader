@@ -105,6 +105,7 @@ class GridTrader:
         self.order_tracking = self.state_manager.load_state(f'order_tracking_{self.symbol}.json', {})
         portfolio_data = self.state_manager.load_state(f'portfolio_{self.symbol}.json', {'cumulative_income': 0.0, 'balance': 0.0, 'crypto_holdings': 0.0})
         self.openOrders = self.state_manager.load_state(f'open_orders_{self.symbol}.json', {})
+        self.variables = self.state_manager.load_state(f'variables_{self.symbol}.json', {'last_checked_time': None})
         
         self.cumulative_income = portfolio_data['cumulative_income']
         self.balance = portfolio_data['balance']
@@ -259,6 +260,8 @@ class GridTrader:
                     order_status = order.get('orderStatus')
                     order_id = order.get('orderId')
                     logging.info(f"Processing order with ID: {order_id}, Status: {order_status}")
+                    
+                    order_time = int(order['updatedTime'])
 
                     if order_status == 'Filled':
                         
@@ -278,6 +281,8 @@ class GridTrader:
                             fee_in_usdt = fee * filled_price
                             contribution = - (filled_price * qty) - fee_in_usdt
                             sell_order_id = self.place_sell_order(float(order['price']), qty)
+                            if self.variables['last_checked_time'] is None or order_time > self.variables['last_checked_time']:
+                                self.variables['last_checked_time'] = order_time
                             self.order_tracking[sell_order_id] = {
                                 'filled_price': filled_price,
                                 'buy-price': round(float(order['price']), 2),
@@ -305,6 +310,8 @@ class GridTrader:
                         elif order['side'] == 'Sell':
                             contribution = filled_price * qty - fee
                             buy_order_details = self.order_tracking.pop(order_id, None)
+                            if self.variables['last_checked_time'] is None or order_time > self.variables['last_checked_time']:
+                                self.variables['last_checked_time'] = order_time
                             if buy_order_details:
                                 pair_profit = contribution + buy_order_details['contribution']
                                 self.record_trade(
@@ -366,6 +373,7 @@ class GridTrader:
 
     def checkpoint_state(self):
         try:
+            self.state_manager.save_state(f'variables_{self.symbol}.json', self.variables)
             self.state_manager.save_state(f'buy_orders_{self.symbol}.json', self.buy_orders)
             self.state_manager.save_state(f'sell_orders_{self.symbol}.json', self.sell_orders)
             self.state_manager.save_state(f'order_tracking_{self.symbol}.json', self.order_tracking)
@@ -381,7 +389,12 @@ class GridTrader:
             logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
             self.upload_logs('checkpoint_state')
             
-        
+    def handle_missed_orders(self, start_time, category="spot"):
+        end_time = int(time.time() * 1000)
+        missed_orders = self.trader.get_order_history(self.symbol, start_time, end_time, category)
+        for order in missed_orders:
+            self.handle_filled_order_callback({'data': [order]})
+            
     def calculate_next_buy_level(self, current_price):
         n = np.floor((current_price - self.initial_price) / self.grid_size)
         next_level = self.initial_price + n * self.grid_size
@@ -421,8 +434,19 @@ class GridTrader:
 
         while True:
             try:
+                if self.variables['last_checked_time']:
+                    self.temp_update_buffer = []
+
+                    self.trader.websocket.subscribe_to_order_updates(self.symbol, self.temp_update_buffer.append)
+                    logging.info(f"Successfully subscribed to WebSocket updates for {self.symbol}")
+
+                    self.handle_missed_orders(self.variables['last_checked_time'])
+                    logging.info("Processing temporary updates stored during reconnection.")
+                    for message in self.temp_update_buffer:
+                        self.handle_filled_order_callback({'data': [message]})
+                    self.temp_update_buffer = []
+
                 self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
-                logging.info(f"Successfully subscribed to WebSocket updates for {self.symbol}")
                 break
             except Exception as e:
                 if attempt < max_retries:
@@ -484,10 +508,14 @@ class GridTrader:
         try:
             self.checkpoint_state()
             self.flush_updates()
+        except Exception as e:
+            logging.error(f"Failed during checkpoint or flush: {e}")
+        finally:
             if self.trader.websocket and self.trader.websocket.ws:
-                self.trader.websocket.ws.close()
-                logging.info("WebSocket connection closed.")
+                try:
+                    self.trader.websocket.ws.close()
+                    logging.info("WebSocket connection closed.")
+                except Exception as e:
+                    logging.error(f"Failed to close WebSocket: {e}")
             self.upload_logs('graceful_shutdown')
-        except:
-            logging.error("Graceful shutdown failed.")
-        sys.exit(0)
+            sys.exit(0)
