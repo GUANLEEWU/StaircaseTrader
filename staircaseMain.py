@@ -439,13 +439,12 @@ class GridTrader:
 
                     self.trader.websocket.subscribe_to_order_updates(self.symbol, self.temp_update_buffer.append)
                     logging.info(f"Successfully subscribed to WebSocket updates for {self.symbol}")
-
+                    logging.info("Processing missed order updates")
                     self.handle_missed_orders(self.variables['last_checked_time'])
-                    logging.info("Processing temporary updates stored during reconnection.")
                     for message in self.temp_update_buffer:
                         self.handle_filled_order_callback({'data': [message]})
                     self.temp_update_buffer = []
-
+                    logging.info('Done processing missed order updates')
                 self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
                 break
             except Exception as e:
@@ -513,7 +512,7 @@ class GridTrader:
         finally:
             if self.trader.websocket and self.trader.websocket.ws:
                 try:
-                    self.trader.websocket.ws.close()
+                    self.trader.websocket.close()
                     logging.info("WebSocket connection closed.")
                 except Exception as e:
                     logging.error(f"Failed to close WebSocket: {e}")
