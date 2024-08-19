@@ -6,8 +6,8 @@ import secret0 # type: ignore
 
 api_key = secret0.api_key_real
 secret_key = secret0.secret_key_real
-grid_size = 10
-buy_size = 0.003
+grid_size = 1
+buy_size = 0.001
 initial_price = 3.8
 symbol = "ETHUSDT"
 
