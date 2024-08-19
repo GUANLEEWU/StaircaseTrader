@@ -146,10 +146,8 @@ class GridTrader:
                     return None
             except Exception as e:
                 if 'price too high' in str(e):
-                    time.sleep(0.05)
-                    cur_price = self.get_index_price()
-                    temp_price = round(cur_price+0.01,2)
-                    logging.error(f'price too high, set to {temp_price}')
+                    logging.error(f'price too high, aborting')
+                    return None
                 if attempt < max_retries:
                     wait_time = steady_wait_time * (attempt + 1)
                 else:
