@@ -2182,3 +2182,573 @@
 2024-08-20 14:40:45,006 - INFO - State checkpointed successfully.
 2024-08-20 14:41:49,704 - INFO - State checkpointed successfully.
 2024-08-20 14:42:55,471 - INFO - State checkpointed successfully.
+2024-08-20 14:44:00,813 - INFO - State checkpointed successfully.
+2024-08-20 14:45:07,457 - INFO - State checkpointed successfully.
+2024-08-20 14:46:12,454 - INFO - State checkpointed successfully.
+2024-08-20 14:46:47,648 - INFO - Shutting down gracefully...
+2024-08-20 14:46:47,649 - INFO - State checkpointed successfully.
+2024-08-20 14:46:47,650 - INFO - Flushed pending updates to CSV.
+2024-08-20 14:46:47,743 - INFO - WebSocket connection closed.
+2024-08-20 14:56:33,867 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-20 14:56:34,592 - INFO - Websocket connected
+2024-08-20 14:56:34,592 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-20 14:56:34,593 - INFO - Successfully subscribed to WebSocket updates for BTCUSDT
+2024-08-20 14:56:34,594 - INFO - Processing missed order updates
+2024-08-20 14:56:34,771 - INFO - Processing order with ID: 1756180670046307072, Status: Filled
+2024-08-20 14:56:34,771 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:34,772 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:34,772 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:35,567 - INFO - Processing order with ID: 1756182844549661440, Status: Filled
+2024-08-20 14:56:35,567 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:35,568 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:35,568 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:37,336 - INFO - Processing order with ID: 1756187458720269056, Status: Filled
+2024-08-20 14:56:37,337 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:37,337 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:37,337 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:37,830 - INFO - Processing order with ID: 1756191782141723392, Status: Filled
+2024-08-20 14:56:37,830 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:37,831 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:37,831 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:38,331 - INFO - Processing order with ID: 1756195436076761856, Status: Filled
+2024-08-20 14:56:38,331 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:38,332 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:38,332 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:39,174 - INFO - Processing order with ID: 1756208499454673665, Status: Filled
+2024-08-20 14:56:39,175 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:39,175 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:39,175 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:39,611 - INFO - Processing order with ID: 1756213561786663680, Status: Filled
+2024-08-20 14:56:39,611 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:39,612 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:39,612 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:41,057 - INFO - Processing order with ID: 1756215525056480000, Status: Filled
+2024-08-20 14:56:41,058 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:41,058 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:41,058 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:42,242 - INFO - Processing order with ID: 1756231712528171776, Status: Filled
+2024-08-20 14:56:42,242 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:42,242 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:42,243 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:43,221 - INFO - Processing order with ID: 1756236582618432256, Status: Filled
+2024-08-20 14:56:43,222 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:43,222 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:43,222 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:45,061 - INFO - Processing order with ID: 1756245632030638848, Status: Filled
+2024-08-20 14:56:45,062 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:45,062 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:45,062 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:47,460 - INFO - Processing order with ID: 1756250212948804352, Status: Cancelled
+2024-08-20 14:56:47,460 - INFO - Order cancelled - ID: 1756250212948804352
+2024-08-20 14:56:47,460 - INFO - Processing order with ID: 1756271561872278272, Status: Filled
+2024-08-20 14:56:47,460 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:47,460 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:47,461 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:48,016 - INFO - Processing order with ID: 1756282726966919936, Status: Filled
+2024-08-20 14:56:48,017 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:48,017 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:48,017 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:49,020 - INFO - Processing order with ID: 1756303629691945728, Status: Filled
+2024-08-20 14:56:49,020 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 14:56:49,020 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 14:56:49,021 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 14:56:52,808 - INFO - Shutting down gracefully...
+2024-08-20 14:56:52,808 - INFO - State checkpointed successfully.
+2024-08-20 14:56:52,809 - INFO - Flushed pending updates to CSV.
+2024-08-20 14:56:52,904 - INFO - WebSocket connection closed.
+2024-08-20 15:05:39,649 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-20 15:05:40,335 - INFO - Websocket connected
+2024-08-20 15:05:40,335 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-20 15:05:40,337 - INFO - Successfully subscribed to WebSocket updates for BTCUSDT
+2024-08-20 15:05:40,337 - INFO - Processing missed order updates
+2024-08-20 15:05:40,513 - INFO - Processing order with ID: 1756180670046307072, Status: Filled
+2024-08-20 15:05:40,514 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:40,514 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:40,515 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:43,477 - INFO - Processing order with ID: 1756182844549661440, Status: Filled
+2024-08-20 15:05:43,478 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:43,478 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:43,478 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:44,167 - INFO - Processing order with ID: 1756187458720269056, Status: Filled
+2024-08-20 15:05:44,168 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:44,168 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:44,168 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:45,114 - INFO - Processing order with ID: 1756191782141723392, Status: Filled
+2024-08-20 15:05:45,114 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:45,114 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:45,115 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:45,536 - INFO - Processing order with ID: 1756195436076761856, Status: Filled
+2024-08-20 15:05:45,536 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:45,536 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:45,537 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:46,184 - INFO - Processing order with ID: 1756208499454673665, Status: Filled
+2024-08-20 15:05:46,185 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:46,185 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:46,185 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:46,840 - INFO - Processing order with ID: 1756213561786663680, Status: Filled
+2024-08-20 15:05:46,840 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:46,840 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:46,841 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:47,853 - INFO - Processing order with ID: 1756215525056480000, Status: Filled
+2024-08-20 15:05:47,854 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:47,854 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:47,854 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:52,395 - INFO - Processing order with ID: 1756231712528171776, Status: Filled
+2024-08-20 15:05:52,395 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:52,396 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:52,396 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:53,444 - INFO - Processing order with ID: 1756236582618432256, Status: Filled
+2024-08-20 15:05:53,444 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:53,445 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:53,445 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:54,272 - INFO - Processing order with ID: 1756245632030638848, Status: Filled
+2024-08-20 15:05:54,272 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:54,272 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:54,272 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:54,730 - INFO - Processing order with ID: 1756250212948804352, Status: Cancelled
+2024-08-20 15:05:54,730 - INFO - Order cancelled - ID: 1756250212948804352
+2024-08-20 15:05:54,730 - INFO - Processing order with ID: 1756271561872278272, Status: Filled
+2024-08-20 15:05:54,730 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:54,730 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:54,731 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:56,035 - INFO - Processing order with ID: 1756282726966919936, Status: Filled
+2024-08-20 15:05:56,035 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:56,036 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:56,036 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:56,865 - INFO - Processing order with ID: 1756303629691945728, Status: Filled
+2024-08-20 15:05:56,865 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:56,866 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:56,866 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:58,028 - INFO - Processing order with ID: 1756310291412714240, Status: Filled
+2024-08-20 15:05:58,028 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:58,028 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:58,029 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:05:59,112 - INFO - Processing order with ID: 1756341635052241664, Status: Cancelled
+2024-08-20 15:05:59,113 - INFO - Order cancelled - ID: 1756341635052241664
+2024-08-20 15:05:59,113 - INFO - Processing order with ID: 1756356886925705984, Status: Filled
+2024-08-20 15:05:59,113 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:05:59,113 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:05:59,113 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:00,093 - INFO - Processing order with ID: 1756357068195136256, Status: Filled
+2024-08-20 15:06:00,093 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:00,093 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:00,094 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:00,684 - INFO - Processing order with ID: 1756357071147926272, Status: Cancelled
+2024-08-20 15:06:00,684 - INFO - Order cancelled - ID: 1756357071147926272
+2024-08-20 15:06:00,684 - INFO - Processing order with ID: 1756370309923242752, Status: Filled
+2024-08-20 15:06:00,684 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:00,684 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:00,685 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:01,254 - INFO - Processing order with ID: 1756373520067363584, Status: Filled
+2024-08-20 15:06:01,254 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:01,255 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:01,255 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:01,994 - INFO - Processing order with ID: 1756385448684716800, Status: Cancelled
+2024-08-20 15:06:01,994 - INFO - Order cancelled - ID: 1756385448684716800
+2024-08-20 15:06:01,994 - INFO - Processing order with ID: 1756385551218672384, Status: Filled
+2024-08-20 15:06:01,994 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:01,995 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:01,995 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:02,455 - INFO - Processing order with ID: 1756385555412976384, Status: Filled
+2024-08-20 15:06:02,455 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:02,455 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:02,455 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:02,985 - INFO - Processing order with ID: 1756386353077322496, Status: Cancelled
+2024-08-20 15:06:02,985 - INFO - Order cancelled - ID: 1756386353077322496
+2024-08-20 15:06:02,985 - INFO - Processing order with ID: 1756386627091202816, Status: Filled
+2024-08-20 15:06:02,985 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:02,986 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:02,986 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:03,630 - INFO - Processing order with ID: 1756386638348714752, Status: Filled
+2024-08-20 15:06:03,630 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:03,631 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:03,631 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:07,504 - INFO - Processing order with ID: 1756387784215790336, Status: Filled
+2024-08-20 15:06:07,504 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:07,505 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:07,505 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:08,734 - INFO - Processing order with ID: 1756387846325043968, Status: Filled
+2024-08-20 15:06:08,734 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:08,735 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:08,735 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:09,258 - INFO - Processing order with ID: 1756387874762425088, Status: Cancelled
+2024-08-20 15:06:09,258 - INFO - Order cancelled - ID: 1756387874762425088
+2024-08-20 15:06:09,258 - INFO - Processing order with ID: 1756388147106972416, Status: Cancelled
+2024-08-20 15:06:09,258 - INFO - Order cancelled - ID: 1756388147106972416
+2024-08-20 15:06:09,258 - INFO - Processing order with ID: 1756388601886966528, Status: Filled
+2024-08-20 15:06:09,258 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:09,259 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:09,259 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:09,829 - INFO - Processing order with ID: 1756389148002124544, Status: Filled
+2024-08-20 15:06:09,829 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:09,829 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:09,830 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:11,147 - INFO - Processing order with ID: 1756389180549923584, Status: Filled
+2024-08-20 15:06:11,147 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:11,147 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:11,147 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:11,738 - INFO - Processing order with ID: 1756389372246393600, Status: Filled
+2024-08-20 15:06:11,738 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:11,738 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:11,738 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:15,003 - INFO - Processing order with ID: 1756389508167009024, Status: Filled
+2024-08-20 15:06:15,004 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:15,004 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:15,004 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:15,843 - INFO - Processing order with ID: 1756394347261362944, Status: Filled
+2024-08-20 15:06:15,843 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:15,843 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:15,843 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:16,209 - INFO - Processing order with ID: 1756403604056736512, Status: Cancelled
+2024-08-20 15:06:16,209 - INFO - Order cancelled - ID: 1756403604056736512
+2024-08-20 15:06:16,209 - INFO - Processing order with ID: 1756404421795021568, Status: Filled
+2024-08-20 15:06:16,209 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:16,210 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:16,210 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:16,805 - INFO - Processing order with ID: 1756405375923684096, Status: Filled
+2024-08-20 15:06:16,805 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:16,805 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:16,806 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:17,250 - INFO - Processing order with ID: 1756405378054390528, Status: Filled
+2024-08-20 15:06:17,250 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:17,250 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:17,251 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:17,794 - INFO - Processing order with ID: 1756407179784782592, Status: Filled
+2024-08-20 15:06:17,794 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:17,794 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:17,795 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:20,003 - INFO - Processing order with ID: 1756497372739044096, Status: Cancelled
+2024-08-20 15:06:20,003 - INFO - Order cancelled - ID: 1756497372739044096
+2024-08-20 15:06:20,003 - INFO - Processing order with ID: 1756502205483221760, Status: Cancelled
+2024-08-20 15:06:20,003 - INFO - Order cancelled - ID: 1756502205483221760
+2024-08-20 15:06:20,003 - INFO - Processing order with ID: 1756524213105361664, Status: Cancelled
+2024-08-20 15:06:20,003 - INFO - Order cancelled - ID: 1756524213105361664
+2024-08-20 15:06:20,003 - INFO - Processing order with ID: 1756533155311158016, Status: Filled
+2024-08-20 15:06:20,003 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:20,004 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:20,004 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:20,662 - INFO - Processing order with ID: 1756533879977837312, Status: Filled
+2024-08-20 15:06:20,662 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:20,663 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:20,663 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:21,072 - INFO - Processing order with ID: 1756534905275450112, Status: Filled
+2024-08-20 15:06:21,073 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:21,073 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:21,073 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:21,790 - INFO - Processing order with ID: 1756536562277188352, Status: Filled
+2024-08-20 15:06:21,791 - ERROR - Unhandled error in filled order callback: could not convert string to float: ''
+2024-08-20 15:06:21,791 - ERROR - Error occurred on line           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-08-20 15:06:21,791 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/ubuntu/projects/StaircaseTrader/staircaseMain.py", line 287, in handle_filled_order_callback
+    fee = float(order['cumExecFee'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2024-08-20 15:06:22,263 - INFO - Done processing missed order updates
+2024-08-20 15:06:22,357 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-20 15:06:22,968 - INFO - Websocket connected
+2024-08-20 15:06:22,968 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-20 15:06:23,188 - INFO - Placed buy order at 60853.7, Order ID: 1756587795541164800
+2024-08-20 15:06:23,191 - INFO - Processing order with ID: 1756587795541164800, Status: New
+2024-08-20 15:07:31,603 - INFO - State checkpointed successfully.
+2024-08-20 15:08:36,271 - INFO - State checkpointed successfully.
+2024-08-20 15:09:41,307 - INFO - State checkpointed successfully.
+2024-08-20 15:10:45,425 - INFO - State checkpointed successfully.
+2024-08-20 15:11:49,931 - INFO - State checkpointed successfully.
+2024-08-20 15:12:36,898 - INFO - Processing order with ID: 1756587795541164800, Status: Filled
+2024-08-20 15:12:36,898 - INFO - Order filled - ID: 1756587795541164800, Side: Buy, Price: 60853.700000000004, Qty: 0.001
+2024-08-20 15:12:37,500 - INFO - Placed sell order at 61033.7, Order ID: 1756590931362218752
+2024-08-20 15:12:37,606 - INFO - Placed corresponding sell order with ID: 1756590931362218752
+2024-08-20 15:12:38,059 - INFO - Logged filled sell order to database
+2024-08-20 15:12:38,059 - INFO - Processing order with ID: 1756590931362218752, Status: New
+2024-08-20 15:12:44,708 - INFO - Placed buy order at 60673.7, Order ID: 1756590995954500352
+2024-08-20 15:12:44,710 - INFO - Processing order with ID: 1756590995954500352, Status: New
+2024-08-20 15:12:55,738 - INFO - State checkpointed successfully.
+2024-08-20 15:14:00,024 - INFO - State checkpointed successfully.
+2024-08-20 15:15:04,047 - INFO - State checkpointed successfully.
+2024-08-20 15:15:37,347 - INFO - Processing order with ID: 1756590995954500352, Status: Cancelled
+2024-08-20 15:15:37,347 - INFO - Order cancelled - ID: 1756590995954500352
+2024-08-20 15:15:48,678 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:15:48,678 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:16:10,399 - INFO - State checkpointed successfully.
+2024-08-20 15:17:19,806 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:17:19,807 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:17:23,181 - INFO - State checkpointed successfully.
+2024-08-20 15:17:28,904 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:17:28,904 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:17:34,780 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:17:34,780 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:17:47,470 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:17:47,471 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:17:53,276 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:17:53,276 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:18:03,866 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:18:03,866 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:18:10,371 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:18:10,372 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:18:16,787 - ERROR - Failed to cancel order 1756587795541164800: Order does not exist.
+2024-08-20 15:18:16,787 - ERROR - Error occurred on line     raise Exception(response['retMsg'])
+2024-08-20 15:18:23,220 - INFO - Shutting down gracefully...
+2024-08-20 15:18:23,221 - INFO - State checkpointed successfully.
+2024-08-20 15:18:23,221 - INFO - Flushed pending updates to CSV.
+2024-08-20 15:18:23,315 - INFO - WebSocket connection closed.
