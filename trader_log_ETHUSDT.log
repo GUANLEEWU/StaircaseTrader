@@ -1,0 +1,2218 @@
+2024-08-19 18:40:52,886 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 18:40:53,529 - INFO - Websocket connected
+2024-08-19 18:40:53,529 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-19 18:40:53,933 - INFO - Processing order with ID: 1755970987427632896, Status: New
+2024-08-19 18:40:53,933 - INFO - Placed buy order at 2573.8, Order ID: 1755970987427632896
+2024-08-19 18:41:28,310 - INFO - Processing order with ID: 1755964361752712960, Status: Cancelled
+2024-08-19 18:41:29,129 - INFO - Processing order with ID: 1755964329272022784, Status: Cancelled
+2024-08-19 18:41:29,772 - INFO - Processing order with ID: 1755962987161851648, Status: Cancelled
+2024-08-19 18:42:01,501 - INFO - State checkpointed successfully.
+2024-08-19 18:43:10,633 - INFO - State checkpointed successfully.
+2024-08-19 18:44:15,268 - INFO - State checkpointed successfully.
+2024-08-19 18:44:18,549 - INFO - Shutting down gracefully...
+2024-08-19 18:44:18,550 - INFO - State checkpointed successfully.
+2024-08-19 18:44:18,550 - INFO - Flushed pending updates to CSV.
+2024-08-19 18:44:18,644 - INFO - WebSocket connection closed.
+2024-08-19 18:45:29,870 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 18:45:30,544 - INFO - Websocket connected
+2024-08-19 18:45:30,544 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-19 18:45:31,142 - INFO - Processing order with ID: 1755973312816879360, Status: New
+2024-08-19 18:45:31,142 - INFO - Placed buy order at 2573.8, Order ID: 1755973312816879360
+2024-08-19 18:46:37,790 - INFO - State checkpointed successfully.
+2024-08-19 18:46:59,483 - INFO - Buy size changed to 0.004
+2024-08-19 18:47:00,599 - INFO - param modification info updated
+2024-08-19 18:47:32,905 - INFO - Buy size changed to 0.002
+2024-08-19 18:47:34,069 - INFO - param modification info updated
+2024-08-19 18:47:44,468 - INFO - State checkpointed successfully.
+2024-08-19 18:48:50,300 - INFO - State checkpointed successfully.
+2024-08-19 18:49:55,800 - INFO - State checkpointed successfully.
+2024-08-19 18:51:05,275 - INFO - State checkpointed successfully.
+2024-08-19 18:52:16,205 - INFO - State checkpointed successfully.
+2024-08-19 18:53:24,501 - INFO - State checkpointed successfully.
+2024-08-19 18:54:28,851 - INFO - State checkpointed successfully.
+2024-08-19 18:55:39,424 - INFO - State checkpointed successfully.
+2024-08-19 18:56:43,922 - INFO - State checkpointed successfully.
+2024-08-19 18:57:48,108 - INFO - State checkpointed successfully.
+2024-08-19 18:58:52,268 - INFO - State checkpointed successfully.
+2024-08-19 19:00:00,942 - INFO - State checkpointed successfully.
+2024-08-19 19:01:06,689 - INFO - State checkpointed successfully.
+2024-08-19 19:02:17,914 - INFO - State checkpointed successfully.
+2024-08-19 19:03:20,590 - INFO - Processing order with ID: 1755973312816879360, Status: Filled
+2024-08-19 19:03:20,591 - INFO - Order filled - ID: 1755973312816879360, Side: Buy, Price: 2573.8, Qty: 0.002
+2024-08-19 19:03:21,227 - INFO - Placed sell order at 2583.8, Order ID: 1755982284995172096
+2024-08-19 19:03:21,332 - INFO - Placed corresponding sell order with ID: 1755982284995172096
+2024-08-19 19:03:21,771 - INFO - Logged filled sell order to database
+2024-08-19 19:03:21,771 - INFO - Processing order with ID: 1755982284995172096, Status: New
+2024-08-19 19:03:22,488 - INFO - Placed buy order at 2563.8, Order ID: 1755982299935282944
+2024-08-19 19:03:22,488 - INFO - Processing order with ID: 1755982299935282944, Status: New
+2024-08-19 19:03:22,489 - INFO - State checkpointed successfully.
+2024-08-19 19:04:29,804 - INFO - State checkpointed successfully.
+2024-08-19 19:05:41,147 - INFO - State checkpointed successfully.
+2024-08-19 19:06:49,092 - INFO - State checkpointed successfully.
+2024-08-19 19:07:56,015 - INFO - State checkpointed successfully.
+2024-08-19 19:09:02,344 - INFO - State checkpointed successfully.
+2024-08-19 19:10:09,052 - INFO - State checkpointed successfully.
+2024-08-19 19:11:16,673 - INFO - State checkpointed successfully.
+2024-08-19 19:12:22,070 - INFO - State checkpointed successfully.
+2024-08-19 19:13:27,014 - INFO - State checkpointed successfully.
+2024-08-19 19:14:32,505 - INFO - State checkpointed successfully.
+2024-08-19 19:15:43,120 - INFO - State checkpointed successfully.
+2024-08-19 19:16:51,220 - INFO - State checkpointed successfully.
+2024-08-19 19:17:56,594 - INFO - State checkpointed successfully.
+2024-08-19 19:19:01,194 - INFO - State checkpointed successfully.
+2024-08-19 19:20:05,516 - INFO - State checkpointed successfully.
+2024-08-19 19:21:12,959 - INFO - State checkpointed successfully.
+2024-08-19 19:22:20,422 - INFO - State checkpointed successfully.
+2024-08-19 19:23:24,801 - INFO - State checkpointed successfully.
+2024-08-19 19:24:30,673 - INFO - State checkpointed successfully.
+2024-08-19 19:25:36,351 - INFO - State checkpointed successfully.
+2024-08-19 19:26:41,443 - INFO - State checkpointed successfully.
+2024-08-19 19:27:50,629 - INFO - State checkpointed successfully.
+2024-08-19 19:28:57,217 - INFO - State checkpointed successfully.
+2024-08-19 19:30:04,355 - INFO - State checkpointed successfully.
+2024-08-19 19:31:15,848 - INFO - State checkpointed successfully.
+2024-08-19 19:32:22,326 - INFO - State checkpointed successfully.
+2024-08-19 19:33:30,625 - INFO - State checkpointed successfully.
+2024-08-19 19:34:36,921 - INFO - State checkpointed successfully.
+2024-08-19 19:35:43,308 - INFO - State checkpointed successfully.
+2024-08-19 19:36:49,009 - INFO - State checkpointed successfully.
+2024-08-19 19:37:55,532 - INFO - State checkpointed successfully.
+2024-08-19 19:39:03,750 - INFO - State checkpointed successfully.
+2024-08-19 19:40:10,864 - INFO - State checkpointed successfully.
+2024-08-19 19:41:18,006 - INFO - State checkpointed successfully.
+2024-08-19 19:42:22,370 - INFO - State checkpointed successfully.
+2024-08-19 19:43:28,433 - INFO - State checkpointed successfully.
+2024-08-19 19:44:33,971 - INFO - State checkpointed successfully.
+2024-08-19 19:45:40,144 - INFO - State checkpointed successfully.
+2024-08-19 19:46:45,679 - INFO - State checkpointed successfully.
+2024-08-19 19:47:50,671 - INFO - State checkpointed successfully.
+2024-08-19 19:48:56,167 - INFO - State checkpointed successfully.
+2024-08-19 19:50:02,468 - INFO - State checkpointed successfully.
+2024-08-19 19:51:07,703 - INFO - State checkpointed successfully.
+2024-08-19 19:52:17,553 - INFO - State checkpointed successfully.
+2024-08-19 19:53:37,606 - INFO - State checkpointed successfully.
+2024-08-19 19:54:41,984 - INFO - State checkpointed successfully.
+2024-08-19 19:55:46,709 - INFO - State checkpointed successfully.
+2024-08-19 19:56:53,488 - INFO - State checkpointed successfully.
+2024-08-19 19:57:12,028 - INFO - Processing order with ID: 1755982284995172096, Status: Filled
+2024-08-19 19:57:12,029 - INFO - Order filled - ID: 1755982284995172096, Side: Sell, Price: 2583.8, Qty: 0.002
+2024-08-19 19:57:12,427 - INFO - Processed filled sell order - Pair Profit: 0.009684799999999605
+2024-08-19 19:57:12,922 - INFO - Logged filled sell order to database
+2024-08-19 19:57:14,302 - INFO - marked sell order b9d8375d-5824-4bc7-ae51-40259a1eff66
+2024-08-19 19:57:15,689 - INFO - Placed buy order at 2573.8, Order ID: 1756009421991057152
+2024-08-19 19:57:15,691 - INFO - Processing order with ID: 1756009421991057152, Status: New
+2024-08-19 19:57:31,912 - INFO - Processing order with ID: 1756009558079444736, Status: New
+2024-08-19 19:57:31,913 - INFO - Placed buy order at 2583.8, Order ID: 1756009558079444736
+2024-08-19 19:57:58,585 - INFO - State checkpointed successfully.
+2024-08-19 19:59:02,558 - INFO - State checkpointed successfully.
+2024-08-19 20:00:11,203 - INFO - State checkpointed successfully.
+2024-08-19 20:01:18,659 - INFO - State checkpointed successfully.
+2024-08-19 20:02:26,624 - INFO - State checkpointed successfully.
+2024-08-19 20:03:30,660 - INFO - State checkpointed successfully.
+2024-08-19 20:04:36,210 - INFO - State checkpointed successfully.
+2024-08-19 20:04:38,275 - INFO - Processing order with ID: 1756009558079444736, Status: PartiallyFilled
+2024-08-19 20:04:38,299 - INFO - Processing order with ID: 1756009558079444736, Status: Filled
+2024-08-19 20:04:38,300 - INFO - Order filled - ID: 1756009558079444736, Side: Buy, Price: 2583.8, Qty: 0.002
+2024-08-19 20:04:40,293 - INFO - Placed sell order at 2593.8, Order ID: 1756013135812368128
+2024-08-19 20:04:40,399 - INFO - Placed corresponding sell order with ID: 1756013135812368128
+2024-08-19 20:04:41,881 - INFO - Logged filled sell order to database
+2024-08-19 20:04:41,882 - INFO - Processing order with ID: 1756013135812368128, Status: New
+2024-08-19 20:05:40,233 - INFO - State checkpointed successfully.
+2024-08-19 20:06:48,732 - INFO - State checkpointed successfully.
+2024-08-19 20:08:00,985 - INFO - State checkpointed successfully.
+2024-08-19 20:09:07,005 - INFO - State checkpointed successfully.
+2024-08-19 20:10:12,602 - INFO - State checkpointed successfully.
+2024-08-19 20:11:18,781 - INFO - State checkpointed successfully.
+2024-08-19 20:12:28,800 - INFO - State checkpointed successfully.
+2024-08-19 20:13:33,443 - INFO - State checkpointed successfully.
+2024-08-19 20:14:37,991 - INFO - State checkpointed successfully.
+2024-08-19 20:15:46,762 - INFO - State checkpointed successfully.
+2024-08-19 20:16:57,589 - INFO - State checkpointed successfully.
+2024-08-19 20:18:03,312 - INFO - State checkpointed successfully.
+2024-08-19 20:19:10,901 - INFO - State checkpointed successfully.
+2024-08-19 20:20:18,192 - INFO - State checkpointed successfully.
+2024-08-19 20:21:24,744 - INFO - State checkpointed successfully.
+2024-08-19 20:22:31,785 - INFO - State checkpointed successfully.
+2024-08-19 20:23:36,749 - INFO - State checkpointed successfully.
+2024-08-19 20:24:41,523 - INFO - State checkpointed successfully.
+2024-08-19 20:25:47,237 - INFO - State checkpointed successfully.
+2024-08-19 20:26:55,444 - INFO - State checkpointed successfully.
+2024-08-19 20:28:04,249 - INFO - State checkpointed successfully.
+2024-08-19 20:29:09,197 - INFO - State checkpointed successfully.
+2024-08-19 20:30:16,550 - INFO - State checkpointed successfully.
+2024-08-19 20:31:25,105 - INFO - State checkpointed successfully.
+2024-08-19 20:32:31,374 - INFO - State checkpointed successfully.
+2024-08-19 20:33:36,037 - INFO - State checkpointed successfully.
+2024-08-19 20:34:40,428 - INFO - State checkpointed successfully.
+2024-08-19 20:35:45,855 - INFO - State checkpointed successfully.
+2024-08-19 20:36:53,153 - INFO - State checkpointed successfully.
+2024-08-19 20:38:02,300 - INFO - State checkpointed successfully.
+2024-08-19 20:39:09,837 - INFO - State checkpointed successfully.
+2024-08-19 20:40:20,149 - INFO - State checkpointed successfully.
+2024-08-19 20:41:27,922 - INFO - State checkpointed successfully.
+2024-08-19 20:42:32,939 - INFO - State checkpointed successfully.
+2024-08-19 20:43:39,716 - INFO - State checkpointed successfully.
+2024-08-19 20:45:11,536 - INFO - State checkpointed successfully.
+2024-08-19 20:46:28,852 - INFO - State checkpointed successfully.
+2024-08-19 20:47:36,491 - INFO - State checkpointed successfully.
+2024-08-19 20:48:40,563 - INFO - State checkpointed successfully.
+2024-08-19 20:49:46,397 - INFO - State checkpointed successfully.
+2024-08-19 20:50:53,323 - INFO - State checkpointed successfully.
+2024-08-19 20:51:59,022 - INFO - State checkpointed successfully.
+2024-08-19 20:53:05,083 - INFO - State checkpointed successfully.
+2024-08-19 20:54:10,891 - INFO - State checkpointed successfully.
+2024-08-19 20:55:17,387 - INFO - State checkpointed successfully.
+2024-08-19 20:56:21,071 - INFO - State checkpointed successfully.
+2024-08-19 20:57:25,587 - INFO - State checkpointed successfully.
+2024-08-19 20:58:35,366 - INFO - State checkpointed successfully.
+2024-08-19 20:59:42,065 - INFO - State checkpointed successfully.
+2024-08-19 21:00:50,484 - INFO - State checkpointed successfully.
+2024-08-19 21:01:56,445 - INFO - State checkpointed successfully.
+2024-08-19 21:03:01,206 - INFO - State checkpointed successfully.
+2024-08-19 21:04:09,067 - INFO - State checkpointed successfully.
+2024-08-19 21:05:16,954 - INFO - State checkpointed successfully.
+2024-08-19 21:06:26,197 - INFO - State checkpointed successfully.
+2024-08-19 21:07:33,514 - INFO - State checkpointed successfully.
+2024-08-19 21:08:37,127 - INFO - State checkpointed successfully.
+2024-08-19 21:09:43,414 - INFO - State checkpointed successfully.
+2024-08-19 21:11:01,822 - INFO - State checkpointed successfully.
+2024-08-19 21:12:06,091 - INFO - State checkpointed successfully.
+2024-08-19 21:13:11,216 - INFO - State checkpointed successfully.
+2024-08-19 21:14:21,280 - INFO - State checkpointed successfully.
+2024-08-19 21:15:21,815 - INFO - Processing order with ID: 1756013135812368128, Status: Filled
+2024-08-19 21:15:21,815 - INFO - Order filled - ID: 1756013135812368128, Side: Sell, Price: 2593.8, Qty: 0.002
+2024-08-19 21:15:22,025 - INFO - Processed filled sell order - Pair Profit: 0.009644800000000231
+2024-08-19 21:15:22,549 - INFO - Logged filled sell order to database
+2024-08-19 21:15:24,541 - INFO - marked sell order 5d9d0f45-570f-4ec1-a3e2-64db09b5a427
+2024-08-19 21:15:25,927 - INFO - Placed buy order at 2593.8, Order ID: 1756048766567454464
+2024-08-19 21:15:25,929 - INFO - Processing order with ID: 1756048766567454464, Status: New
+2024-08-19 21:15:25,929 - INFO - State checkpointed successfully.
+2024-08-19 21:15:35,954 - INFO - Processing order with ID: 1756048766567454464, Status: Filled
+2024-08-19 21:15:35,955 - INFO - Order filled - ID: 1756048766567454464, Side: Buy, Price: 2593.8, Qty: 0.002
+2024-08-19 21:15:36,590 - INFO - Placed sell order at 2603.8, Order ID: 1756048851669882624
+2024-08-19 21:15:36,697 - INFO - Placed corresponding sell order with ID: 1756048851669882624
+2024-08-19 21:15:37,567 - INFO - Logged filled sell order to database
+2024-08-19 21:15:37,567 - INFO - Processing order with ID: 1756048851669882624, Status: New
+2024-08-19 21:15:55,898 - INFO - Placed buy order at 2583.8, Order ID: 1756049017974036224
+2024-08-19 21:15:55,899 - INFO - Processing order with ID: 1756049017974036224, Status: New
+2024-08-19 21:16:34,813 - INFO - State checkpointed successfully.
+2024-08-19 21:17:46,860 - INFO - State checkpointed successfully.
+2024-08-19 21:18:53,184 - INFO - State checkpointed successfully.
+2024-08-19 21:19:58,111 - INFO - State checkpointed successfully.
+2024-08-19 21:20:07,321 - INFO - Processing order with ID: 1756048851669882624, Status: Filled
+2024-08-19 21:20:07,321 - INFO - Order filled - ID: 1756048851669882624, Side: Sell, Price: 2603.8, Qty: 0.002
+2024-08-19 21:20:07,541 - INFO - Processed filled sell order - Pair Profit: 0.00960479999999908
+2024-08-19 21:20:08,241 - INFO - Logged filled sell order to database
+2024-08-19 21:20:12,089 - INFO - Placed buy order at 2603.8, Order ID: 1756051167059908352
+2024-08-19 21:20:13,787 - INFO - marked sell order cb1fe7ad-9c14-4f02-b334-587efedc2856
+2024-08-19 21:20:13,788 - INFO - Processing order with ID: 1756051167059908352, Status: New
+2024-08-19 21:20:13,935 - INFO - Processing order with ID: 1756051167059908352, Status: PartiallyFilled
+2024-08-19 21:20:13,940 - INFO - Processing order with ID: 1756051167059908352, Status: Filled
+2024-08-19 21:20:13,940 - INFO - Order filled - ID: 1756051167059908352, Side: Buy, Price: 2603.8, Qty: 0.002
+2024-08-19 21:20:15,407 - INFO - Placed sell order at 2613.8, Order ID: 1756051183526745856
+2024-08-19 21:20:15,701 - INFO - Placed corresponding sell order with ID: 1756051183526745856
+2024-08-19 21:20:17,325 - INFO - Logged filled sell order to database
+2024-08-19 21:20:17,326 - INFO - Processing order with ID: 1756051183526745856, Status: New
+2024-08-19 21:20:17,680 - INFO - Placed buy order at 2593.8, Order ID: 1756051213969004288
+2024-08-19 21:20:17,681 - INFO - Processing order with ID: 1756051213969004288, Status: New
+2024-08-19 21:21:08,222 - INFO - State checkpointed successfully.
+2024-08-19 21:22:11,853 - INFO - State checkpointed successfully.
+2024-08-19 21:23:22,998 - INFO - State checkpointed successfully.
+2024-08-19 21:24:28,305 - INFO - State checkpointed successfully.
+2024-08-19 21:25:35,795 - INFO - State checkpointed successfully.
+2024-08-19 21:26:40,617 - INFO - State checkpointed successfully.
+2024-08-19 21:27:46,472 - INFO - State checkpointed successfully.
+2024-08-19 21:28:53,217 - INFO - State checkpointed successfully.
+2024-08-19 21:29:59,107 - INFO - State checkpointed successfully.
+2024-08-19 21:31:07,540 - INFO - State checkpointed successfully.
+2024-08-19 21:32:13,895 - INFO - State checkpointed successfully.
+2024-08-19 21:33:22,051 - INFO - State checkpointed successfully.
+2024-08-19 21:34:27,709 - INFO - State checkpointed successfully.
+2024-08-19 21:35:32,842 - INFO - State checkpointed successfully.
+2024-08-19 21:36:44,400 - INFO - State checkpointed successfully.
+2024-08-19 21:36:46,900 - INFO - Processing order with ID: 1756051213969004288, Status: Filled
+2024-08-19 21:36:46,900 - INFO - Order filled - ID: 1756051213969004288, Side: Buy, Price: 2593.8, Qty: 0.002
+2024-08-19 21:36:48,200 - INFO - Placed sell order at 2603.8, Order ID: 1756059514614060800
+2024-08-19 21:36:48,305 - INFO - Placed corresponding sell order with ID: 1756059514614060800
+2024-08-19 21:36:49,475 - INFO - Logged filled sell order to database
+2024-08-19 21:36:49,476 - INFO - Processing order with ID: 1756059514614060800, Status: New
+2024-08-19 21:37:49,455 - INFO - State checkpointed successfully.
+2024-08-19 21:38:55,829 - INFO - State checkpointed successfully.
+2024-08-19 21:40:01,515 - INFO - State checkpointed successfully.
+2024-08-19 21:41:09,053 - INFO - State checkpointed successfully.
+2024-08-19 21:42:13,966 - INFO - State checkpointed successfully.
+2024-08-19 21:43:19,264 - INFO - State checkpointed successfully.
+2024-08-19 21:44:24,837 - INFO - State checkpointed successfully.
+2024-08-19 21:45:29,785 - INFO - State checkpointed successfully.
+2024-08-19 21:45:46,699 - INFO - Processing order with ID: 1756049017974036224, Status: Filled
+2024-08-19 21:45:46,699 - INFO - Order filled - ID: 1756049017974036224, Side: Buy, Price: 2583.8, Qty: 0.002
+2024-08-19 21:45:47,527 - INFO - Placed sell order at 2593.8, Order ID: 1756064041215989504
+2024-08-19 21:45:47,817 - INFO - Placed corresponding sell order with ID: 1756064041215989504
+2024-08-19 21:45:48,289 - INFO - Logged filled sell order to database
+2024-08-19 21:45:48,290 - INFO - Processing order with ID: 1756064041215989504, Status: New
+2024-08-19 21:46:35,851 - INFO - State checkpointed successfully.
+2024-08-19 21:47:42,295 - INFO - State checkpointed successfully.
+2024-08-19 21:48:48,887 - INFO - State checkpointed successfully.
+2024-08-19 21:49:55,998 - INFO - State checkpointed successfully.
+2024-08-19 21:51:02,943 - INFO - State checkpointed successfully.
+2024-08-19 21:51:25,903 - INFO - Processing order with ID: 1756009421991057152, Status: Filled
+2024-08-19 21:51:25,903 - INFO - Order filled - ID: 1756009421991057152, Side: Buy, Price: 2573.8, Qty: 0.002
+2024-08-19 21:51:33,312 - INFO - Placed sell order at 2583.8, Order ID: 1756066886698931968
+2024-08-19 21:51:33,418 - INFO - Placed corresponding sell order with ID: 1756066886698931968
+2024-08-19 21:51:37,496 - INFO - Logged filled sell order to database
+2024-08-19 21:51:37,497 - INFO - Processing order with ID: 1756066886698931968, Status: New
+2024-08-19 21:52:07,393 - INFO - State checkpointed successfully.
+2024-08-19 21:52:27,471 - INFO - Processing order with ID: 1755982299935282944, Status: Filled
+2024-08-19 21:52:27,471 - INFO - Order filled - ID: 1755982299935282944, Side: Buy, Price: 2563.8, Qty: 0.002
+2024-08-19 21:52:28,016 - INFO - Placed sell order at 2573.8, Order ID: 1756067403126806272
+2024-08-19 21:52:28,305 - INFO - Placed corresponding sell order with ID: 1756067403126806272
+2024-08-19 21:52:28,709 - INFO - Logged filled sell order to database
+2024-08-19 21:52:28,709 - INFO - Processing order with ID: 1756067403126806272, Status: New
+2024-08-19 21:53:03,932 - INFO - Processing order with ID: 1756067403126806272, Status: Filled
+2024-08-19 21:53:03,932 - INFO - Order filled - ID: 1756067403126806272, Side: Sell, Price: 2573.8, Qty: 0.002
+2024-08-19 21:53:04,144 - INFO - Processed filled sell order - Pair Profit: 0.009724800000000755
+2024-08-19 21:53:06,584 - INFO - Logged filled sell order to database
+2024-08-19 21:53:08,449 - INFO - marked sell order e2aa8ffb-7d0c-4463-b680-f2bf0dcefa6c
+2024-08-19 21:53:11,122 - INFO - Placed buy order at 2563.8, Order ID: 1756067768391964416
+2024-08-19 21:53:11,123 - INFO - Processing order with ID: 1756067768391964416, Status: New
+2024-08-19 21:53:16,236 - INFO - State checkpointed successfully.
+2024-08-19 21:54:21,177 - INFO - State checkpointed successfully.
+2024-08-19 21:55:28,438 - INFO - State checkpointed successfully.
+2024-08-19 21:56:35,383 - INFO - State checkpointed successfully.
+2024-08-19 21:57:39,640 - INFO - State checkpointed successfully.
+2024-08-19 21:58:45,326 - INFO - State checkpointed successfully.
+2024-08-19 21:58:47,651 - INFO - Processing order with ID: 1756067768391964416, Status: Cancelled
+2024-08-19 21:58:47,882 - INFO - Processing order with ID: 1756066886698931968, Status: Cancelled
+2024-08-19 21:58:48,079 - INFO - Processing order with ID: 1756064041215989504, Status: Cancelled
+2024-08-19 21:58:48,864 - INFO - Processing order with ID: 1756059514614060800, Status: Cancelled
+2024-08-19 21:58:49,019 - INFO - Processing order with ID: 1756051183526745856, Status: Cancelled
+2024-08-19 21:58:57,826 - INFO - Shutting down gracefully...
+2024-08-19 21:58:57,827 - INFO - State checkpointed successfully.
+2024-08-19 21:58:57,827 - INFO - Flushed pending updates to CSV.
+2024-08-19 21:58:57,920 - INFO - WebSocket connection closed.
+2024-08-19 22:37:17,119 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-19 22:37:17,837 - INFO - Websocket connected
+2024-08-19 22:37:17,837 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-19 22:37:18,089 - INFO - Placed buy order at 2563.8, Order ID: 1756089972768932608
+2024-08-19 22:37:18,092 - INFO - Processing order with ID: 1756089972768932608, Status: New
+2024-08-19 22:38:24,382 - INFO - State checkpointed successfully.
+2024-08-19 22:39:33,461 - INFO - State checkpointed successfully.
+2024-08-19 22:40:42,801 - INFO - State checkpointed successfully.
+2024-08-19 22:41:52,921 - INFO - State checkpointed successfully.
+2024-08-19 22:41:58,463 - INFO - Placed buy order at 2573.8, Order ID: 1756092324716512000
+2024-08-19 22:41:58,467 - INFO - Processing order with ID: 1756092324716512000, Status: New
+2024-08-19 22:41:59,368 - INFO - Processing order with ID: 1756092324716512000, Status: Filled
+2024-08-19 22:41:59,368 - INFO - Order filled - ID: 1756092324716512000, Side: Buy, Price: 2573.7999999999997, Qty: 0.001
+2024-08-19 22:42:00,777 - INFO - Placed sell order at 2583.8, Order ID: 1756092333532939008
+2024-08-19 22:42:00,882 - INFO - Placed corresponding sell order with ID: 1756092333532939008
+2024-08-19 22:42:01,805 - INFO - Logged filled sell order to database
+2024-08-19 22:42:01,805 - INFO - Processing order with ID: 1756092333532939008, Status: New
+2024-08-19 22:42:14,684 - INFO - Buy size changed to 0.03
+2024-08-19 22:42:15,317 - INFO - param modification info updated
+2024-08-19 22:42:57,650 - INFO - State checkpointed successfully.
+2024-08-19 22:44:03,941 - INFO - State checkpointed successfully.
+2024-08-19 22:45:09,251 - INFO - State checkpointed successfully.
+2024-08-19 22:46:14,905 - INFO - State checkpointed successfully.
+2024-08-19 22:47:21,654 - INFO - State checkpointed successfully.
+2024-08-19 22:48:29,176 - INFO - State checkpointed successfully.
+2024-08-19 22:49:39,272 - INFO - State checkpointed successfully.
+2024-08-19 22:50:50,254 - INFO - State checkpointed successfully.
+2024-08-19 22:52:01,565 - INFO - State checkpointed successfully.
+2024-08-19 22:53:08,287 - INFO - State checkpointed successfully.
+2024-08-19 22:54:15,342 - INFO - State checkpointed successfully.
+2024-08-19 22:55:19,433 - INFO - State checkpointed successfully.
+2024-08-19 22:56:25,418 - INFO - State checkpointed successfully.
+2024-08-19 22:57:30,908 - INFO - State checkpointed successfully.
+2024-08-19 22:58:35,049 - INFO - State checkpointed successfully.
+2024-08-19 22:59:21,518 - INFO - Processing order with ID: 1756092333532939008, Status: Filled
+2024-08-19 22:59:21,518 - INFO - Order filled - ID: 1756092333532939008, Side: Sell, Price: 2583.8, Qty: 0.001
+2024-08-19 22:59:21,733 - INFO - Processed filled sell order - Pair Profit: 0.0048424000000002465
+2024-08-19 22:59:22,400 - INFO - Logged filled sell order to database
+2024-08-19 22:59:24,163 - INFO - Placed buy order at 2583.8, Order ID: 1756101096683897600
+2024-08-19 22:59:26,300 - INFO - marked sell order 0afbe0c8-934f-4637-88f3-ee95fca9e96b
+2024-08-19 22:59:26,301 - INFO - Processing order with ID: 1756101096683897600, Status: New
+2024-08-19 22:59:29,569 - INFO - Processing order with ID: 1756101096683897600, Status: PartiallyFilled
+2024-08-19 22:59:29,575 - INFO - Processing order with ID: 1756101096683897600, Status: Filled
+2024-08-19 22:59:29,575 - INFO - Order filled - ID: 1756101096683897600, Side: Buy, Price: 2583.8, Qty: 0.03
+2024-08-19 22:59:30,962 - INFO - Placed sell order at 2593.8, Order ID: 1756101143240672001
+2024-08-19 22:59:31,068 - INFO - Placed corresponding sell order with ID: 1756101143240672001
+2024-08-19 22:59:34,544 - INFO - Logged filled sell order to database
+2024-08-19 22:59:34,544 - INFO - Processing order with ID: 1756101143240672001, Status: New
+2024-08-19 22:59:39,974 - INFO - Placed buy order at 2573.8, Order ID: 1756101229307790080
+2024-08-19 22:59:39,975 - INFO - State checkpointed successfully.
+2024-08-19 22:59:39,978 - INFO - Processing order with ID: 1756101229307790080, Status: New
+2024-08-19 23:00:49,062 - INFO - State checkpointed successfully.
+2024-08-19 23:02:05,898 - INFO - State checkpointed successfully.
+2024-08-19 23:03:12,218 - INFO - State checkpointed successfully.
+2024-08-19 23:04:22,617 - INFO - State checkpointed successfully.
+2024-08-19 23:05:28,193 - INFO - State checkpointed successfully.
+2024-08-19 23:06:36,594 - INFO - State checkpointed successfully.
+2024-08-19 23:07:42,306 - INFO - State checkpointed successfully.
+2024-08-19 23:08:47,257 - INFO - State checkpointed successfully.
+2024-08-19 23:09:53,737 - INFO - State checkpointed successfully.
+2024-08-19 23:11:03,122 - INFO - State checkpointed successfully.
+2024-08-19 23:12:17,504 - INFO - State checkpointed successfully.
+2024-08-19 23:13:25,422 - INFO - State checkpointed successfully.
+2024-08-19 23:14:33,772 - INFO - State checkpointed successfully.
+2024-08-19 23:15:44,212 - INFO - State checkpointed successfully.
+2024-08-19 23:16:52,621 - INFO - State checkpointed successfully.
+2024-08-19 23:18:00,196 - INFO - State checkpointed successfully.
+2024-08-19 23:19:05,928 - INFO - State checkpointed successfully.
+2024-08-19 23:20:10,763 - INFO - State checkpointed successfully.
+2024-08-19 23:21:17,648 - INFO - State checkpointed successfully.
+2024-08-19 23:22:21,666 - INFO - State checkpointed successfully.
+2024-08-19 23:23:27,818 - INFO - State checkpointed successfully.
+2024-08-19 23:24:33,507 - INFO - State checkpointed successfully.
+2024-08-19 23:25:41,109 - INFO - State checkpointed successfully.
+2024-08-19 23:26:47,056 - INFO - State checkpointed successfully.
+2024-08-19 23:27:51,928 - INFO - State checkpointed successfully.
+2024-08-19 23:28:56,457 - INFO - State checkpointed successfully.
+2024-08-19 23:30:01,220 - INFO - State checkpointed successfully.
+2024-08-19 23:31:07,453 - INFO - State checkpointed successfully.
+2024-08-19 23:32:15,372 - INFO - State checkpointed successfully.
+2024-08-19 23:33:23,338 - INFO - State checkpointed successfully.
+2024-08-19 23:34:29,709 - INFO - State checkpointed successfully.
+2024-08-19 23:35:38,154 - INFO - State checkpointed successfully.
+2024-08-19 23:36:42,367 - INFO - State checkpointed successfully.
+2024-08-19 23:37:48,540 - INFO - State checkpointed successfully.
+2024-08-19 23:38:53,318 - INFO - State checkpointed successfully.
+2024-08-19 23:39:59,277 - INFO - State checkpointed successfully.
+2024-08-19 23:41:04,105 - INFO - State checkpointed successfully.
+2024-08-19 23:42:11,509 - INFO - State checkpointed successfully.
+2024-08-19 23:43:17,161 - INFO - State checkpointed successfully.
+2024-08-19 23:44:23,422 - INFO - State checkpointed successfully.
+2024-08-19 23:45:27,953 - INFO - State checkpointed successfully.
+2024-08-19 23:46:35,611 - INFO - State checkpointed successfully.
+2024-08-19 23:47:42,499 - INFO - State checkpointed successfully.
+2024-08-19 23:48:47,567 - INFO - State checkpointed successfully.
+2024-08-19 23:49:53,652 - INFO - State checkpointed successfully.
+2024-08-19 23:51:00,280 - INFO - State checkpointed successfully.
+2024-08-19 23:52:05,891 - INFO - State checkpointed successfully.
+2024-08-19 23:53:10,539 - INFO - State checkpointed successfully.
+2024-08-19 23:54:17,947 - INFO - State checkpointed successfully.
+2024-08-19 23:55:25,861 - INFO - State checkpointed successfully.
+2024-08-19 23:56:36,398 - INFO - State checkpointed successfully.
+2024-08-19 23:57:40,869 - INFO - State checkpointed successfully.
+2024-08-19 23:58:47,139 - INFO - State checkpointed successfully.
+2024-08-20 00:00:05,261 - INFO - State checkpointed successfully.
+2024-08-20 00:01:12,579 - INFO - State checkpointed successfully.
+2024-08-20 00:02:19,405 - INFO - State checkpointed successfully.
+2024-08-20 00:03:25,034 - INFO - State checkpointed successfully.
+2024-08-20 00:04:30,946 - INFO - State checkpointed successfully.
+2024-08-20 00:05:43,643 - INFO - State checkpointed successfully.
+2024-08-20 00:06:50,578 - INFO - State checkpointed successfully.
+2024-08-20 00:07:55,020 - INFO - State checkpointed successfully.
+2024-08-20 00:08:59,814 - INFO - State checkpointed successfully.
+2024-08-20 00:10:06,579 - INFO - State checkpointed successfully.
+2024-08-20 00:11:14,282 - INFO - State checkpointed successfully.
+2024-08-20 00:12:19,727 - INFO - State checkpointed successfully.
+2024-08-20 00:13:25,177 - INFO - State checkpointed successfully.
+2024-08-20 00:14:30,050 - INFO - State checkpointed successfully.
+2024-08-20 00:15:37,921 - INFO - State checkpointed successfully.
+2024-08-20 00:16:43,897 - INFO - State checkpointed successfully.
+2024-08-20 00:17:49,164 - INFO - State checkpointed successfully.
+2024-08-20 00:19:04,001 - INFO - State checkpointed successfully.
+2024-08-20 00:20:15,139 - INFO - State checkpointed successfully.
+2024-08-20 00:21:23,229 - INFO - State checkpointed successfully.
+2024-08-20 00:22:33,791 - INFO - State checkpointed successfully.
+2024-08-20 00:23:38,713 - INFO - State checkpointed successfully.
+2024-08-20 00:24:42,911 - INFO - State checkpointed successfully.
+2024-08-20 00:25:48,314 - INFO - State checkpointed successfully.
+2024-08-20 00:27:00,298 - INFO - State checkpointed successfully.
+2024-08-20 00:28:07,795 - INFO - State checkpointed successfully.
+2024-08-20 00:29:16,147 - INFO - State checkpointed successfully.
+2024-08-20 00:30:20,794 - INFO - State checkpointed successfully.
+2024-08-20 00:31:25,665 - INFO - State checkpointed successfully.
+2024-08-20 00:32:31,829 - INFO - State checkpointed successfully.
+2024-08-20 00:33:36,843 - INFO - State checkpointed successfully.
+2024-08-20 00:34:42,488 - INFO - State checkpointed successfully.
+2024-08-20 00:35:46,424 - INFO - State checkpointed successfully.
+2024-08-20 00:36:51,656 - INFO - State checkpointed successfully.
+2024-08-20 00:37:58,909 - INFO - State checkpointed successfully.
+2024-08-20 00:39:04,596 - INFO - State checkpointed successfully.
+2024-08-20 00:40:10,190 - INFO - State checkpointed successfully.
+2024-08-20 00:41:16,429 - INFO - State checkpointed successfully.
+2024-08-20 00:42:22,197 - INFO - State checkpointed successfully.
+2024-08-20 00:43:31,397 - INFO - State checkpointed successfully.
+2024-08-20 00:44:35,042 - INFO - State checkpointed successfully.
+2024-08-20 00:45:40,389 - INFO - State checkpointed successfully.
+2024-08-20 00:46:48,788 - INFO - State checkpointed successfully.
+2024-08-20 00:47:59,734 - INFO - State checkpointed successfully.
+2024-08-20 00:49:07,523 - INFO - State checkpointed successfully.
+2024-08-20 00:50:14,589 - INFO - State checkpointed successfully.
+2024-08-20 00:51:24,845 - INFO - State checkpointed successfully.
+2024-08-20 00:52:31,107 - INFO - State checkpointed successfully.
+2024-08-20 00:53:35,424 - INFO - State checkpointed successfully.
+2024-08-20 00:54:40,091 - INFO - State checkpointed successfully.
+2024-08-20 00:55:43,858 - INFO - State checkpointed successfully.
+2024-08-20 00:57:03,778 - INFO - State checkpointed successfully.
+2024-08-20 00:58:19,114 - INFO - State checkpointed successfully.
+2024-08-20 00:59:23,514 - INFO - State checkpointed successfully.
+2024-08-20 01:00:31,796 - INFO - State checkpointed successfully.
+2024-08-20 01:01:39,284 - INFO - State checkpointed successfully.
+2024-08-20 01:02:46,194 - INFO - State checkpointed successfully.
+2024-08-20 01:03:50,437 - INFO - State checkpointed successfully.
+2024-08-20 01:05:00,688 - INFO - State checkpointed successfully.
+2024-08-20 01:06:04,193 - INFO - State checkpointed successfully.
+2024-08-20 01:07:12,971 - INFO - State checkpointed successfully.
+2024-08-20 01:08:20,496 - INFO - State checkpointed successfully.
+2024-08-20 01:09:29,493 - INFO - State checkpointed successfully.
+2024-08-20 01:10:35,431 - INFO - State checkpointed successfully.
+2024-08-20 01:11:46,914 - INFO - State checkpointed successfully.
+2024-08-20 01:12:53,982 - INFO - State checkpointed successfully.
+2024-08-20 01:14:02,242 - INFO - State checkpointed successfully.
+2024-08-20 01:15:06,911 - INFO - State checkpointed successfully.
+2024-08-20 01:16:12,770 - INFO - State checkpointed successfully.
+2024-08-20 01:17:20,261 - INFO - State checkpointed successfully.
+2024-08-20 01:18:26,597 - INFO - State checkpointed successfully.
+2024-08-20 01:19:31,837 - INFO - State checkpointed successfully.
+2024-08-20 01:20:35,392 - INFO - State checkpointed successfully.
+2024-08-20 01:21:39,120 - INFO - State checkpointed successfully.
+2024-08-20 01:22:42,874 - INFO - State checkpointed successfully.
+2024-08-20 01:23:40,574 - INFO - Processing order with ID: 1756101143240672001, Status: Filled
+2024-08-20 01:23:40,575 - INFO - Order filled - ID: 1756101143240672001, Side: Sell, Price: 2593.7999999999997, Qty: 0.03
+2024-08-20 01:23:40,784 - INFO - Processed filled sell order - Pair Profit: 0.1562215859999867
+2024-08-20 01:23:41,385 - INFO - Logged filled sell order to database
+2024-08-20 01:23:44,171 - INFO - marked sell order 711a08fd-c0e8-423b-84ba-3db9a880a697
+2024-08-20 01:23:47,743 - INFO - Placed buy order at 2583.8, Order ID: 1756173772060394241
+2024-08-20 01:23:47,744 - INFO - State checkpointed successfully.
+2024-08-20 01:23:47,747 - INFO - Processing order with ID: 1756173772060394241, Status: New
+2024-08-20 01:23:53,517 - INFO - Placed buy order at 2593.8, Order ID: 1756173820496216832
+2024-08-20 01:23:53,521 - INFO - Processing order with ID: 1756173820496216832, Status: New
+2024-08-20 01:24:52,838 - INFO - State checkpointed successfully.
+2024-08-20 01:26:00,054 - INFO - State checkpointed successfully.
+2024-08-20 01:27:04,821 - INFO - State checkpointed successfully.
+2024-08-20 01:28:14,374 - INFO - State checkpointed successfully.
+2024-08-20 01:29:19,387 - INFO - State checkpointed successfully.
+2024-08-20 01:30:24,220 - INFO - State checkpointed successfully.
+2024-08-20 01:31:30,497 - INFO - State checkpointed successfully.
+2024-08-20 01:32:35,708 - INFO - State checkpointed successfully.
+2024-08-20 01:32:57,672 - INFO - Placed buy order at 2603.8, Order ID: 1756178385199203072
+2024-08-20 01:32:57,699 - INFO - Processing order with ID: 1756178385199203072, Status: New
+2024-08-20 01:33:25,173 - INFO - Placed buy order at 2613.8, Order ID: 1756178615885923072
+2024-08-20 01:33:25,176 - INFO - Processing order with ID: 1756178615885923072, Status: New
+2024-08-20 01:33:25,219 - INFO - Processing order with ID: 1756178615885923072, Status: Filled
+2024-08-20 01:33:25,220 - INFO - Order filled - ID: 1756178615885923072, Side: Buy, Price: 2613.8, Qty: 0.03
+2024-08-20 01:33:25,877 - INFO - Placed sell order at 2623.8, Order ID: 1756178617530090240
+2024-08-20 01:33:25,985 - INFO - Placed corresponding sell order with ID: 1756178617530090240
+2024-08-20 01:33:26,635 - INFO - Logged filled sell order to database
+2024-08-20 01:33:26,636 - INFO - Processing order with ID: 1756178617530090240, Status: New
+2024-08-20 01:33:41,384 - INFO - State checkpointed successfully.
+2024-08-20 01:34:05,900 - INFO - Processing order with ID: 1756178617530090240, Status: Filled
+2024-08-20 01:34:05,900 - INFO - Order filled - ID: 1756178617530090240, Side: Sell, Price: 2623.8, Qty: 0.03
+2024-08-20 01:34:06,111 - INFO - Processed filled sell order - Pair Profit: 0.142871999999997
+2024-08-20 01:34:06,992 - INFO - Logged filled sell order to database
+2024-08-20 01:34:08,286 - INFO - Placed buy order at 2623.8, Order ID: 1756178977543979776
+2024-08-20 01:34:09,207 - INFO - marked sell order 68b946cf-cb8e-4e88-a613-df5abf0b4ff0
+2024-08-20 01:34:09,208 - INFO - Processing order with ID: 1756178977543979776, Status: New
+2024-08-20 01:34:53,939 - INFO - State checkpointed successfully.
+2024-08-20 01:35:27,131 - INFO - Processing order with ID: 1756178977543979776, Status: Filled
+2024-08-20 01:35:27,131 - INFO - Order filled - ID: 1756178977543979776, Side: Buy, Price: 2623.8, Qty: 0.03
+2024-08-20 01:35:27,894 - INFO - Placed sell order at 2633.8, Order ID: 1756179639849747200
+2024-08-20 01:35:28,000 - INFO - Placed corresponding sell order with ID: 1756179639849747200
+2024-08-20 01:35:28,495 - INFO - Logged filled sell order to database
+2024-08-20 01:35:28,496 - INFO - Processing order with ID: 1756179639849747200, Status: New
+2024-08-20 01:35:32,746 - INFO - Placed buy order at 2613.8, Order ID: 1756179686045811456
+2024-08-20 01:35:32,749 - INFO - Processing order with ID: 1756179686045811456, Status: New
+2024-08-20 01:35:59,943 - INFO - State checkpointed successfully.
+2024-08-20 01:37:05,464 - INFO - State checkpointed successfully.
+2024-08-20 01:38:09,862 - INFO - State checkpointed successfully.
+2024-08-20 01:39:14,130 - INFO - State checkpointed successfully.
+2024-08-20 01:40:19,376 - INFO - State checkpointed successfully.
+2024-08-20 01:41:26,291 - INFO - State checkpointed successfully.
+2024-08-20 01:41:51,861 - INFO - Processing order with ID: 1756179686045811456, Status: Filled
+2024-08-20 01:41:51,861 - INFO - Order filled - ID: 1756179686045811456, Side: Buy, Price: 2613.8, Qty: 0.03
+2024-08-20 01:41:52,361 - INFO - Placed sell order at 2623.8, Order ID: 1756182867207291648
+2024-08-20 01:41:52,465 - INFO - Placed corresponding sell order with ID: 1756182867207291648
+2024-08-20 01:41:52,946 - INFO - Logged filled sell order to database
+2024-08-20 01:41:52,947 - INFO - Processing order with ID: 1756182867207291648, Status: New
+2024-08-20 01:42:33,817 - INFO - State checkpointed successfully.
+2024-08-20 01:43:37,866 - INFO - State checkpointed successfully.
+2024-08-20 01:44:43,512 - INFO - State checkpointed successfully.
+2024-08-20 01:45:48,639 - INFO - State checkpointed successfully.
+2024-08-20 01:46:52,876 - INFO - State checkpointed successfully.
+2024-08-20 01:47:56,325 - INFO - State checkpointed successfully.
+2024-08-20 01:49:01,883 - INFO - State checkpointed successfully.
+2024-08-20 01:50:06,961 - INFO - State checkpointed successfully.
+2024-08-20 01:50:58,048 - INFO - Processing order with ID: 1756178385199203072, Status: Filled
+2024-08-20 01:50:58,048 - INFO - Order filled - ID: 1756178385199203072, Side: Buy, Price: 2603.8, Qty: 0.03
+2024-08-20 01:50:59,170 - INFO - Placed sell order at 2613.8, Order ID: 1756187448955929345
+2024-08-20 01:50:59,275 - INFO - Placed corresponding sell order with ID: 1756187448955929345
+2024-08-20 01:50:59,963 - INFO - Logged filled sell order to database
+2024-08-20 01:50:59,964 - INFO - Processing order with ID: 1756187448955929345, Status: New
+2024-08-20 01:51:14,434 - INFO - State checkpointed successfully.
+2024-08-20 01:52:19,750 - INFO - State checkpointed successfully.
+2024-08-20 01:53:23,816 - INFO - State checkpointed successfully.
+2024-08-20 01:54:27,416 - INFO - State checkpointed successfully.
+2024-08-20 01:55:31,588 - INFO - State checkpointed successfully.
+2024-08-20 01:56:36,807 - INFO - State checkpointed successfully.
+2024-08-20 01:57:46,547 - INFO - State checkpointed successfully.
+2024-08-20 01:58:50,592 - INFO - State checkpointed successfully.
+2024-08-20 01:59:57,653 - INFO - State checkpointed successfully.
+2024-08-20 02:01:04,003 - INFO - State checkpointed successfully.
+2024-08-20 02:02:11,800 - INFO - State checkpointed successfully.
+2024-08-20 02:03:17,687 - INFO - State checkpointed successfully.
+2024-08-20 02:04:25,921 - INFO - State checkpointed successfully.
+2024-08-20 02:05:33,622 - INFO - State checkpointed successfully.
+2024-08-20 02:06:37,187 - INFO - State checkpointed successfully.
+2024-08-20 02:07:44,540 - INFO - State checkpointed successfully.
+2024-08-20 02:08:49,070 - INFO - State checkpointed successfully.
+2024-08-20 02:09:54,107 - INFO - State checkpointed successfully.
+2024-08-20 02:10:59,743 - INFO - State checkpointed successfully.
+2024-08-20 02:12:04,606 - INFO - State checkpointed successfully.
+2024-08-20 02:13:10,494 - INFO - State checkpointed successfully.
+2024-08-20 02:14:16,288 - INFO - State checkpointed successfully.
+2024-08-20 02:15:23,955 - INFO - State checkpointed successfully.
+2024-08-20 02:16:30,603 - INFO - State checkpointed successfully.
+2024-08-20 02:17:13,984 - INFO - Processing order with ID: 1756173820496216832, Status: Filled
+2024-08-20 02:17:13,984 - INFO - Order filled - ID: 1756173820496216832, Side: Buy, Price: 2593.7999999999997, Qty: 0.03
+2024-08-20 02:17:14,591 - INFO - Placed sell order at 2603.8, Order ID: 1756200669108536064
+2024-08-20 02:17:14,695 - INFO - Placed corresponding sell order with ID: 1756200669108536064
+2024-08-20 02:17:15,112 - INFO - Logged filled sell order to database
+2024-08-20 02:17:15,113 - INFO - Processing order with ID: 1756200669108536064, Status: New
+2024-08-20 02:17:36,853 - INFO - State checkpointed successfully.
+2024-08-20 02:18:42,200 - INFO - State checkpointed successfully.
+2024-08-20 02:19:49,375 - INFO - State checkpointed successfully.
+2024-08-20 02:20:54,924 - INFO - State checkpointed successfully.
+2024-08-20 02:22:03,881 - INFO - State checkpointed successfully.
+2024-08-20 02:23:09,128 - INFO - State checkpointed successfully.
+2024-08-20 02:24:23,163 - INFO - State checkpointed successfully.
+2024-08-20 02:25:27,475 - INFO - State checkpointed successfully.
+2024-08-20 02:26:33,104 - INFO - State checkpointed successfully.
+2024-08-20 02:27:37,539 - INFO - State checkpointed successfully.
+2024-08-20 02:28:44,195 - INFO - State checkpointed successfully.
+2024-08-20 02:29:50,698 - INFO - State checkpointed successfully.
+2024-08-20 02:30:55,833 - INFO - State checkpointed successfully.
+2024-08-20 02:32:01,607 - INFO - State checkpointed successfully.
+2024-08-20 02:32:41,965 - INFO - Processing order with ID: 1756200669108536064, Status: Filled
+2024-08-20 02:32:41,965 - INFO - Order filled - ID: 1756200669108536064, Side: Sell, Price: 2603.8, Qty: 0.03
+2024-08-20 02:32:42,175 - INFO - Processed filled sell order - Pair Profit: 0.14407200000000842
+2024-08-20 02:32:42,685 - INFO - Logged filled sell order to database
+2024-08-20 02:32:44,261 - INFO - marked sell order 830015b0-a0bb-4da9-a16c-43e3c2abdd36
+2024-08-20 02:32:46,154 - INFO - Placed buy order at 2593.8, Order ID: 1756208487559627520
+2024-08-20 02:32:46,157 - INFO - Processing order with ID: 1756208487559627520, Status: New
+2024-08-20 02:33:07,390 - INFO - State checkpointed successfully.
+2024-08-20 02:34:14,132 - INFO - State checkpointed successfully.
+2024-08-20 02:35:19,153 - INFO - State checkpointed successfully.
+2024-08-20 02:36:24,380 - INFO - State checkpointed successfully.
+2024-08-20 02:37:30,470 - INFO - State checkpointed successfully.
+2024-08-20 02:38:46,885 - INFO - State checkpointed successfully.
+2024-08-20 02:39:52,641 - INFO - State checkpointed successfully.
+2024-08-20 02:41:00,137 - INFO - State checkpointed successfully.
+2024-08-20 02:42:06,651 - INFO - State checkpointed successfully.
+2024-08-20 02:42:48,053 - INFO - Processing order with ID: 1756187448955929345, Status: Filled
+2024-08-20 02:42:48,054 - INFO - Order filled - ID: 1756187448955929345, Side: Sell, Price: 2613.8, Qty: 0.03
+2024-08-20 02:42:48,159 - INFO - Flushed pending updates to CSV.
+2024-08-20 02:42:48,451 - INFO - Processed filled sell order - Pair Profit: 0.1434720000000027
+2024-08-20 02:42:50,195 - INFO - Logged filled sell order to database
+2024-08-20 02:42:52,657 - INFO - marked sell order d59888a3-c71b-44b4-82df-a2daf92c284c
+2024-08-20 02:43:13,637 - INFO - Placed buy order at 2603.8, Order ID: 1756213751276929792
+2024-08-20 02:43:13,638 - INFO - State checkpointed successfully.
+2024-08-20 02:43:13,640 - INFO - Processing order with ID: 1756213751276929792, Status: New
+2024-08-20 02:44:17,703 - INFO - State checkpointed successfully.
+2024-08-20 02:45:24,434 - INFO - State checkpointed successfully.
+2024-08-20 02:46:29,211 - INFO - State checkpointed successfully.
+2024-08-20 02:47:32,757 - INFO - State checkpointed successfully.
+2024-08-20 02:48:39,002 - INFO - State checkpointed successfully.
+2024-08-20 02:49:43,800 - INFO - State checkpointed successfully.
+2024-08-20 02:50:48,112 - INFO - State checkpointed successfully.
+2024-08-20 02:51:54,372 - INFO - State checkpointed successfully.
+2024-08-20 02:52:59,455 - INFO - State checkpointed successfully.
+2024-08-20 02:54:03,362 - INFO - State checkpointed successfully.
+2024-08-20 02:55:08,247 - INFO - State checkpointed successfully.
+2024-08-20 02:56:12,922 - INFO - State checkpointed successfully.
+2024-08-20 02:57:19,990 - INFO - State checkpointed successfully.
+2024-08-20 02:58:27,589 - INFO - State checkpointed successfully.
+2024-08-20 02:59:32,271 - INFO - State checkpointed successfully.
+2024-08-20 03:00:39,052 - INFO - State checkpointed successfully.
+2024-08-20 03:01:46,609 - INFO - State checkpointed successfully.
+2024-08-20 03:02:52,561 - INFO - State checkpointed successfully.
+2024-08-20 03:03:58,821 - INFO - State checkpointed successfully.
+2024-08-20 03:04:44,868 - INFO - Processing order with ID: 1756213751276929792, Status: PartiallyFilled
+2024-08-20 03:04:44,876 - INFO - Processing order with ID: 1756213751276929792, Status: Filled
+2024-08-20 03:04:44,876 - INFO - Order filled - ID: 1756213751276929792, Side: Buy, Price: 2603.8, Qty: 0.03
+2024-08-20 03:04:45,594 - INFO - Placed sell order at 2613.8, Order ID: 1756224583897481984
+2024-08-20 03:04:45,700 - INFO - Placed corresponding sell order with ID: 1756224583897481984
+2024-08-20 03:04:46,219 - INFO - Logged filled sell order to database
+2024-08-20 03:04:46,220 - INFO - Processing order with ID: 1756224583897481984, Status: New
+2024-08-20 03:05:03,455 - INFO - State checkpointed successfully.
+2024-08-20 03:06:10,710 - INFO - State checkpointed successfully.
+2024-08-20 03:07:16,049 - INFO - State checkpointed successfully.
+2024-08-20 03:08:23,750 - INFO - State checkpointed successfully.
+2024-08-20 03:09:32,226 - INFO - State checkpointed successfully.
+2024-08-20 03:10:42,131 - INFO - State checkpointed successfully.
+2024-08-20 03:11:46,952 - INFO - State checkpointed successfully.
+2024-08-20 03:12:50,500 - INFO - State checkpointed successfully.
+2024-08-20 03:13:59,997 - INFO - State checkpointed successfully.
+2024-08-20 03:15:06,243 - INFO - State checkpointed successfully.
+2024-08-20 03:16:09,932 - INFO - State checkpointed successfully.
+2024-08-20 03:17:14,469 - INFO - State checkpointed successfully.
+2024-08-20 03:18:18,834 - INFO - State checkpointed successfully.
+2024-08-20 03:19:23,274 - INFO - State checkpointed successfully.
+2024-08-20 03:20:28,460 - INFO - State checkpointed successfully.
+2024-08-20 03:21:33,721 - INFO - State checkpointed successfully.
+2024-08-20 03:22:37,019 - INFO - State checkpointed successfully.
+2024-08-20 03:23:42,662 - INFO - State checkpointed successfully.
+2024-08-20 03:24:46,678 - INFO - State checkpointed successfully.
+2024-08-20 03:25:52,008 - INFO - State checkpointed successfully.
+2024-08-20 03:27:03,908 - INFO - State checkpointed successfully.
+2024-08-20 03:28:07,191 - INFO - State checkpointed successfully.
+2024-08-20 03:29:10,161 - INFO - State checkpointed successfully.
+2024-08-20 03:30:14,446 - INFO - State checkpointed successfully.
+2024-08-20 03:31:19,684 - INFO - State checkpointed successfully.
+2024-08-20 03:32:28,629 - INFO - State checkpointed successfully.
+2024-08-20 03:33:34,646 - INFO - State checkpointed successfully.
+2024-08-20 03:34:39,230 - INFO - State checkpointed successfully.
+2024-08-20 03:35:45,190 - INFO - State checkpointed successfully.
+2024-08-20 03:36:51,786 - INFO - State checkpointed successfully.
+2024-08-20 03:37:58,006 - INFO - State checkpointed successfully.
+2024-08-20 03:39:03,349 - INFO - State checkpointed successfully.
+2024-08-20 03:40:09,050 - INFO - State checkpointed successfully.
+2024-08-20 03:41:14,224 - INFO - State checkpointed successfully.
+2024-08-20 03:42:19,673 - INFO - State checkpointed successfully.
+2024-08-20 03:43:24,340 - INFO - State checkpointed successfully.
+2024-08-20 03:44:29,896 - INFO - State checkpointed successfully.
+2024-08-20 03:45:35,104 - INFO - State checkpointed successfully.
+2024-08-20 03:46:43,412 - INFO - State checkpointed successfully.
+2024-08-20 03:47:47,355 - INFO - State checkpointed successfully.
+2024-08-20 03:48:56,564 - INFO - State checkpointed successfully.
+2024-08-20 03:50:03,373 - INFO - State checkpointed successfully.
+2024-08-20 03:51:10,021 - INFO - State checkpointed successfully.
+2024-08-20 03:52:13,106 - INFO - State checkpointed successfully.
+2024-08-20 03:53:21,969 - INFO - State checkpointed successfully.
+2024-08-20 03:54:26,562 - INFO - State checkpointed successfully.
+2024-08-20 03:55:31,484 - INFO - State checkpointed successfully.
+2024-08-20 03:56:35,891 - INFO - State checkpointed successfully.
+2024-08-20 03:57:40,282 - INFO - State checkpointed successfully.
+2024-08-20 03:58:44,929 - INFO - State checkpointed successfully.
+2024-08-20 03:59:50,724 - INFO - State checkpointed successfully.
+2024-08-20 04:00:58,473 - INFO - State checkpointed successfully.
+2024-08-20 04:02:07,809 - INFO - State checkpointed successfully.
+2024-08-20 04:03:22,337 - INFO - State checkpointed successfully.
+2024-08-20 04:04:27,511 - INFO - State checkpointed successfully.
+2024-08-20 04:05:32,121 - INFO - State checkpointed successfully.
+2024-08-20 04:06:38,268 - INFO - State checkpointed successfully.
+2024-08-20 04:07:41,418 - INFO - State checkpointed successfully.
+2024-08-20 04:08:49,494 - INFO - State checkpointed successfully.
+2024-08-20 04:09:54,242 - INFO - State checkpointed successfully.
+2024-08-20 04:11:02,033 - INFO - State checkpointed successfully.
+2024-08-20 04:12:06,010 - INFO - State checkpointed successfully.
+2024-08-20 04:13:12,157 - INFO - State checkpointed successfully.
+2024-08-20 04:14:19,949 - INFO - State checkpointed successfully.
+2024-08-20 04:15:24,500 - INFO - State checkpointed successfully.
+2024-08-20 04:16:29,428 - INFO - State checkpointed successfully.
+2024-08-20 04:17:36,473 - INFO - State checkpointed successfully.
+2024-08-20 04:18:43,187 - INFO - State checkpointed successfully.
+2024-08-20 04:19:49,698 - INFO - State checkpointed successfully.
+2024-08-20 04:20:53,494 - INFO - State checkpointed successfully.
+2024-08-20 04:21:57,694 - INFO - State checkpointed successfully.
+2024-08-20 04:23:05,704 - INFO - State checkpointed successfully.
+2024-08-20 04:24:10,955 - INFO - State checkpointed successfully.
+2024-08-20 04:24:28,020 - INFO - Processing order with ID: 1756224583897481984, Status: Filled
+2024-08-20 04:24:28,020 - INFO - Order filled - ID: 1756224583897481984, Side: Sell, Price: 2613.8, Qty: 0.03
+2024-08-20 04:24:28,229 - INFO - Processed filled sell order - Pair Profit: 0.17763385599999992
+2024-08-20 04:24:28,762 - INFO - Logged filled sell order to database
+2024-08-20 04:24:29,496 - INFO - marked sell order 3018c3dc-4923-464c-b793-2cd928432813
+2024-08-20 04:24:41,175 - INFO - Placed buy order at 2603.8, Order ID: 1756264817246896896
+2024-08-20 04:24:41,178 - INFO - Processing order with ID: 1756264817246896896, Status: New
+2024-08-20 04:25:18,718 - INFO - State checkpointed successfully.
+2024-08-20 04:26:25,195 - INFO - State checkpointed successfully.
+2024-08-20 04:27:29,529 - INFO - State checkpointed successfully.
+2024-08-20 04:28:33,631 - INFO - State checkpointed successfully.
+2024-08-20 04:29:37,421 - INFO - State checkpointed successfully.
+2024-08-20 04:30:43,714 - INFO - State checkpointed successfully.
+2024-08-20 04:32:11,936 - INFO - State checkpointed successfully.
+2024-08-20 04:33:17,397 - INFO - State checkpointed successfully.
+2024-08-20 04:34:27,177 - INFO - State checkpointed successfully.
+2024-08-20 04:35:30,619 - INFO - State checkpointed successfully.
+2024-08-20 04:36:37,619 - INFO - State checkpointed successfully.
+2024-08-20 04:37:42,652 - INFO - State checkpointed successfully.
+2024-08-20 04:38:46,987 - INFO - State checkpointed successfully.
+2024-08-20 04:39:53,543 - INFO - State checkpointed successfully.
+2024-08-20 04:41:01,600 - INFO - State checkpointed successfully.
+2024-08-20 04:42:08,673 - INFO - State checkpointed successfully.
+2024-08-20 04:43:16,512 - INFO - State checkpointed successfully.
+2024-08-20 04:44:33,228 - INFO - State checkpointed successfully.
+2024-08-20 04:46:14,444 - INFO - State checkpointed successfully.
+2024-08-20 04:47:19,392 - INFO - State checkpointed successfully.
+2024-08-20 04:47:55,148 - INFO - Processing order with ID: 1756182867207291648, Status: Filled
+2024-08-20 04:47:55,149 - INFO - Order filled - ID: 1756182867207291648, Side: Sell, Price: 2623.8, Qty: 0.03
+2024-08-20 04:47:55,360 - INFO - Processed filled sell order - Pair Profit: 0.142871999999997
+2024-08-20 04:47:56,502 - INFO - Logged filled sell order to database
+2024-08-20 04:47:57,880 - INFO - marked sell order 93b29003-0f3a-40d8-a3cb-081e99453289
+2024-08-20 04:48:13,582 - INFO - Placed buy order at 2613.8, Order ID: 1756276665375556352
+2024-08-20 04:48:13,585 - INFO - Processing order with ID: 1756276665375556352, Status: New
+2024-08-20 04:48:24,062 - INFO - State checkpointed successfully.
+2024-08-20 04:49:30,727 - INFO - State checkpointed successfully.
+2024-08-20 04:50:36,596 - INFO - State checkpointed successfully.
+2024-08-20 04:51:44,036 - INFO - State checkpointed successfully.
+2024-08-20 04:52:51,213 - INFO - State checkpointed successfully.
+2024-08-20 04:53:55,332 - INFO - State checkpointed successfully.
+2024-08-20 04:55:06,507 - INFO - State checkpointed successfully.
+2024-08-20 04:56:10,957 - INFO - State checkpointed successfully.
+2024-08-20 04:57:17,130 - INFO - State checkpointed successfully.
+2024-08-20 04:58:21,588 - INFO - State checkpointed successfully.
+2024-08-20 04:59:25,734 - INFO - State checkpointed successfully.
+2024-08-20 05:00:29,967 - INFO - State checkpointed successfully.
+2024-08-20 05:01:34,724 - INFO - Processing order with ID: 1756276665375556352, Status: PartiallyFilled
+2024-08-20 05:01:34,923 - INFO - Processing order with ID: 1756276665375556352, Status: Filled
+2024-08-20 05:01:34,923 - INFO - Order filled - ID: 1756276665375556352, Side: Buy, Price: 2613.8, Qty: 0.03
+2024-08-20 05:01:35,697 - INFO - Placed sell order at 2623.8, Order ID: 1756283389994107648
+2024-08-20 05:01:35,805 - INFO - Placed corresponding sell order with ID: 1756283389994107648
+2024-08-20 05:01:36,187 - INFO - Logged filled sell order to database
+2024-08-20 05:01:36,188 - INFO - Processing order with ID: 1756283389994107648, Status: New
+2024-08-20 05:01:38,164 - INFO - State checkpointed successfully.
+2024-08-20 05:02:46,019 - INFO - State checkpointed successfully.
+2024-08-20 05:03:52,835 - INFO - State checkpointed successfully.
+2024-08-20 05:04:57,196 - INFO - State checkpointed successfully.
+2024-08-20 05:06:02,775 - INFO - State checkpointed successfully.
+2024-08-20 05:07:08,198 - INFO - State checkpointed successfully.
+2024-08-20 05:08:12,134 - INFO - State checkpointed successfully.
+2024-08-20 05:09:15,904 - INFO - State checkpointed successfully.
+2024-08-20 05:10:23,760 - INFO - State checkpointed successfully.
+2024-08-20 05:11:29,831 - INFO - State checkpointed successfully.
+2024-08-20 05:12:35,633 - INFO - State checkpointed successfully.
+2024-08-20 05:13:41,397 - INFO - State checkpointed successfully.
+2024-08-20 05:14:50,101 - INFO - State checkpointed successfully.
+2024-08-20 05:15:55,810 - INFO - State checkpointed successfully.
+2024-08-20 05:16:59,841 - INFO - State checkpointed successfully.
+2024-08-20 05:18:05,582 - INFO - State checkpointed successfully.
+2024-08-20 05:19:10,319 - INFO - State checkpointed successfully.
+2024-08-20 05:20:16,839 - INFO - State checkpointed successfully.
+2024-08-20 05:21:21,854 - INFO - State checkpointed successfully.
+2024-08-20 05:22:35,523 - INFO - State checkpointed successfully.
+2024-08-20 05:23:49,546 - INFO - State checkpointed successfully.
+2024-08-20 05:24:53,428 - INFO - State checkpointed successfully.
+2024-08-20 05:26:04,526 - INFO - State checkpointed successfully.
+2024-08-20 05:27:12,051 - INFO - State checkpointed successfully.
+2024-08-20 05:28:21,147 - INFO - State checkpointed successfully.
+2024-08-20 05:29:27,858 - INFO - State checkpointed successfully.
+2024-08-20 05:30:34,257 - INFO - State checkpointed successfully.
+2024-08-20 05:31:44,378 - INFO - State checkpointed successfully.
+2024-08-20 05:32:53,106 - INFO - State checkpointed successfully.
+2024-08-20 05:33:59,247 - INFO - State checkpointed successfully.
+2024-08-20 05:35:06,145 - INFO - State checkpointed successfully.
+2024-08-20 05:36:13,256 - INFO - State checkpointed successfully.
+2024-08-20 05:37:20,164 - INFO - State checkpointed successfully.
+2024-08-20 05:38:25,093 - INFO - State checkpointed successfully.
+2024-08-20 05:39:29,825 - INFO - State checkpointed successfully.
+2024-08-20 05:40:34,962 - INFO - State checkpointed successfully.
+2024-08-20 05:40:54,121 - INFO - Processing order with ID: 1756283389994107648, Status: Filled
+2024-08-20 05:40:54,121 - INFO - Order filled - ID: 1756283389994107648, Side: Sell, Price: 2623.8, Qty: 0.03
+2024-08-20 05:40:54,331 - INFO - Processed filled sell order - Pair Profit: 0.19930394199998602
+2024-08-20 05:40:54,932 - INFO - Logged filled sell order to database
+2024-08-20 05:40:56,705 - INFO - marked sell order b6cada87-64e1-45fc-9ced-a36368d9b78b
+2024-08-20 05:41:13,002 - INFO - Placed buy order at 2613.8, Order ID: 1756303336283603712
+2024-08-20 05:41:13,005 - INFO - Processing order with ID: 1756303336283603712, Status: New
+2024-08-20 05:41:42,251 - INFO - State checkpointed successfully.
+2024-08-20 05:42:56,078 - INFO - State checkpointed successfully.
+2024-08-20 05:44:00,730 - INFO - State checkpointed successfully.
+2024-08-20 05:45:04,545 - INFO - State checkpointed successfully.
+2024-08-20 05:46:12,366 - INFO - State checkpointed successfully.
+2024-08-20 05:47:17,542 - INFO - State checkpointed successfully.
+2024-08-20 05:48:24,137 - INFO - State checkpointed successfully.
+2024-08-20 05:49:30,066 - INFO - State checkpointed successfully.
+2024-08-20 05:50:36,741 - INFO - State checkpointed successfully.
+2024-08-20 05:51:41,981 - INFO - State checkpointed successfully.
+2024-08-20 05:52:48,591 - INFO - State checkpointed successfully.
+2024-08-20 05:53:56,213 - INFO - State checkpointed successfully.
+2024-08-20 05:55:02,247 - INFO - State checkpointed successfully.
+2024-08-20 05:56:12,394 - INFO - State checkpointed successfully.
+2024-08-20 05:57:18,592 - INFO - State checkpointed successfully.
+2024-08-20 05:58:25,056 - INFO - State checkpointed successfully.
+2024-08-20 05:59:31,843 - INFO - State checkpointed successfully.
+2024-08-20 06:00:43,931 - INFO - State checkpointed successfully.
+2024-08-20 06:01:56,856 - INFO - State checkpointed successfully.
+2024-08-20 06:03:04,394 - INFO - State checkpointed successfully.
+2024-08-20 06:04:09,962 - INFO - State checkpointed successfully.
+2024-08-20 06:05:13,945 - INFO - State checkpointed successfully.
+2024-08-20 06:06:20,488 - INFO - State checkpointed successfully.
+2024-08-20 06:07:27,548 - INFO - State checkpointed successfully.
+2024-08-20 06:08:33,167 - INFO - State checkpointed successfully.
+2024-08-20 06:09:39,153 - INFO - State checkpointed successfully.
+2024-08-20 06:10:46,228 - INFO - State checkpointed successfully.
+2024-08-20 06:11:50,587 - INFO - State checkpointed successfully.
+2024-08-20 06:12:55,544 - INFO - State checkpointed successfully.
+2024-08-20 06:13:59,617 - INFO - State checkpointed successfully.
+2024-08-20 06:15:04,013 - INFO - State checkpointed successfully.
+2024-08-20 06:16:10,981 - INFO - State checkpointed successfully.
+2024-08-20 06:17:17,833 - INFO - State checkpointed successfully.
+2024-08-20 06:18:21,046 - INFO - State checkpointed successfully.
+2024-08-20 06:19:28,066 - INFO - State checkpointed successfully.
+2024-08-20 06:20:33,940 - INFO - State checkpointed successfully.
+2024-08-20 06:21:38,547 - INFO - State checkpointed successfully.
+2024-08-20 06:22:45,286 - INFO - State checkpointed successfully.
+2024-08-20 06:23:49,005 - INFO - State checkpointed successfully.
+2024-08-20 06:24:56,311 - INFO - State checkpointed successfully.
+2024-08-20 06:26:00,710 - INFO - State checkpointed successfully.
+2024-08-20 06:27:04,526 - INFO - State checkpointed successfully.
+2024-08-20 06:28:09,108 - INFO - State checkpointed successfully.
+2024-08-20 06:29:14,755 - INFO - State checkpointed successfully.
+2024-08-20 06:30:20,862 - INFO - State checkpointed successfully.
+2024-08-20 06:31:26,617 - INFO - State checkpointed successfully.
+2024-08-20 06:32:31,791 - INFO - State checkpointed successfully.
+2024-08-20 06:33:40,255 - INFO - State checkpointed successfully.
+2024-08-20 06:34:49,973 - INFO - State checkpointed successfully.
+2024-08-20 06:35:53,751 - INFO - State checkpointed successfully.
+2024-08-20 06:36:59,844 - INFO - State checkpointed successfully.
+2024-08-20 06:38:04,959 - INFO - State checkpointed successfully.
+2024-08-20 06:39:10,915 - INFO - State checkpointed successfully.
+2024-08-20 06:40:14,859 - INFO - State checkpointed successfully.
+2024-08-20 06:41:21,523 - INFO - State checkpointed successfully.
+2024-08-20 06:42:34,921 - INFO - State checkpointed successfully.
+2024-08-20 06:43:41,015 - INFO - State checkpointed successfully.
+2024-08-20 06:44:45,097 - INFO - State checkpointed successfully.
+2024-08-20 06:45:51,241 - INFO - State checkpointed successfully.
+2024-08-20 06:46:57,467 - INFO - State checkpointed successfully.
+2024-08-20 06:48:02,557 - INFO - State checkpointed successfully.
+2024-08-20 06:49:08,544 - INFO - State checkpointed successfully.
+2024-08-20 06:50:14,524 - INFO - State checkpointed successfully.
+2024-08-20 06:51:19,846 - INFO - State checkpointed successfully.
+2024-08-20 06:52:24,597 - INFO - State checkpointed successfully.
+2024-08-20 06:53:28,990 - INFO - State checkpointed successfully.
+2024-08-20 06:54:35,809 - INFO - State checkpointed successfully.
+2024-08-20 06:55:47,351 - INFO - State checkpointed successfully.
+2024-08-20 06:56:53,972 - INFO - State checkpointed successfully.
+2024-08-20 06:58:00,264 - INFO - State checkpointed successfully.
+2024-08-20 06:59:07,019 - INFO - State checkpointed successfully.
+2024-08-20 07:00:11,679 - INFO - State checkpointed successfully.
+2024-08-20 07:01:15,958 - INFO - State checkpointed successfully.
+2024-08-20 07:02:21,721 - INFO - State checkpointed successfully.
+2024-08-20 07:03:26,234 - INFO - State checkpointed successfully.
+2024-08-20 07:04:35,516 - INFO - State checkpointed successfully.
+2024-08-20 07:05:41,318 - INFO - State checkpointed successfully.
+2024-08-20 07:06:50,066 - INFO - State checkpointed successfully.
+2024-08-20 07:07:57,824 - INFO - State checkpointed successfully.
+2024-08-20 07:09:03,998 - INFO - State checkpointed successfully.
+2024-08-20 07:10:07,683 - INFO - State checkpointed successfully.
+2024-08-20 07:11:13,917 - INFO - State checkpointed successfully.
+2024-08-20 07:12:17,194 - INFO - State checkpointed successfully.
+2024-08-20 07:13:23,903 - INFO - State checkpointed successfully.
+2024-08-20 07:14:29,303 - INFO - State checkpointed successfully.
+2024-08-20 07:15:33,696 - INFO - State checkpointed successfully.
+2024-08-20 07:16:41,966 - INFO - State checkpointed successfully.
+2024-08-20 07:17:47,814 - INFO - State checkpointed successfully.
+2024-08-20 07:18:56,673 - INFO - State checkpointed successfully.
+2024-08-20 07:20:01,654 - INFO - State checkpointed successfully.
+2024-08-20 07:21:08,162 - INFO - State checkpointed successfully.
+2024-08-20 07:22:15,283 - INFO - State checkpointed successfully.
+2024-08-20 07:23:19,585 - INFO - State checkpointed successfully.
+2024-08-20 07:24:23,696 - INFO - State checkpointed successfully.
+2024-08-20 07:25:29,406 - INFO - State checkpointed successfully.
+2024-08-20 07:26:36,584 - INFO - State checkpointed successfully.
+2024-08-20 07:27:36,571 - INFO - Processing order with ID: 1756179639849747200, Status: Filled
+2024-08-20 07:27:36,572 - INFO - Order filled - ID: 1756179639849747200, Side: Sell, Price: 2633.8, Qty: 0.03
+2024-08-20 07:27:36,784 - INFO - Processed filled sell order - Pair Profit: 0.1422719999999913
+2024-08-20 07:27:37,879 - INFO - Logged filled sell order to database
+2024-08-20 07:27:39,307 - INFO - marked sell order fffef828-af9f-81d5-812e-c8e276cb99cf
+2024-08-20 07:27:40,396 - INFO - Placed buy order at 2633.8, Order ID: 1756356917619622656
+2024-08-20 07:27:40,397 - INFO - State checkpointed successfully.
+2024-08-20 07:27:40,400 - INFO - Processing order with ID: 1756356917619622656, Status: New
+2024-08-20 07:28:15,283 - INFO - Processing order with ID: 1756356917619622656, Status: Filled
+2024-08-20 07:28:15,283 - INFO - Order filled - ID: 1756356917619622656, Side: Buy, Price: 2633.8, Qty: 0.03
+2024-08-20 07:28:15,844 - INFO - Placed sell order at 2643.8, Order ID: 1756357211195736832
+2024-08-20 07:28:16,135 - INFO - Placed corresponding sell order with ID: 1756357211195736832
+2024-08-20 07:28:16,985 - INFO - Logged filled sell order to database
+2024-08-20 07:28:16,986 - INFO - Processing order with ID: 1756357211195736832, Status: New
+2024-08-20 07:28:18,411 - INFO - Placed buy order at 2623.8, Order ID: 1756357236512555776
+2024-08-20 07:28:18,415 - INFO - Processing order with ID: 1756357236512555776, Status: New
+2024-08-20 07:28:44,825 - INFO - State checkpointed successfully.
+2024-08-20 07:29:55,040 - INFO - State checkpointed successfully.
+2024-08-20 07:31:08,956 - INFO - State checkpointed successfully.
+2024-08-20 07:32:14,361 - INFO - State checkpointed successfully.
+2024-08-20 07:33:18,894 - INFO - State checkpointed successfully.
+2024-08-20 07:34:26,128 - INFO - State checkpointed successfully.
+2024-08-20 07:35:38,933 - INFO - State checkpointed successfully.
+2024-08-20 07:36:43,240 - INFO - State checkpointed successfully.
+2024-08-20 07:37:49,083 - INFO - State checkpointed successfully.
+2024-08-20 07:38:53,798 - INFO - State checkpointed successfully.
+2024-08-20 07:39:59,803 - INFO - State checkpointed successfully.
+2024-08-20 07:41:04,795 - INFO - State checkpointed successfully.
+2024-08-20 07:42:09,781 - INFO - State checkpointed successfully.
+2024-08-20 07:43:19,633 - INFO - State checkpointed successfully.
+2024-08-20 07:44:24,807 - INFO - State checkpointed successfully.
+2024-08-20 07:45:29,708 - INFO - State checkpointed successfully.
+2024-08-20 07:46:34,375 - INFO - State checkpointed successfully.
+2024-08-20 07:47:39,062 - INFO - State checkpointed successfully.
+2024-08-20 07:48:45,517 - INFO - State checkpointed successfully.
+2024-08-20 07:49:50,339 - INFO - State checkpointed successfully.
+2024-08-20 07:50:59,372 - INFO - State checkpointed successfully.
+2024-08-20 07:52:03,823 - INFO - State checkpointed successfully.
+2024-08-20 07:53:08,913 - INFO - State checkpointed successfully.
+2024-08-20 07:54:12,457 - INFO - State checkpointed successfully.
+2024-08-20 07:55:18,402 - INFO - State checkpointed successfully.
+2024-08-20 07:56:25,710 - INFO - State checkpointed successfully.
+2024-08-20 07:57:31,018 - INFO - State checkpointed successfully.
+2024-08-20 07:58:39,846 - INFO - State checkpointed successfully.
+2024-08-20 07:59:44,652 - INFO - State checkpointed successfully.
+2024-08-20 08:00:52,702 - INFO - State checkpointed successfully.
+2024-08-20 08:02:01,001 - INFO - State checkpointed successfully.
+2024-08-20 08:03:06,789 - INFO - State checkpointed successfully.
+2024-08-20 08:04:32,861 - INFO - State checkpointed successfully.
+2024-08-20 08:05:55,513 - INFO - State checkpointed successfully.
+2024-08-20 08:07:13,042 - INFO - State checkpointed successfully.
+2024-08-20 08:08:22,342 - INFO - State checkpointed successfully.
+2024-08-20 08:09:31,549 - INFO - State checkpointed successfully.
+2024-08-20 08:10:38,641 - INFO - State checkpointed successfully.
+2024-08-20 08:11:44,146 - INFO - State checkpointed successfully.
+2024-08-20 08:12:51,471 - INFO - State checkpointed successfully.
+2024-08-20 08:13:58,019 - INFO - State checkpointed successfully.
+2024-08-20 08:15:05,164 - INFO - State checkpointed successfully.
+2024-08-20 08:16:05,563 - INFO - Processing order with ID: 1756357236512555776, Status: Filled
+2024-08-20 08:16:05,563 - INFO - Order filled - ID: 1756357236512555776, Side: Buy, Price: 2623.8, Qty: 0.03
+2024-08-20 08:16:06,198 - INFO - Placed sell order at 2633.8, Order ID: 1756381288849507072
+2024-08-20 08:16:06,303 - INFO - Placed corresponding sell order with ID: 1756381288849507072
+2024-08-20 08:16:06,991 - INFO - Logged filled sell order to database
+2024-08-20 08:16:06,992 - INFO - Processing order with ID: 1756381288849507072, Status: New
+2024-08-20 08:16:09,635 - INFO - State checkpointed successfully.
+2024-08-20 08:17:13,468 - INFO - State checkpointed successfully.
+2024-08-20 08:18:19,759 - INFO - State checkpointed successfully.
+2024-08-20 08:19:25,666 - INFO - State checkpointed successfully.
+2024-08-20 08:20:47,190 - INFO - State checkpointed successfully.
+2024-08-20 08:21:51,404 - INFO - State checkpointed successfully.
+2024-08-20 08:22:56,873 - INFO - State checkpointed successfully.
+2024-08-20 08:24:01,694 - INFO - State checkpointed successfully.
+2024-08-20 08:24:23,126 - INFO - Processing order with ID: 1756381288849507072, Status: Filled
+2024-08-20 08:24:23,126 - INFO - Order filled - ID: 1756381288849507072, Side: Sell, Price: 2633.8, Qty: 0.03
+2024-08-20 08:24:23,231 - INFO - Flushed pending updates to CSV.
+2024-08-20 08:24:23,337 - INFO - Processed filled sell order - Pair Profit: 0.1422719999999913
+2024-08-20 08:24:23,925 - INFO - Logged filled sell order to database
+2024-08-20 08:24:25,546 - INFO - marked sell order 12940af4-8da8-40a6-a2be-4b5bd1add26a
+2024-08-20 08:24:28,453 - INFO - Placed buy order at 2623.8, Order ID: 1756385506473837312
+2024-08-20 08:24:28,456 - INFO - Processing order with ID: 1756385506473837312, Status: New
+2024-08-20 08:25:11,766 - INFO - State checkpointed successfully.
+2024-08-20 08:25:53,326 - INFO - Processing order with ID: 1756357211195736832, Status: Filled
+2024-08-20 08:25:53,326 - INFO - Order filled - ID: 1756357211195736832, Side: Sell, Price: 2643.7999999999997, Qty: 0.03
+2024-08-20 08:25:53,539 - INFO - Processed filled sell order - Pair Profit: 0.1416719999999998
+2024-08-20 08:25:54,247 - INFO - Logged filled sell order to database
+2024-08-20 08:25:57,279 - INFO - marked sell order d295c7be-1b9a-4238-a159-98a33c181600
+2024-08-20 08:26:01,557 - INFO - Placed buy order at 2633.8, Order ID: 1756386287495185152
+2024-08-20 08:26:01,562 - INFO - Processing order with ID: 1756386287495185152, Status: New
+2024-08-20 08:26:06,772 - INFO - Placed buy order at 2643.8, Order ID: 1756386331233387264
+2024-08-20 08:26:06,776 - INFO - Processing order with ID: 1756386331233387264, Status: New
+2024-08-20 08:26:07,205 - INFO - Processing order with ID: 1756386331233387264, Status: PartiallyFilled
+2024-08-20 08:26:07,215 - INFO - Processing order with ID: 1756386331233387264, Status: Filled
+2024-08-20 08:26:07,215 - INFO - Order filled - ID: 1756386331233387264, Side: Buy, Price: 2643.7999999999997, Qty: 0.03
+2024-08-20 08:26:10,953 - INFO - Placed sell order at 2653.8, Order ID: 1756386335880676096
+2024-08-20 08:26:11,058 - INFO - Placed corresponding sell order with ID: 1756386335880676096
+2024-08-20 08:26:11,478 - INFO - Logged filled sell order to database
+2024-08-20 08:26:11,478 - INFO - Processing order with ID: 1756386335880676096, Status: New
+2024-08-20 08:26:17,441 - INFO - State checkpointed successfully.
+2024-08-20 08:27:22,795 - INFO - State checkpointed successfully.
+2024-08-20 08:28:29,011 - INFO - State checkpointed successfully.
+2024-08-20 08:29:01,796 - INFO - Processing order with ID: 1756386335880676096, Status: PartiallyFilled
+2024-08-20 08:29:01,913 - INFO - Processing order with ID: 1756386335880676096, Status: Filled
+2024-08-20 08:29:01,913 - INFO - Order filled - ID: 1756386335880676096, Side: Sell, Price: 2653.8, Qty: 0.03
+2024-08-20 08:29:02,054 - INFO - Placed buy order at 2653.8, Order ID: 1756387801613763328
+2024-08-20 08:29:02,124 - INFO - Processed filled sell order - Pair Profit: 0.297638218000003
+2024-08-20 08:29:03,771 - INFO - Logged filled sell order to database
+2024-08-20 08:29:06,590 - INFO - marked sell order f2554410-265c-48c6-b400-d5d139e89ae5
+2024-08-20 08:29:06,591 - INFO - Processing order with ID: 1756387801613763328, Status: New
+2024-08-20 08:29:06,591 - INFO - Processing order with ID: 1756387801613763328, Status: Filled
+2024-08-20 08:29:06,592 - INFO - Order filled - ID: 1756387801613763328, Side: Buy, Price: 2653.8, Qty: 0.03
+2024-08-20 08:29:07,791 - INFO - Placed sell order at 2663.8, Order ID: 1756387840595624704
+2024-08-20 08:29:07,896 - INFO - Placed corresponding sell order with ID: 1756387840595624704
+2024-08-20 08:29:08,425 - INFO - Logged filled sell order to database
+2024-08-20 08:29:08,426 - INFO - Processing order with ID: 1756387840595624704, Status: New
+2024-08-20 08:29:08,847 - INFO - Placed buy order at 2643.8, Order ID: 1756387858589188864
+2024-08-20 08:29:08,851 - INFO - Processing order with ID: 1756387858589188864, Status: New
+2024-08-20 08:29:35,290 - INFO - State checkpointed successfully.
+2024-08-20 08:30:38,579 - INFO - State checkpointed successfully.
+2024-08-20 08:31:45,876 - INFO - State checkpointed successfully.
+2024-08-20 08:32:02,302 - INFO - Processing order with ID: 1756387840595624704, Status: Filled
+2024-08-20 08:32:02,303 - INFO - Order filled - ID: 1756387840595624704, Side: Sell, Price: 2663.8, Qty: 0.03
+2024-08-20 08:32:02,699 - INFO - Processed filled sell order - Pair Profit: 0.14047199999998838
+2024-08-20 08:32:03,260 - INFO - Logged filled sell order to database
+2024-08-20 08:32:05,359 - INFO - marked sell order 5cb4f8cb-7ae6-4d16-852f-b35ee865c675
+2024-08-20 08:32:07,217 - INFO - Placed buy order at 2663.8, Order ID: 1756389354865197824
+2024-08-20 08:32:07,219 - INFO - Processing order with ID: 1756389354865197824, Status: New
+2024-08-20 08:32:08,392 - INFO - Processing order with ID: 1756389354865197824, Status: Filled
+2024-08-20 08:32:08,392 - INFO - Order filled - ID: 1756389354865197824, Side: Buy, Price: 2663.8, Qty: 0.03
+2024-08-20 08:32:09,562 - INFO - Placed sell order at 2673.8, Order ID: 1756389367255171840
+2024-08-20 08:32:09,668 - INFO - Placed corresponding sell order with ID: 1756389367255171840
+2024-08-20 08:32:10,411 - INFO - Logged filled sell order to database
+2024-08-20 08:32:10,411 - INFO - Processing order with ID: 1756389367255171840, Status: New
+2024-08-20 08:32:18,066 - INFO - Placed buy order at 2653.8, Order ID: 1756389445881594624
+2024-08-20 08:32:18,070 - INFO - Processing order with ID: 1756389445881594624, Status: New
+2024-08-20 08:32:49,838 - INFO - State checkpointed successfully.
+2024-08-20 08:33:54,338 - INFO - State checkpointed successfully.
+2024-08-20 08:35:00,068 - INFO - State checkpointed successfully.
+2024-08-20 08:36:04,547 - INFO - State checkpointed successfully.
+2024-08-20 08:37:09,625 - INFO - State checkpointed successfully.
+2024-08-20 08:38:15,330 - INFO - State checkpointed successfully.
+2024-08-20 08:39:20,034 - INFO - State checkpointed successfully.
+2024-08-20 08:40:30,718 - INFO - State checkpointed successfully.
+2024-08-20 08:41:43,639 - INFO - State checkpointed successfully.
+2024-08-20 08:42:46,891 - INFO - State checkpointed successfully.
+2024-08-20 08:43:50,688 - INFO - State checkpointed successfully.
+2024-08-20 08:44:18,239 - INFO - Processing order with ID: 1756389445881594624, Status: Filled
+2024-08-20 08:44:18,239 - INFO - Order filled - ID: 1756389445881594624, Side: Buy, Price: 2653.8, Qty: 0.03
+2024-08-20 08:44:20,297 - INFO - Placed sell order at 2663.8, Order ID: 1756395488053330688
+2024-08-20 08:44:20,402 - INFO - Placed corresponding sell order with ID: 1756395488053330688
+2024-08-20 08:44:23,118 - INFO - Logged filled sell order to database
+2024-08-20 08:44:23,119 - INFO - Processing order with ID: 1756395488053330688, Status: New
+2024-08-20 08:44:56,089 - INFO - State checkpointed successfully.
+2024-08-20 08:46:02,455 - INFO - State checkpointed successfully.
+2024-08-20 08:47:07,810 - INFO - State checkpointed successfully.
+2024-08-20 08:48:14,929 - INFO - State checkpointed successfully.
+2024-08-20 08:49:21,546 - INFO - State checkpointed successfully.
+2024-08-20 08:50:28,111 - INFO - State checkpointed successfully.
+2024-08-20 08:51:36,560 - INFO - State checkpointed successfully.
+2024-08-20 08:52:43,172 - INFO - State checkpointed successfully.
+2024-08-20 08:53:52,964 - INFO - State checkpointed successfully.
+2024-08-20 08:55:00,395 - INFO - State checkpointed successfully.
+2024-08-20 08:56:08,787 - INFO - State checkpointed successfully.
+2024-08-20 08:57:12,399 - INFO - State checkpointed successfully.
+2024-08-20 08:58:16,990 - INFO - State checkpointed successfully.
+2024-08-20 08:59:20,615 - INFO - State checkpointed successfully.
+2024-08-20 09:00:27,045 - INFO - State checkpointed successfully.
+2024-08-20 09:01:34,150 - INFO - State checkpointed successfully.
+2024-08-20 09:01:58,643 - INFO - Processing order with ID: 1756395488053330688, Status: Filled
+2024-08-20 09:01:58,643 - INFO - Order filled - ID: 1756395488053330688, Side: Sell, Price: 2663.8, Qty: 0.03
+2024-08-20 09:01:58,864 - INFO - Processed filled sell order - Pair Profit: 0.14047199999998838
+2024-08-20 09:01:59,532 - INFO - Logged filled sell order to database
+2024-08-20 09:02:00,896 - INFO - marked sell order 713fe4af-70d8-4bee-987e-a72238bb5829
+2024-08-20 09:02:39,654 - INFO - State checkpointed successfully.
+2024-08-20 09:03:45,849 - INFO - State checkpointed successfully.
+2024-08-20 09:04:04,999 - INFO - Processing order with ID: 1756389367255171840, Status: PartiallyFilled
+2024-08-20 09:04:05,011 - INFO - Processing order with ID: 1756389367255171840, Status: Filled
+2024-08-20 09:04:05,012 - INFO - Order filled - ID: 1756389367255171840, Side: Sell, Price: 2673.8, Qty: 0.03
+2024-08-20 09:04:05,116 - INFO - Flushed pending updates to CSV.
+2024-08-20 09:04:05,408 - INFO - Processed filled sell order - Pair Profit: 0.21944428799999116
+2024-08-20 09:04:07,485 - INFO - Placed buy order at 2673.8, Order ID: 1756405463240704768
+2024-08-20 09:04:08,440 - INFO - Logged filled sell order to database
+2024-08-20 09:04:09,733 - INFO - marked sell order 22c30421-184b-4079-b3a9-8352b0d3bbf5
+2024-08-20 09:04:09,734 - INFO - Processing order with ID: 1756405463240704768, Status: New
+2024-08-20 09:04:09,734 - INFO - Processing order with ID: 1756405463240704768, Status: Filled
+2024-08-20 09:04:09,734 - INFO - Order filled - ID: 1756405463240704768, Side: Buy, Price: 2673.8, Qty: 0.03
+2024-08-20 09:04:16,109 - INFO - Placed sell order at 2683.8, Order ID: 1756405483037819648
+2024-08-20 09:04:16,223 - INFO - Placed corresponding sell order with ID: 1756405483037819648
+2024-08-20 09:04:16,880 - INFO - Logged filled sell order to database
+2024-08-20 09:04:16,880 - INFO - Processing order with ID: 1756405483037819648, Status: New
+2024-08-20 09:04:18,688 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 0.5 seconds...
+2024-08-20 09:04:18,689 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:19,302 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 1.0 seconds...
+2024-08-20 09:04:19,302 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:20,414 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 1.5 seconds...
+2024-08-20 09:04:20,414 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:22,024 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 2.0 seconds...
+2024-08-20 09:04:22,024 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:24,323 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 2.5 seconds...
+2024-08-20 09:04:24,323 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:26,932 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 3.0 seconds...
+2024-08-20 09:04:26,933 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:30,043 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 3.5 seconds...
+2024-08-20 09:04:30,043 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:33,651 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 4.0 seconds...
+2024-08-20 09:04:33,652 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:37,762 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 4.5 seconds...
+2024-08-20 09:04:37,762 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:42,373 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 5.0 seconds...
+2024-08-20 09:04:42,373 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:47,483 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 5.5 seconds...
+2024-08-20 09:04:47,484 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:53,092 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 6.0 seconds...
+2024-08-20 09:04:53,093 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:04:59,205 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 6.5 seconds...
+2024-08-20 09:04:59,205 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:05,819 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 7.0 seconds...
+2024-08-20 09:05:05,819 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:12,928 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 7.5 seconds...
+2024-08-20 09:05:12,929 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:20,539 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 8.0 seconds...
+2024-08-20 09:05:20,539 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:28,649 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 8.5 seconds...
+2024-08-20 09:05:28,650 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:37,260 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 9.0 seconds...
+2024-08-20 09:05:37,261 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:46,369 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 9.5 seconds...
+2024-08-20 09:05:46,370 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:05:55,980 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 10.0 seconds...
+2024-08-20 09:05:55,980 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:06:06,089 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 10.5 seconds...
+2024-08-20 09:06:06,089 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:06:16,887 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 11.0 seconds...
+2024-08-20 09:06:16,888 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:06:27,999 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 11.5 seconds...
+2024-08-20 09:06:27,999 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:06:39,609 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 12.0 seconds...
+2024-08-20 09:06:39,609 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:06:51,782 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 12.5 seconds...
+2024-08-20 09:06:51,782 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:07:04,402 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 13.0 seconds...
+2024-08-20 09:07:04,403 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:07:17,514 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 13.5 seconds...
+2024-08-20 09:07:17,515 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:07:31,124 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 14.0 seconds...
+2024-08-20 09:07:31,124 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:07:45,234 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 14.5 seconds...
+2024-08-20 09:07:45,235 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:07:59,845 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 15.0 seconds...
+2024-08-20 09:07:59,845 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:08:14,956 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 15.5 seconds...
+2024-08-20 09:08:14,956 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:08:30,565 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 16.0 seconds...
+2024-08-20 09:08:30,565 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:08:46,674 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 16.5 seconds...
+2024-08-20 09:08:46,674 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:09:03,284 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 17.0 seconds...
+2024-08-20 09:09:03,285 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:09:20,586 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 17.5 seconds...
+2024-08-20 09:09:20,586 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:09:38,196 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 18.0 seconds...
+2024-08-20 09:09:38,196 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:09:56,306 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 18.5 seconds...
+2024-08-20 09:09:56,306 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:10:14,914 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 19.0 seconds...
+2024-08-20 09:10:14,915 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:10:34,024 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 19.5 seconds...
+2024-08-20 09:10:34,024 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:10:53,635 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 20.0 seconds...
+2024-08-20 09:10:53,635 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:11:13,934 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 20.5 seconds...
+2024-08-20 09:11:13,935 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:11:34,543 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 21.0 seconds...
+2024-08-20 09:11:34,544 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:11:55,652 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 21.5 seconds...
+2024-08-20 09:11:55,653 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:12:17,266 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 22.0 seconds...
+2024-08-20 09:12:17,267 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:12:39,376 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 22.5 seconds...
+2024-08-20 09:12:39,377 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:13:01,987 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 23.0 seconds...
+2024-08-20 09:13:01,987 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:13:25,097 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 23.5 seconds...
+2024-08-20 09:13:25,097 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:13:48,711 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 24.0 seconds...
+2024-08-20 09:13:48,711 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:14:12,820 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 24.5 seconds...
+2024-08-20 09:14:12,821 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:14:37,430 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 25.0 seconds...
+2024-08-20 09:14:37,431 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:15:02,543 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 25.5 seconds...
+2024-08-20 09:15:02,543 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:15:28,152 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 26.0 seconds...
+2024-08-20 09:15:28,152 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:15:54,451 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 26.5 seconds...
+2024-08-20 09:15:54,451 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:16:21,061 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 27.0 seconds...
+2024-08-20 09:16:21,062 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:16:48,171 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 27.5 seconds...
+2024-08-20 09:16:48,172 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:17:15,783 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 28.0 seconds...
+2024-08-20 09:17:15,783 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:17:43,893 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 28.5 seconds...
+2024-08-20 09:17:43,894 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:18:12,504 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 29.0 seconds...
+2024-08-20 09:18:12,504 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:18:41,613 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 29.5 seconds...
+2024-08-20 09:18:41,614 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:19:11,224 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:19:11,225 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:19:41,521 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:19:41,521 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:20:11,631 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:20:11,631 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:20:41,744 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:20:41,745 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:21:11,856 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:21:11,856 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:21:41,970 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:21:41,971 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:22:12,082 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:22:12,082 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:22:42,193 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:22:42,194 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:23:12,304 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:23:12,305 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:23:42,417 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:23:42,417 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:24:12,529 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:24:12,529 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:24:42,639 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:24:42,639 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:25:12,941 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:25:12,941 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:25:43,051 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:25:43,052 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:26:13,353 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:26:13,353 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:26:43,467 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:26:43,468 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:27:13,581 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:27:13,581 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:27:43,692 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:27:43,693 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:28:13,809 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:28:13,809 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:28:43,923 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:28:43,924 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:29:14,039 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:29:14,040 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:29:44,151 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:29:44,151 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:30:14,261 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:30:14,262 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:30:44,371 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:30:44,371 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:31:14,481 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:31:14,482 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:31:44,779 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:31:44,779 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:32:14,895 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:32:14,895 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:32:45,008 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:32:45,008 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:33:15,118 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:33:15,118 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:33:45,231 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:33:45,232 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:34:15,343 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:34:15,343 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:34:45,452 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:34:45,453 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:35:15,749 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:35:15,749 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:35:45,858 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:35:45,858 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:36:15,968 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:36:15,968 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:36:46,266 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:36:46,266 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:37:16,379 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:37:16,380 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:37:46,492 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:37:46,493 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:38:16,602 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:38:16,603 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:38:46,713 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:38:46,713 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:39:16,822 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:39:16,823 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:39:47,124 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:39:47,124 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:40:17,234 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:40:17,235 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:40:47,349 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:40:47,349 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:41:17,460 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:41:17,460 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:41:47,570 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:41:47,570 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:42:17,679 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:42:17,680 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:42:47,790 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:42:47,791 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:43:17,900 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:43:17,900 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:43:48,012 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:43:48,013 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:44:18,129 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:44:18,130 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:44:48,241 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:44:48,241 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:45:18,353 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:45:18,353 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:45:48,648 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:45:48,648 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:46:18,758 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:46:18,759 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:46:48,870 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:46:48,870 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:47:18,983 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:47:18,984 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:47:49,284 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:47:49,284 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:48:19,398 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:48:19,399 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:48:49,508 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:48:49,509 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:49:19,804 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:49:19,805 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:49:49,915 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:49:49,915 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:50:20,026 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:50:20,026 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:50:50,137 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:50:50,138 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:51:20,248 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:51:20,249 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:51:50,359 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:51:50,359 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:52:20,468 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:52:20,469 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:52:50,579 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:52:50,580 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:53:20,689 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:53:20,689 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:53:50,797 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:53:50,798 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:54:20,907 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:54:20,907 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:54:51,019 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:54:51,020 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:55:21,136 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:55:21,136 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:55:51,246 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:55:51,246 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:56:21,356 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:56:21,356 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:56:51,466 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:56:51,467 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:57:21,582 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:57:21,582 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:57:51,879 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:57:51,879 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:58:21,993 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:58:21,993 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:58:52,104 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:58:52,104 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:59:22,214 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:59:22,214 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 09:59:52,326 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 09:59:52,326 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:00:22,440 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:00:22,440 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:00:52,738 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:00:52,739 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:01:23,035 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:01:23,035 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:01:53,147 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:01:53,147 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:02:23,258 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:02:23,259 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:02:53,368 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:02:53,368 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:03:23,479 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:03:23,480 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:03:53,591 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:03:53,592 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:04:23,889 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:04:23,890 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:04:54,999 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:04:54,000 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:05:24,117 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:05:24,117 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:05:54,414 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:05:54,414 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:06:24,527 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:06:24,527 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:06:54,637 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:06:54,638 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:07:24,748 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:07:24,749 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:07:54,859 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:07:54,859 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:08:24,968 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:08:24,969 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:08:55,082 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:08:55,082 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:09:25,379 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:09:25,379 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:09:55,489 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:09:55,490 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:10:25,601 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:10:25,601 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:10:55,713 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:10:55,714 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:11:25,825 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:11:25,825 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:11:55,938 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:11:55,938 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:12:26,049 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:12:26,049 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:12:56,161 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:12:56,162 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:13:26,273 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:13:26,274 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:13:56,383 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:13:56,383 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:14:26,492 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:14:26,493 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:14:56,603 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:14:56,603 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:15:26,898 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:15:26,898 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:15:57,010 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:15:57,010 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:16:27,120 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:16:27,120 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:16:57,231 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:16:57,231 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:17:27,344 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:17:27,345 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:17:57,453 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:17:57,454 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:18:27,564 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:18:27,565 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:18:57,676 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:18:57,676 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:19:27,786 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:19:27,787 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:19:57,897 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:19:57,898 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:20:28,007 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:20:28,008 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:20:58,119 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:20:58,119 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:21:28,230 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:21:28,230 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:21:58,526 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:21:58,527 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:22:28,822 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:22:28,823 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:22:58,937 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:22:58,938 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:23:29,233 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:23:29,234 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:23:59,533 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:23:59,533 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:24:29,829 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:24:29,829 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:25:00,125 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:25:00,126 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:25:30,239 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:25:30,240 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:26:00,374 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:26:00,374 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:26:30,483 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:26:30,483 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:27:00,592 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:27:00,592 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:27:30,702 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:27:30,703 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:28:00,822 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:28:00,822 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:28:30,928 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:28:30,929 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:29:01,219 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:29:01,220 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:29:31,327 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:29:31,328 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:30:01,626 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:30:01,626 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:30:31,736 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:30:31,736 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:31:01,848 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:31:01,849 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:31:31,960 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:31:31,961 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:32:02,071 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:32:02,072 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:32:32,181 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:32:32,182 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:33:02,293 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:33:02,294 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:33:32,404 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:33:32,405 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:34:02,516 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:34:02,516 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:34:32,629 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:34:32,630 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:35:02,742 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:35:02,743 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:35:32,856 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:35:32,856 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:36:02,965 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:36:02,966 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:36:33,077 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:36:33,077 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:37:03,189 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:37:03,190 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:37:34,148 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:37:34,149 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:38:04,264 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:38:04,264 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:38:34,374 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:38:34,375 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:39:04,485 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:39:04,486 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:39:34,596 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:39:34,596 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:40:04,708 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:40:04,708 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:40:34,819 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:40:34,819 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:41:05,119 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:41:05,120 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:41:35,234 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:41:35,235 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:42:05,346 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:42:05,347 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:42:35,642 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:42:35,643 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:43:05,753 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:43:05,753 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:43:35,865 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:43:35,866 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:44:05,975 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:44:05,976 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:44:36,086 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:44:36,087 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:45:06,198 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:45:06,198 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:45:36,308 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:45:36,308 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:46:06,418 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:46:06,418 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:46:36,530 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:46:36,530 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:47:06,641 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:47:06,642 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:47:36,753 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:47:36,754 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:48:06,862 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:48:06,863 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:48:36,991 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:48:36,992 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:49:07,103 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:49:07,104 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:49:37,218 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:49:37,219 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:50:07,329 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:50:07,330 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:50:37,625 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:50:37,625 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:51:07,738 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:51:07,738 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:51:37,849 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:51:37,850 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:52:08,146 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:52:08,147 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:52:38,262 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:52:38,263 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:53:08,372 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:53:08,373 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:53:38,483 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:53:38,483 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:54:08,778 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:54:08,778 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:54:39,075 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:54:39,075 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:55:09,187 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:55:09,188 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:55:39,484 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:55:39,485 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:56:09,598 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:56:09,599 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:56:39,714 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:56:39,715 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:57:09,827 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:57:09,827 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:57:39,938 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:57:39,938 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:58:10,050 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:58:10,050 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:58:40,348 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:58:40,349 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:59:10,462 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:59:10,463 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 10:59:40,577 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 10:59:40,577 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:00:10,689 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:00:10,690 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:00:40,798 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:00:40,799 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:01:10,913 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:01:10,914 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:01:41,026 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:01:41,026 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:02:11,138 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:02:11,139 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:02:41,255 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:02:41,255 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:03:11,366 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:03:11,366 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:03:41,476 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:03:41,477 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:04:11,774 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:04:11,774 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:04:41,886 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:04:41,887 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:05:11,998 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:05:11,999 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:05:42,111 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:05:42,111 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:06:12,222 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:06:12,222 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:06:42,517 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:06:42,518 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:07:12,628 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:07:12,629 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:07:42,742 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:07:42,743 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:08:12,853 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:08:12,853 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:08:42,967 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:08:42,968 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:09:13,080 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:09:13,080 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:09:43,194 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:09:43,195 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:10:13,306 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:10:13,307 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:10:43,416 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:10:43,416 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:11:13,530 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:11:13,530 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:11:43,639 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:11:43,640 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:12:13,754 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:12:13,755 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:12:43,865 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:12:43,866 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:13:13,978 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:13:13,978 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:13:44,273 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:13:44,274 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:14:14,384 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:14:14,384 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:14:44,680 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:14:44,680 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:15:14,792 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:15:14,793 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:15:44,906 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:15:44,907 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:16:15,018 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:16:15,019 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:16:45,138 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:16:45,139 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:17:15,249 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:17:15,250 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:17:45,366 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:17:45,366 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:18:15,478 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:18:15,479 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:18:45,593 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:18:45,593 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:19:15,704 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:19:15,704 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:19:46,005 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:19:46,005 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:20:16,117 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:20:16,118 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:20:46,239 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:20:46,239 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:21:16,354 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:21:16,354 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:21:46,465 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:21:46,465 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:22:16,578 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:22:16,578 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:22:46,689 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:22:46,690 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:23:16,802 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:23:16,803 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:23:46,911 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:23:46,912 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:24:17,024 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:24:17,025 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:24:47,136 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:24:47,136 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:25:17,251 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:25:17,251 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:25:47,363 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:25:47,363 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:26:17,477 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:26:17,477 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:26:47,588 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:26:47,589 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:27:17,697 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:27:17,698 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:27:47,807 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:27:47,808 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:28:17,922 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:28:17,923 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:28:48,033 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:28:48,034 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:29:18,330 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:29:18,331 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:29:48,631 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:29:48,632 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:30:18,742 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:30:18,743 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:30:48,855 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:30:48,855 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:31:18,965 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:31:18,965 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:31:49,262 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:31:49,263 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:32:19,376 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:32:19,377 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:32:49,494 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:32:49,495 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:33:19,605 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:33:19,606 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:33:49,716 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:33:49,716 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:34:19,828 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:34:19,828 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:34:50,126 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:34:50,126 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:35:20,280 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:35:20,280 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:35:50,574 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:35:50,575 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:36:20,691 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:36:20,691 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:36:50,989 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:36:50,989 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:37:21,098 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:37:21,098 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:37:51,209 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:37:51,209 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:38:21,331 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:38:21,331 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:38:51,628 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:38:51,628 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:39:21,924 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:39:21,925 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:39:52,221 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:39:52,221 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:40:22,331 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:40:22,332 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:40:52,442 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:40:52,443 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:41:22,553 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:41:22,553 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:41:52,851 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:41:52,852 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:42:22,962 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:42:22,963 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:42:53,072 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:42:53,072 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:43:23,186 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:43:23,186 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:43:53,482 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:43:53,483 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:44:23,595 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:44:23,595 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:44:53,711 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:44:53,712 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:45:23,823 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:45:23,824 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:45:53,934 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:45:53,935 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:46:24,235 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:46:24,236 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:46:54,534 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:46:54,535 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:47:24,647 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:47:24,647 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:47:54,758 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:47:54,758 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:48:24,867 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:48:24,868 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:48:54,979 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:48:54,980 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:49:25,091 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:49:25,092 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:49:55,203 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:49:55,204 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:50:25,499 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:50:25,500 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:50:55,609 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:50:55,610 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:51:25,718 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:51:25,719 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:51:55,828 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:51:55,830 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:52:25,940 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:52:25,941 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:52:56,050 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:52:56,050 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:53:26,161 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:53:26,161 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:53:56,272 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:53:56,273 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:54:26,384 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:54:26,385 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:54:56,495 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:54:56,496 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:55:26,608 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:55:26,609 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:55:56,720 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:55:56,721 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:56:26,830 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:56:26,831 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:56:56,941 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:56:56,942 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:57:27,051 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:57:27,051 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:57:57,161 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:57:57,162 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:58:27,272 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:58:27,273 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:58:57,401 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:58:57,401 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:59:27,512 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:59:27,513 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 11:59:57,625 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 11:59:57,626 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:00:27,929 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:00:27,930 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:00:58,040 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:00:58,040 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:01:28,151 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:01:28,151 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:01:58,263 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:01:58,264 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:02:28,376 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:02:28,376 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:02:58,485 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:02:58,486 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:03:28,598 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:03:28,598 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:03:58,707 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:03:58,707 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:04:28,818 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:04:28,818 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:04:58,928 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:04:58,929 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:05:29,039 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:05:29,040 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:05:59,150 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:05:59,150 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:06:29,260 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:06:29,260 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:06:59,373 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:06:59,374 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:07:29,484 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:07:29,484 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:07:59,593 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:07:59,594 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:08:29,703 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:08:29,703 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:08:59,814 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:08:59,814 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:09:29,923 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:09:29,924 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:10:00,034 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:10:00,035 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:10:30,152 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:10:30,153 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:11:00,449 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:11:00,450 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:11:30,746 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:11:30,746 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:12:01,042 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:12:01,043 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:12:31,152 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:12:31,152 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:13:01,261 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:13:01,262 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:13:31,556 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:13:31,557 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:14:01,668 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:14:01,668 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:14:31,777 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:14:31,778 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:15:01,887 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:15:01,888 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:15:32,000 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:15:32,001 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:16:02,112 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:16:02,112 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:16:32,222 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:16:32,222 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:17:02,515 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:17:02,516 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:17:32,627 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:17:32,628 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:18:02,736 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:18:02,737 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:18:32,849 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:18:32,850 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:19:02,963 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:19:02,964 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:19:33,073 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:19:33,074 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:20:03,378 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:20:03,378 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:20:33,494 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:20:33,494 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:21:03,616 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:21:03,616 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:21:33,726 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:21:33,726 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:22:03,841 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:22:03,842 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:22:33,952 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:22:33,952 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:23:04,064 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:23:04,064 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:23:34,176 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:23:34,176 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:24:04,289 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:24:04,289 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:24:34,398 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:24:34,399 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:25:04,510 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:25:04,510 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:25:34,624 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:25:34,624 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:26:04,735 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:26:04,736 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:26:34,851 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:26:34,851 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:27:04,968 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:27:04,969 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:27:35,078 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:27:35,079 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:28:05,188 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:28:05,189 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:28:35,298 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:28:35,299 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:29:05,407 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:29:05,408 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:29:35,529 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:29:35,529 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:30:05,675 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:30:05,676 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:30:35,973 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:30:35,973 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:31:06,087 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:31:06,088 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:31:36,202 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:31:36,203 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:32:06,314 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:32:06,314 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:32:36,425 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:32:36,426 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:33:06,538 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:33:06,538 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:33:36,647 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:33:36,648 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:34:06,759 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:34:06,759 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:34:36,870 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:34:36,870 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:35:06,981 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:35:06,981 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:35:37,278 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:35:37,279 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:36:07,389 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:36:07,389 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:36:37,687 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:36:37,688 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:37:07,800 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:37:07,800 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:37:37,912 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:37:37,913 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:38:08,027 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:38:08,027 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:38:38,139 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:38:38,139 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:39:08,252 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:39:08,252 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:39:38,361 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:39:38,362 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:40:08,475 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:40:08,475 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:40:38,587 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:40:38,588 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:41:08,698 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:41:08,699 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:41:38,811 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:41:38,811 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:42:08,923 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:42:08,923 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:42:39,035 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:42:39,035 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:43:09,146 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:43:09,147 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:43:39,257 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:43:39,258 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:44:09,368 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:44:09,368 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:44:39,479 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:44:39,479 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:45:09,591 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:45:09,591 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:45:39,704 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:45:39,705 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:46:09,815 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:46:09,815 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:46:39,926 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:46:39,926 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:47:10,036 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:47:10,036 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:47:40,147 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:47:40,148 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:48:10,259 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:48:10,259 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:48:40,370 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:48:40,370 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:49:10,666 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:49:10,666 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:49:40,777 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:49:40,778 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:50:10,889 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:50:10,890 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:50:40,999 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:50:40,999 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:51:11,109 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:51:11,110 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:51:41,220 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:51:41,220 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:52:11,330 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:52:11,330 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:52:41,441 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:52:41,441 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:53:11,551 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:53:11,551 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:53:41,661 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:53:41,662 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:54:11,776 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:54:11,776 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:54:41,886 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:54:41,886 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:55:11,998 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:55:11,999 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:55:42,108 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:55:42,108 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:56:12,219 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:56:12,220 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:56:42,517 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:56:42,517 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:57:12,628 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:57:12,629 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:57:42,923 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:57:42,923 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:58:13,221 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:58:13,221 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:58:43,331 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:58:43,332 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:59:13,443 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:59:13,443 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 12:59:43,553 - ERROR - Error placing buy order at 2663.8: 170131. Retrying in 30.0 seconds...
+2024-08-20 12:59:43,553 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-20 13:00:13,664 - INFO - Placed buy order at 2663.8, Order ID: 1756524297771582209
+2024-08-20 13:00:13,668 - INFO - Processing order with ID: 1756524297771582209, Status: New
+2024-08-20 13:00:46,094 - INFO - State checkpointed successfully.
+2024-08-20 13:01:18,152 - INFO - Processing order with ID: 1756089972768932608, Status: Cancelled
+2024-08-20 13:01:19,110 - INFO - Processing order with ID: 1756101229307790080, Status: Cancelled
+2024-08-20 13:01:19,969 - INFO - Processing order with ID: 1756173772060394241, Status: Cancelled
+2024-08-20 13:01:20,723 - INFO - Processing order with ID: 1756208487559627520, Status: Cancelled
+2024-08-20 13:01:21,472 - INFO - Processing order with ID: 1756264817246896896, Status: Cancelled
+2024-08-20 13:01:22,632 - INFO - Processing order with ID: 1756303336283603712, Status: Cancelled
+2024-08-20 13:01:25,230 - INFO - Processing order with ID: 1756385506473837312, Status: Cancelled
+2024-08-20 13:01:31,177 - INFO - Processing order with ID: 1756386287495185152, Status: Cancelled
+2024-08-20 13:01:50,509 - INFO - State checkpointed successfully.
+2024-08-20 13:02:56,941 - INFO - State checkpointed successfully.
+2024-08-20 13:04:03,676 - INFO - State checkpointed successfully.
+2024-08-20 13:05:08,584 - INFO - State checkpointed successfully.
+2024-08-20 13:06:14,464 - INFO - State checkpointed successfully.
+2024-08-20 13:07:19,726 - INFO - State checkpointed successfully.
+2024-08-20 13:08:25,510 - INFO - State checkpointed successfully.
+2024-08-20 13:09:30,585 - INFO - State checkpointed successfully.
+2024-08-20 13:10:35,342 - INFO - State checkpointed successfully.
+2024-08-20 13:11:40,134 - INFO - State checkpointed successfully.
+2024-08-20 13:12:47,568 - INFO - State checkpointed successfully.
+2024-08-20 13:13:51,982 - INFO - State checkpointed successfully.
+2024-08-20 13:14:58,776 - INFO - State checkpointed successfully.
+2024-08-20 13:16:03,477 - INFO - State checkpointed successfully.
+2024-08-20 13:17:08,544 - INFO - State checkpointed successfully.
+2024-08-20 13:17:46,770 - INFO - Processing order with ID: 1756405483037819648, Status: Filled
+2024-08-20 13:17:46,771 - INFO - Order filled - ID: 1756405483037819648, Side: Sell, Price: 2683.8, Qty: 0.03
+2024-08-20 13:17:47,167 - INFO - Processed filled sell order - Pair Profit: 0.1392720000000054
+2024-08-20 13:17:47,595 - INFO - Logged filled sell order to database
+2024-08-20 13:17:49,696 - INFO - marked sell order d421fbf9-ba21-43a1-a398-6a067db4a25e
+2024-08-20 13:17:50,120 - INFO - Placed buy order at 2683.8, Order ID: 1756533159958446849
+2024-08-20 13:17:50,125 - INFO - Processing order with ID: 1756533159958446849, Status: New
+2024-08-20 13:18:17,839 - INFO - State checkpointed successfully.
+2024-08-20 13:19:23,025 - INFO - Placed buy order at 2693.8, Order ID: 1756533939302073088
+2024-08-20 13:19:23,026 - INFO - State checkpointed successfully.
+2024-08-20 13:19:23,033 - INFO - Processing order with ID: 1756533939302073088, Status: Filled
+2024-08-20 13:19:23,033 - INFO - Order filled - ID: 1756533939302073088, Side: Buy, Price: 2693.32, Qty: 0.03
+2024-08-20 13:19:23,880 - INFO - Placed sell order at 2703.8, Order ID: 1756533940333871872
+2024-08-20 13:19:23,986 - INFO - Placed corresponding sell order with ID: 1756533940333871872
+2024-08-20 13:19:26,200 - INFO - Logged filled sell order to database
+2024-08-20 13:19:26,201 - INFO - Processing order with ID: 1756533940333871872, Status: New
+2024-08-20 13:20:27,582 - INFO - State checkpointed successfully.
+2024-08-20 13:21:34,473 - INFO - State checkpointed successfully.
+2024-08-20 13:22:40,755 - INFO - State checkpointed successfully.
+2024-08-20 13:23:49,704 - INFO - State checkpointed successfully.
+2024-08-20 13:24:53,105 - INFO - State checkpointed successfully.
+2024-08-20 13:25:56,670 - INFO - State checkpointed successfully.
+2024-08-20 13:27:02,251 - INFO - State checkpointed successfully.
+2024-08-20 13:28:08,487 - INFO - State checkpointed successfully.
+2024-08-20 13:29:09,982 - INFO - Processing order with ID: 1756533159958446849, Status: Filled
+2024-08-20 13:29:09,982 - INFO - Order filled - ID: 1756533159958446849, Side: Buy, Price: 2683.8, Qty: 0.03
+2024-08-20 13:29:10,563 - INFO - Placed sell order at 2693.8, Order ID: 1756538863985394432
+2024-08-20 13:29:10,669 - INFO - Placed corresponding sell order with ID: 1756538863985394432
+2024-08-20 13:29:11,157 - INFO - Logged filled sell order to database
+2024-08-20 13:29:11,157 - INFO - Processing order with ID: 1756538863985394432, Status: New
+2024-08-20 13:29:13,588 - INFO - State checkpointed successfully.
+2024-08-20 13:30:24,760 - INFO - State checkpointed successfully.
+2024-08-20 13:31:29,607 - INFO - State checkpointed successfully.
+2024-08-20 13:32:33,291 - INFO - State checkpointed successfully.
+2024-08-20 13:33:40,551 - INFO - State checkpointed successfully.
+2024-08-20 13:34:45,423 - INFO - State checkpointed successfully.
+2024-08-20 13:35:41,088 - INFO - Placed buy order at 2673.8, Order ID: 1756542143889179393
+2024-08-20 13:35:41,091 - INFO - Processing order with ID: 1756542143889179393, Status: New
+2024-08-20 13:35:51,668 - INFO - State checkpointed successfully.
+2024-08-20 13:36:55,946 - INFO - State checkpointed successfully.
+2024-08-20 13:38:01,834 - INFO - State checkpointed successfully.
+2024-08-20 13:39:06,765 - INFO - State checkpointed successfully.
+2024-08-20 13:40:14,164 - INFO - State checkpointed successfully.
+2024-08-20 13:41:18,977 - INFO - State checkpointed successfully.
+2024-08-20 13:42:24,335 - INFO - State checkpointed successfully.
+2024-08-20 13:43:31,740 - INFO - State checkpointed successfully.
+2024-08-20 13:44:38,402 - INFO - State checkpointed successfully.
+2024-08-20 13:45:44,429 - INFO - State checkpointed successfully.
+2024-08-20 13:46:50,408 - INFO - State checkpointed successfully.
+2024-08-20 13:47:56,962 - INFO - State checkpointed successfully.
+2024-08-20 13:49:05,299 - INFO - State checkpointed successfully.
+2024-08-20 13:50:09,391 - INFO - State checkpointed successfully.
+2024-08-20 13:51:19,400 - INFO - State checkpointed successfully.
+2024-08-20 13:52:24,434 - INFO - State checkpointed successfully.
+2024-08-20 13:53:31,400 - INFO - State checkpointed successfully.
+2024-08-20 13:54:36,224 - INFO - State checkpointed successfully.
+2024-08-20 13:55:39,949 - INFO - State checkpointed successfully.
+2024-08-20 13:56:47,179 - INFO - State checkpointed successfully.
+2024-08-20 13:57:51,203 - INFO - State checkpointed successfully.
+2024-08-20 13:58:56,834 - INFO - State checkpointed successfully.
+2024-08-20 14:00:03,707 - INFO - State checkpointed successfully.
+2024-08-20 14:01:11,108 - INFO - State checkpointed successfully.
+2024-08-20 14:02:18,839 - INFO - State checkpointed successfully.
+2024-08-20 14:03:26,252 - INFO - State checkpointed successfully.
+2024-08-20 14:04:35,987 - INFO - State checkpointed successfully.
+2024-08-20 14:05:40,819 - INFO - State checkpointed successfully.
+2024-08-20 14:06:45,395 - INFO - State checkpointed successfully.
+2024-08-20 14:07:52,506 - INFO - State checkpointed successfully.
+2024-08-20 14:08:56,593 - INFO - State checkpointed successfully.
+2024-08-20 14:10:00,395 - INFO - State checkpointed successfully.
+2024-08-20 14:11:06,888 - INFO - State checkpointed successfully.
+2024-08-20 14:12:11,468 - INFO - State checkpointed successfully.
+2024-08-20 14:13:19,394 - INFO - State checkpointed successfully.
+2024-08-20 14:14:27,227 - INFO - State checkpointed successfully.
+2024-08-20 14:15:34,722 - INFO - State checkpointed successfully.
+2024-08-20 14:16:39,439 - INFO - State checkpointed successfully.
+2024-08-20 14:17:44,198 - INFO - State checkpointed successfully.
+2024-08-20 14:18:48,755 - INFO - State checkpointed successfully.
+2024-08-20 14:19:55,255 - INFO - State checkpointed successfully.
+2024-08-20 14:21:00,584 - INFO - State checkpointed successfully.
+2024-08-20 14:22:05,556 - INFO - State checkpointed successfully.
+2024-08-20 14:23:10,347 - INFO - State checkpointed successfully.
+2024-08-20 14:24:16,287 - INFO - State checkpointed successfully.
+2024-08-20 14:25:21,931 - INFO - State checkpointed successfully.
+2024-08-20 14:26:42,097 - INFO - State checkpointed successfully.
+2024-08-20 14:27:48,225 - INFO - State checkpointed successfully.
+2024-08-20 14:28:52,534 - INFO - State checkpointed successfully.
+2024-08-20 14:29:56,603 - INFO - State checkpointed successfully.
+2024-08-20 14:31:01,596 - INFO - State checkpointed successfully.
+2024-08-20 14:32:10,481 - INFO - State checkpointed successfully.
+2024-08-20 14:33:15,218 - INFO - State checkpointed successfully.
+2024-08-20 14:34:21,591 - INFO - State checkpointed successfully.
+2024-08-20 14:35:26,643 - INFO - State checkpointed successfully.
+2024-08-20 14:36:33,643 - INFO - State checkpointed successfully.
+2024-08-20 14:37:41,390 - INFO - State checkpointed successfully.
+2024-08-20 14:38:48,290 - INFO - State checkpointed successfully.
+2024-08-20 14:39:53,835 - INFO - State checkpointed successfully.
+2024-08-20 14:41:01,092 - INFO - State checkpointed successfully.
+2024-08-20 14:42:09,462 - INFO - State checkpointed successfully.
+2024-08-20 14:42:46,986 - INFO - Shutting down gracefully...
+2024-08-20 14:42:46,987 - INFO - State checkpointed successfully.
+2024-08-20 14:42:46,987 - INFO - Flushed pending updates to CSV.
+2024-08-20 14:42:47,083 - INFO - WebSocket connection closed.
