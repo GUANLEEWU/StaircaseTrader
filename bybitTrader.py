@@ -176,22 +176,56 @@ class BybitTrader:
             print(f"Error fetching index price: {response['retMsg']}")
             raise Exception(f"Error fetching index price: {response['retMsg']}") 
         
-    def get_order_history(self, symbol, start_time, end_time, category="spot"):
+    def get_order_history(self, symbol, category="spot", **kwargs):
         endpoint = "/v5/order/history"
+        params = {
+            "category": category,
+            "symbol": symbol,
+            "limit": 40
+        }
+        
+        # Append additional parameters passed via kwargs
+        for key, value in kwargs.items():
+            params[key] = value
+
+        response = self.http_request(endpoint, "GET", params=params, info="Get Order History")
+        if response.get('retCode') == 0:
+            res = response['result']['list']
+            # res.reverse()
+            print(f"Returned Order history")
+            return res
+        else:
+            print(f"Error fetching order history: {response['retMsg']}")
+            return []
+
+    def get_trade_history(self, symbol, start_time, end_time, category="spot"):
+        """
+        Function to get the trade history for a given symbol within a specific time range.
+
+        Args:
+        - symbol (str): The trading pair symbol (e.g., 'BTCUSDT').
+        - start_time (int): The start time in milliseconds.
+        - end_time (int): The end time in milliseconds.
+        - category (str): The product type, default is 'spot'. Other options: 'linear', 'inverse', 'option'.
+
+        Returns:
+        - List[dict]: A list of trade history records.
+        """
+        endpoint = "/v5/execution/list"
         params = {
             "category": category,
             "symbol": symbol,
             "startTime": start_time,
             "endTime": end_time,
-            "limit": 50
+            "limit": 50  # Adjust the limit according to your needs
         }
-        response = self.http_request(endpoint, "GET", params=params, info="Get Order History")
+        response = self.http_request(endpoint, "GET", params=params, info="Get Trade History")
         if response.get('retCode') == 0:
-            res = response['result']['list']
-            res.reverse()
-            return res
+            trades = response['result']['list']
+            print(f"Returned trade history for {symbol} from {start_time} to {end_time}:")
+            return trades
         else:
-            print(f"Error fetching order history: {response['retMsg']}")
+            print(f"Error fetching trade history: {response['retMsg']}")
             return []
 
     def create_order(self, category, symbol, side, order_type, qty, price=None, time_in_force="GTC", reduce_only=False, verbose=True):
@@ -240,7 +274,6 @@ class BybitTrader:
         if id:
             payload = {
                 "category": category,
-                "symbol": symbol,
                 "orderId": id
             }
             response = self.http_request("/v5/order/cancel", "POST", payload, "Cancel Order")

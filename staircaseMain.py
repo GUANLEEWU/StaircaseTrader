@@ -138,7 +138,7 @@ class GridTrader:
         temp_price = price
         while True:
             try:
-                if temp_price not in self.buy_orders:
+                if str(temp_price) not in self.buy_orders:
                     order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=temp_price)
                     self.openOrders.update({order_id:None})
                     break
@@ -159,7 +159,7 @@ class GridTrader:
                 time.sleep(wait_time)
                 attempt += 1
         try:
-            self.buy_orders[temp_price] = order_id
+            self.buy_orders[str(temp_price)] = order_id
             logging.info(f"Placed buy order at {temp_price}, Order ID: {order_id}")
         except Exception as e:
             logging.error(f"Exception occurred while placing buy order at {temp_price}: {e}")
@@ -195,7 +195,7 @@ class GridTrader:
                 time.sleep(wait_time)
                 attempt += 1
         try:
-            self.sell_orders[temp_price] = sell_order_id
+            self.sell_orders[str(temp_price)] = sell_order_id
             temp = na.row()
             temp.set('Name', "open", 'title')
             temp.set('side', 'Sell', 'select')
@@ -272,6 +272,8 @@ class GridTrader:
                         self.sell_orders.pop(order['price'],None)
                         self.order_tracking.pop(order_id,None)
                         logging.info(f"Order cancelled - ID: {order_id}")
+                        self.checkpoint_state()
+                        ######################
                         continue
                     elif order_status == 'Filled':
                         
@@ -360,8 +362,8 @@ class GridTrader:
                                     logging.error(f'Failed to mark sell order as closed: {e}')
                                     logging.error(f'Exception type: {type(e).__name__}')
                                     logging.error(f'Traceback: {traceback.format_exc()}')
-                                self.buy_orders.pop(buy_order_details["buy-price"], None)
-                                self.sell_orders.pop(round(float(order["price"]), 2))
+                                self.buy_orders.pop(str(buy_order_details["buy-price"]), None)
+                                self.sell_orders.pop(str(round(float(order["price"]),2)))
                             else:
                                 logging.warning('Caught sell order with no matching buy pair.')
 
@@ -399,11 +401,31 @@ class GridTrader:
             logging.error(f'Error occurred on line {traceback.format_exc().splitlines()[-2]}')
             self.upload_logs('checkpoint_state')
             
-    def handle_missed_orders(self, start_time, category="spot"):
-        end_time = int(time.time() * 1000)
-        missed_orders = self.trader.get_order_history(self.symbol, start_time, end_time, category)
-        for order in missed_orders:
-            self.handle_filled_order_callback({'data': [order]})
+    def handle_missed_orders(self):
+        last_time = self.variables['last_checked_time']
+        logging.info("Processing missed order updates")
+        order_ids_to_process = list(self.openOrders.keys())
+        missed_order_updates = []
+
+        for order_id in order_ids_to_process:
+            # Query the order history using the get_order_history function
+            order_history = self.trader.get_order_history(symbol=self.symbol, orderId=order_id)
+            
+            if not order_history:
+                continue
+            
+            for order in order_history:
+                if int(order['updatedTime']) > last_time:
+                    missed_order_updates.append(order)
+
+        # Sort the collected updates by their update time
+        missed_order_updates.sort(key=lambda x: int(x['updatedTime']))
+
+        # Process each update by calling the handle_filled_order_callback function
+        for order_update in missed_order_updates:
+            self.handle_filled_order_callback({'data': [order_update]})
+        logging.info('Done processing missed order updates')
+            
             
     def calculate_next_buy_level(self, current_price):
         n = np.floor((current_price - self.initial_price) / self.grid_size)
@@ -449,12 +471,12 @@ class GridTrader:
 
                     self.trader.websocket.subscribe_to_order_updates(self.symbol, self.temp_update_buffer.append)
                     logging.info(f"Successfully subscribed to WebSocket updates for {self.symbol}")
-                    logging.info("Processing missed order updates")
-                    self.handle_missed_orders(self.variables['last_checked_time'])
+                    
+                    self.handle_missed_orders()
                     for message in self.temp_update_buffer:
                         self.handle_filled_order_callback({'data': [message]})
                     self.temp_update_buffer = []
-                    logging.info('Done processing missed order updates')
+                    
                 self.trader.websocket.subscribe_to_order_updates(self.symbol, self.handle_filled_order_callback)
                 break
             except Exception as e:
@@ -496,18 +518,18 @@ class GridTrader:
             current_price = self.get_index_price()
             try:
                 next_buy_level = self.calculate_next_buy_level(current_price)
-                if next_buy_level not in self.buy_orders:
+                if str(next_buy_level) not in self.buy_orders:
                     self.place_buy_order(next_buy_level)
-                for level in sorted(self.buy_orders.keys()):
-                    id = self.buy_orders[level]
-                    if id in self.openOrders:
-                        if level != next_buy_level:
-                            try:
-                                self.trader.cancel_order(id=id, symbol=self.symbol)
-                            except Exception as e:
-                                logging.error(f"Failed to cancel order {id}: {e}")
-                                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
-                                self.upload_logs('order_cancellation_failure')
+                    for level in sorted([float(x) for x in self.buy_orders.keys()]):
+                        id = self.buy_orders[str(level)]
+                        if id in self.openOrders:
+                            if level != next_buy_level:
+                                try:
+                                    self.trader.cancel_order(id=id)
+                                except Exception as e:
+                                    logging.error(f"Failed to cancel order {id}: {e}")
+                                    logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                                    self.upload_logs('order_cancellation_failure')
                         break
                 if count >= 12:
                     self.checkpoint_state()
