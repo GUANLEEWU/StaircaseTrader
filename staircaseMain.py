@@ -140,6 +140,7 @@ class GridTrader:
             try:
                 if temp_price not in self.buy_orders:
                     order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=temp_price)
+                    self.openOrders.update({order_id:None})
                     break
                 else:
                     logging.info(f"{temp_price} buy order already exists")
@@ -154,6 +155,7 @@ class GridTrader:
                     wait_time = steady_wait_time * max_retries
                 logging.error(f"Error placing buy order at {temp_price}: {e}. Retrying in {wait_time} seconds...")
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                self.upload_logs('place_buy_failure')
                 time.sleep(wait_time)
                 attempt += 1
         try:
@@ -189,6 +191,7 @@ class GridTrader:
                     wait_time = steady_wait_time * max_retries
                 logging.error(f"Error placing sell order at {temp_price}: {e}. Retrying in {wait_time} seconds...")
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                self.upload_logs('sell_order_failure')
                 time.sleep(wait_time)
                 attempt += 1
         try:
@@ -207,6 +210,7 @@ class GridTrader:
         except Exception as e:
             logging.error(f"Exception occurred while placing sell order at {temp_price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+            self.openOrders.update({sell_order_id:None})
             self.upload_logs('sell_orders')
         return sell_order_id
 
@@ -262,8 +266,14 @@ class GridTrader:
                     logging.info(f"Processing order with ID: {order_id}, Status: {order_status}")
                     
                     order_time = int(order['updatedTime'])
-
-                    if order_status == 'Filled':
+                    if order_status == 'Cancelled':
+                        self.openOrders.pop(order_id,None)
+                        self.buy_orders.pop(order['price'],None)
+                        self.sell_orders.pop(order['price'],None)
+                        self.order_tracking.pop(order_id,None)
+                        logging.info(f"Order cancelled - ID: {order_id}")
+                        continue
+                    elif order_status == 'Filled':
                         
                         filled_price = order.get('avgPrice','')
                         qty = float(order.get('cumExecQty',order['qty']))
@@ -340,6 +350,7 @@ class GridTrader:
                                 
                                 try:
                                     openRowID = self.openOrders[order_id]
+                                    self.openOrders.pop(order_id)
                                     openSellOrder = na.row(id=openRowID,secret=self.OpenOrderDB.secret)
                                     openSellOrder.data_d['properties'] = {}
                                     openSellOrder.set('status','filled','select')
@@ -472,7 +483,10 @@ class GridTrader:
                 logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                 time.sleep(wait_time)
                 attempt += 1                
-
+    
+    # def get_open_orders(self):
+        
+    
     def run(self):
         count = 0
         self.subscribe_to_websocket()
@@ -484,6 +498,17 @@ class GridTrader:
                 next_buy_level = self.calculate_next_buy_level(current_price)
                 if next_buy_level not in self.buy_orders:
                     self.place_buy_order(next_buy_level)
+                for level in sorted(self.buy_orders.keys()):
+                    id = self.buy_orders[level]
+                    if id in self.openOrders:
+                        if level != next_buy_level:
+                            try:
+                                self.trader.cancel_order(id=id, symbol=self.symbol)
+                            except Exception as e:
+                                logging.error(f"Failed to cancel order {id}: {e}")
+                                logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
+                                self.upload_logs('order_cancellation_failure')
+                        break
                 if count >= 12:
                     self.checkpoint_state()
                     count = 0

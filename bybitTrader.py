@@ -232,7 +232,27 @@ class BybitTrader:
                 raise Exception('price too low')
             raise Exception(response['retCode'])
 
-    def cancel_order(self, order_name, verbose=True):
+    def cancel_order(self, order_name=None,id=None,category="spot",symbol=None,verbose=True):
+        if (not order_name) and (not id):
+            if verbose:
+                print("No order name or id provided")
+            return {"error": "No order name or id provided"}
+        if id:
+            payload = {
+                "category": category,
+                "symbol": symbol,
+                "orderId": id
+            }
+            response = self.http_request("/v5/order/cancel", "POST", payload, "Cancel Order")
+            if response['retCode'] == 0:
+                if verbose:
+                    print(f"Order {id} cancelled successfully.")
+            else:
+                if verbose:
+                    print(f"Failed to cancel order {id}: {response['retMsg']}")
+                raise Exception(response['retMsg'])
+            return response
+        
         for link_id, order_info in self.orders.items():
             if order_info["name"] == order_name:
                 payload = {
