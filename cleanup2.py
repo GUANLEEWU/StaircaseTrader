@@ -14,7 +14,7 @@ def remove_json_files(directory):
                 
                 if result.returncode == 0:
                     # If the file is tracked, use git rm
-                    subprocess.run(['git', 'rm', file_path], check=True)
+                    subprocess.run(['git', 'rm','-f', file_path], check=True)
                     print(f"Removed tracked file with git: {file_path}")
                 else:
                     # If the file is untracked, remove it normally
