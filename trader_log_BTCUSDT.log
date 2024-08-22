@@ -4933,3 +4933,1317 @@ KeyError: '59413.7'
 2024-08-21 23:39:34,185 - INFO - State checkpointed successfully.
 2024-08-21 23:40:42,669 - INFO - State checkpointed successfully.
 2024-08-21 23:41:46,742 - INFO - State checkpointed successfully.
+2024-08-21 23:42:50,973 - INFO - State checkpointed successfully.
+2024-08-21 23:43:55,616 - INFO - State checkpointed successfully.
+2024-08-21 23:44:59,701 - INFO - State checkpointed successfully.
+2024-08-21 23:46:05,324 - INFO - State checkpointed successfully.
+2024-08-21 23:46:08,871 - INFO - Processing order with ID: 1757545621365287168, Status: Filled
+2024-08-21 23:46:08,871 - INFO - Order filled - ID: 1757545621365287168, Side: Sell, Price: 59773.7, Qty: 0.001
+2024-08-21 23:46:09,081 - INFO - Processed filled sell order - Pair Profit: 0.06063259999999815
+2024-08-21 23:46:09,483 - INFO - Logged filled sell order to database
+2024-08-21 23:46:10,554 - INFO - marked sell order 04f4d5a4-a5b5-4841-978b-30a3839c1969
+2024-08-21 23:46:10,877 - INFO - Placed buy order at 59593.7, Order ID: 1757574192569870592
+2024-08-21 23:46:10,878 - INFO - Processing order with ID: 1757574192569870592, Status: New
+2024-08-21 23:47:10,991 - INFO - State checkpointed successfully.
+2024-08-21 23:48:15,007 - INFO - State checkpointed successfully.
+2024-08-21 23:49:20,262 - INFO - State checkpointed successfully.
+2024-08-21 23:49:53,340 - INFO - Processing order with ID: 1757574192569870592, Status: Filled
+2024-08-21 23:49:53,340 - INFO - Order filled - ID: 1757574192569870592, Side: Buy, Price: 59593.7, Qty: 0.001
+2024-08-21 23:49:57,252 - INFO - Placed sell order at 59773.7, Order ID: 1757576059622353152
+2024-08-21 23:49:57,357 - INFO - Placed corresponding sell order with ID: 1757576059622353152
+2024-08-21 23:50:00,472 - INFO - Logged filled sell order to database
+2024-08-21 23:50:00,473 - INFO - Processing order with ID: 1757576059622353152, Status: New
+2024-08-21 23:50:26,384 - INFO - State checkpointed successfully.
+2024-08-21 23:51:31,834 - INFO - State checkpointed successfully.
+2024-08-21 23:52:35,331 - INFO - State checkpointed successfully.
+2024-08-21 23:53:43,881 - INFO - State checkpointed successfully.
+2024-08-21 23:54:50,709 - INFO - State checkpointed successfully.
+2024-08-21 23:55:56,247 - INFO - State checkpointed successfully.
+2024-08-21 23:57:02,925 - INFO - State checkpointed successfully.
+2024-08-21 23:58:07,954 - INFO - State checkpointed successfully.
+2024-08-21 23:59:14,553 - INFO - State checkpointed successfully.
+2024-08-22 00:00:18,932 - INFO - State checkpointed successfully.
+2024-08-22 00:01:25,360 - INFO - State checkpointed successfully.
+2024-08-22 00:02:31,171 - INFO - State checkpointed successfully.
+2024-08-22 00:03:38,052 - INFO - State checkpointed successfully.
+2024-08-22 00:04:44,722 - INFO - State checkpointed successfully.
+2024-08-22 00:05:49,283 - INFO - State checkpointed successfully.
+2024-08-22 00:06:53,112 - INFO - State checkpointed successfully.
+2024-08-22 00:08:02,932 - INFO - State checkpointed successfully.
+2024-08-22 00:09:12,849 - INFO - State checkpointed successfully.
+2024-08-22 00:10:19,862 - INFO - State checkpointed successfully.
+2024-08-22 00:11:25,379 - INFO - State checkpointed successfully.
+2024-08-22 00:12:30,868 - INFO - State checkpointed successfully.
+2024-08-22 00:13:40,818 - INFO - State checkpointed successfully.
+2024-08-22 00:14:47,446 - INFO - State checkpointed successfully.
+2024-08-22 00:15:56,541 - INFO - State checkpointed successfully.
+2024-08-22 00:17:06,514 - INFO - State checkpointed successfully.
+2024-08-22 00:18:17,578 - INFO - State checkpointed successfully.
+2024-08-22 00:19:27,220 - INFO - State checkpointed successfully.
+2024-08-22 00:20:31,317 - INFO - State checkpointed successfully.
+2024-08-22 00:21:35,924 - INFO - State checkpointed successfully.
+2024-08-22 00:22:41,327 - INFO - State checkpointed successfully.
+2024-08-22 00:23:45,410 - INFO - State checkpointed successfully.
+2024-08-22 00:24:51,869 - INFO - State checkpointed successfully.
+2024-08-22 00:26:02,718 - INFO - State checkpointed successfully.
+2024-08-22 00:27:08,420 - INFO - State checkpointed successfully.
+2024-08-22 00:28:17,297 - INFO - State checkpointed successfully.
+2024-08-22 00:29:26,535 - INFO - State checkpointed successfully.
+2024-08-22 00:30:29,956 - INFO - State checkpointed successfully.
+2024-08-22 00:31:33,999 - INFO - State checkpointed successfully.
+2024-08-22 00:32:41,241 - INFO - State checkpointed successfully.
+2024-08-22 00:33:48,640 - INFO - State checkpointed successfully.
+2024-08-22 00:34:54,186 - INFO - State checkpointed successfully.
+2024-08-22 00:35:59,344 - INFO - State checkpointed successfully.
+2024-08-22 00:37:05,267 - INFO - State checkpointed successfully.
+2024-08-22 00:38:12,054 - INFO - State checkpointed successfully.
+2024-08-22 00:39:16,208 - INFO - State checkpointed successfully.
+2024-08-22 00:40:20,457 - INFO - State checkpointed successfully.
+2024-08-22 00:41:24,276 - INFO - State checkpointed successfully.
+2024-08-22 00:42:34,977 - INFO - State checkpointed successfully.
+2024-08-22 00:43:39,492 - INFO - State checkpointed successfully.
+2024-08-22 00:44:47,345 - INFO - State checkpointed successfully.
+2024-08-22 00:45:47,450 - INFO - Processing order with ID: 1757576059622353152, Status: Filled
+2024-08-22 00:45:47,450 - INFO - Order filled - ID: 1757576059622353152, Side: Sell, Price: 59773.7, Qty: 0.001
+2024-08-22 00:45:47,555 - INFO - Flushed pending updates to CSV.
+2024-08-22 00:45:47,659 - INFO - Processed filled sell order - Pair Profit: 0.06063259999999815
+2024-08-22 00:45:48,072 - INFO - Logged filled sell order to database
+2024-08-22 00:45:48,897 - INFO - marked sell order 8c872b5f-4031-4165-88b3-99cb17283c2c
+2024-08-22 00:45:55,259 - INFO - State checkpointed successfully.
+2024-08-22 00:46:00,745 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 0.5 seconds...
+2024-08-22 00:46:00,746 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:06,451 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 1.0 seconds...
+2024-08-22 00:46:06,452 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:08,076 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 1.5 seconds...
+2024-08-22 00:46:08,076 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:10,107 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 2.0 seconds...
+2024-08-22 00:46:10,107 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:13,095 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 2.5 seconds...
+2024-08-22 00:46:13,095 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:16,365 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 3.0 seconds...
+2024-08-22 00:46:16,365 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:21,606 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 3.5 seconds...
+2024-08-22 00:46:21,606 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:26,044 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 4.0 seconds...
+2024-08-22 00:46:26,044 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:30,530 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 4.5 seconds...
+2024-08-22 00:46:30,530 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:35,658 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 5.0 seconds...
+2024-08-22 00:46:35,659 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:41,150 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 5.5 seconds...
+2024-08-22 00:46:41,151 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:49,440 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 6.0 seconds...
+2024-08-22 00:46:49,441 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:46:55,941 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 6.5 seconds...
+2024-08-22 00:46:55,942 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:03,215 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 7.0 seconds...
+2024-08-22 00:47:03,215 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:14,669 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 7.5 seconds...
+2024-08-22 00:47:14,669 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:23,450 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 8.0 seconds...
+2024-08-22 00:47:23,451 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:32,110 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 8.5 seconds...
+2024-08-22 00:47:32,111 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:41,116 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 9.0 seconds...
+2024-08-22 00:47:41,117 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:47:50,655 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 9.5 seconds...
+2024-08-22 00:47:50,656 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:48:01,336 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 10.0 seconds...
+2024-08-22 00:48:01,336 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:48:11,920 - ERROR - Error placing buy order at 59593.7: 170131. Retrying in 10.5 seconds...
+2024-08-22 00:48:11,920 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 00:48:23,001 - INFO - Processing order with ID: 1757543937444505856, Status: Filled
+2024-08-22 00:48:23,001 - INFO - Order filled - ID: 1757543937444505856, Side: Sell, Price: 59953.7, Qty: 0.001
+2024-08-22 00:48:23,214 - INFO - Processed filled sell order - Pair Profit: 0.06027259999999757
+2024-08-22 00:48:23,563 - INFO - Placed buy order at 59593.7, Order ID: 1757605504601123072
+2024-08-22 00:48:23,602 - INFO - Logged filled sell order to database
+2024-08-22 00:48:26,644 - INFO - marked sell order f50e6a8b-8286-45cc-9a54-526599090b29
+2024-08-22 00:48:26,645 - INFO - Processing order with ID: 1757605504601123072, Status: New
+2024-08-22 00:48:28,774 - INFO - Placed buy order at 59773.7, Order ID: 1757605548322547968
+2024-08-22 00:48:28,775 - INFO - Processing order with ID: 1757605548322547968, Status: New
+2024-08-22 00:49:23,334 - INFO - State checkpointed successfully.
+2024-08-22 00:50:29,058 - INFO - State checkpointed successfully.
+2024-08-22 00:51:32,875 - INFO - State checkpointed successfully.
+2024-08-22 00:52:38,812 - INFO - State checkpointed successfully.
+2024-08-22 00:53:49,382 - INFO - State checkpointed successfully.
+2024-08-22 00:54:55,356 - INFO - State checkpointed successfully.
+2024-08-22 00:56:01,245 - INFO - State checkpointed successfully.
+2024-08-22 00:57:08,807 - INFO - State checkpointed successfully.
+2024-08-22 00:58:13,165 - INFO - State checkpointed successfully.
+2024-08-22 00:59:18,548 - INFO - State checkpointed successfully.
+2024-08-22 01:00:22,630 - INFO - State checkpointed successfully.
+2024-08-22 01:01:27,986 - INFO - State checkpointed successfully.
+2024-08-22 01:02:46,758 - INFO - State checkpointed successfully.
+2024-08-22 01:03:08,454 - INFO - Processing order with ID: 1757605548322547968, Status: Filled
+2024-08-22 01:03:08,455 - INFO - Order filled - ID: 1757605548322547968, Side: Buy, Price: 59773.7, Qty: 0.001
+2024-08-22 01:03:08,954 - INFO - Placed sell order at 59953.7, Order ID: 1757612928510814464
+2024-08-22 01:03:09,060 - INFO - Placed corresponding sell order with ID: 1757612928510814464
+2024-08-22 01:03:09,531 - INFO - Logged filled sell order to database
+2024-08-22 01:03:09,531 - INFO - Processing order with ID: 1757612928510814464, Status: New
+2024-08-22 01:03:50,258 - INFO - State checkpointed successfully.
+2024-08-22 01:05:02,933 - INFO - State checkpointed successfully.
+2024-08-22 01:06:11,374 - INFO - State checkpointed successfully.
+2024-08-22 01:07:20,458 - INFO - State checkpointed successfully.
+2024-08-22 01:08:26,863 - INFO - State checkpointed successfully.
+2024-08-22 01:09:30,993 - INFO - State checkpointed successfully.
+2024-08-22 01:10:34,619 - INFO - State checkpointed successfully.
+2024-08-22 01:11:41,569 - INFO - State checkpointed successfully.
+2024-08-22 01:12:47,562 - INFO - State checkpointed successfully.
+2024-08-22 01:13:55,667 - INFO - State checkpointed successfully.
+2024-08-22 01:15:02,855 - INFO - State checkpointed successfully.
+2024-08-22 01:16:06,169 - INFO - State checkpointed successfully.
+2024-08-22 01:17:10,701 - INFO - State checkpointed successfully.
+2024-08-22 01:18:16,636 - INFO - State checkpointed successfully.
+2024-08-22 01:19:21,490 - INFO - State checkpointed successfully.
+2024-08-22 01:20:30,227 - INFO - State checkpointed successfully.
+2024-08-22 01:21:22,324 - INFO - Processing order with ID: 1757612928510814464, Status: Filled
+2024-08-22 01:21:22,324 - INFO - Order filled - ID: 1757612928510814464, Side: Sell, Price: 59953.7, Qty: 0.001
+2024-08-22 01:21:22,535 - INFO - Processed filled sell order - Pair Profit: 0.06027259999999757
+2024-08-22 01:21:22,991 - INFO - Logged filled sell order to database
+2024-08-22 01:21:25,644 - INFO - marked sell order 86f983d6-fdb0-4839-96f2-72e13752ecae
+2024-08-22 01:21:35,271 - INFO - State checkpointed successfully.
+2024-08-22 01:21:40,765 - INFO - Placed buy order at 59773.7, Order ID: 1757622258345797888
+2024-08-22 01:21:40,766 - INFO - Processing order with ID: 1757622258345797888, Status: New
+2024-08-22 01:22:39,233 - INFO - State checkpointed successfully.
+2024-08-22 01:23:48,643 - INFO - State checkpointed successfully.
+2024-08-22 01:24:53,640 - INFO - State checkpointed successfully.
+2024-08-22 01:25:58,133 - INFO - State checkpointed successfully.
+2024-08-22 01:27:01,798 - INFO - State checkpointed successfully.
+2024-08-22 01:28:13,234 - INFO - State checkpointed successfully.
+2024-08-22 01:29:23,100 - INFO - State checkpointed successfully.
+2024-08-22 01:30:27,274 - INFO - State checkpointed successfully.
+2024-08-22 01:31:34,181 - INFO - State checkpointed successfully.
+2024-08-22 01:32:40,533 - INFO - State checkpointed successfully.
+2024-08-22 01:33:45,341 - INFO - State checkpointed successfully.
+2024-08-22 01:34:52,516 - INFO - State checkpointed successfully.
+2024-08-22 01:36:01,961 - INFO - State checkpointed successfully.
+2024-08-22 01:37:09,446 - INFO - State checkpointed successfully.
+2024-08-22 01:38:15,347 - INFO - State checkpointed successfully.
+2024-08-22 01:39:20,778 - INFO - State checkpointed successfully.
+2024-08-22 01:40:24,836 - INFO - State checkpointed successfully.
+2024-08-22 01:41:31,309 - INFO - State checkpointed successfully.
+2024-08-22 01:42:35,312 - INFO - State checkpointed successfully.
+2024-08-22 01:43:40,520 - INFO - State checkpointed successfully.
+2024-08-22 01:44:46,624 - INFO - State checkpointed successfully.
+2024-08-22 01:45:54,150 - INFO - State checkpointed successfully.
+2024-08-22 01:47:00,441 - INFO - State checkpointed successfully.
+2024-08-22 01:48:06,058 - INFO - State checkpointed successfully.
+2024-08-22 01:49:11,558 - INFO - State checkpointed successfully.
+2024-08-22 01:50:16,350 - INFO - State checkpointed successfully.
+2024-08-22 01:51:23,763 - INFO - State checkpointed successfully.
+2024-08-22 01:52:32,313 - INFO - State checkpointed successfully.
+2024-08-22 01:53:40,270 - INFO - State checkpointed successfully.
+2024-08-22 01:54:44,515 - INFO - State checkpointed successfully.
+2024-08-22 01:55:49,053 - INFO - State checkpointed successfully.
+2024-08-22 01:56:55,124 - INFO - State checkpointed successfully.
+2024-08-22 01:58:01,108 - INFO - State checkpointed successfully.
+2024-08-22 01:59:04,579 - INFO - State checkpointed successfully.
+2024-08-22 02:00:10,693 - INFO - State checkpointed successfully.
+2024-08-22 02:01:17,946 - INFO - State checkpointed successfully.
+2024-08-22 02:02:23,153 - INFO - State checkpointed successfully.
+2024-08-22 02:03:28,270 - INFO - State checkpointed successfully.
+2024-08-22 02:04:33,611 - INFO - State checkpointed successfully.
+2024-08-22 02:05:40,907 - INFO - State checkpointed successfully.
+2024-08-22 02:06:48,145 - INFO - State checkpointed successfully.
+2024-08-22 02:07:53,163 - INFO - State checkpointed successfully.
+2024-08-22 02:08:58,580 - INFO - State checkpointed successfully.
+2024-08-22 02:10:03,362 - INFO - State checkpointed successfully.
+2024-08-22 02:11:08,108 - INFO - State checkpointed successfully.
+2024-08-22 02:12:17,899 - INFO - State checkpointed successfully.
+2024-08-22 02:13:22,744 - INFO - State checkpointed successfully.
+2024-08-22 02:14:29,073 - INFO - State checkpointed successfully.
+2024-08-22 02:15:34,696 - INFO - State checkpointed successfully.
+2024-08-22 02:16:40,778 - INFO - State checkpointed successfully.
+2024-08-22 02:17:48,539 - INFO - State checkpointed successfully.
+2024-08-22 02:18:52,940 - INFO - State checkpointed successfully.
+2024-08-22 02:19:23,407 - INFO - Processing order with ID: 1757527386049833216, Status: Filled
+2024-08-22 02:19:23,408 - INFO - Order filled - ID: 1757527386049833216, Side: Sell, Price: 60133.7, Qty: 0.001
+2024-08-22 02:19:23,618 - INFO - Processed filled sell order - Pair Profit: 0.059912599999996985
+2024-08-22 02:19:24,018 - INFO - Logged filled sell order to database
+2024-08-22 02:19:29,308 - INFO - marked sell order c7aadac3-befc-4746-b2dc-0a7377d332e8
+2024-08-22 02:19:30,886 - INFO - Placed buy order at 59953.7, Order ID: 1757651367838968064
+2024-08-22 02:19:30,887 - INFO - Processing order with ID: 1757651367838968064, Status: New
+2024-08-22 02:19:57,556 - INFO - State checkpointed successfully.
+2024-08-22 02:21:01,287 - INFO - State checkpointed successfully.
+2024-08-22 02:21:02,201 - INFO - Processing order with ID: 1756804767314962688, Status: Filled
+2024-08-22 02:21:02,201 - INFO - Order filled - ID: 1756804767314962688, Side: Sell, Price: 60313.7, Qty: 0.001
+2024-08-22 02:21:02,603 - INFO - Processed filled sell order - Pair Profit: 0.0595525999999964
+2024-08-22 02:21:03,066 - INFO - Logged filled sell order to database
+2024-08-22 02:21:06,204 - INFO - marked sell order 3a34c52e-bf7d-4631-87f0-9e735a34ba1e
+2024-08-22 02:21:06,774 - INFO - Placed buy order at 60133.7, Order ID: 1757652172197423360
+2024-08-22 02:21:06,774 - INFO - Processing order with ID: 1757652172197423360, Status: New
+2024-08-22 02:22:04,836 - INFO - State checkpointed successfully.
+2024-08-22 02:23:10,623 - INFO - State checkpointed successfully.
+2024-08-22 02:24:18,114 - INFO - State checkpointed successfully.
+2024-08-22 02:25:24,820 - INFO - State checkpointed successfully.
+2024-08-22 02:26:28,397 - INFO - State checkpointed successfully.
+2024-08-22 02:27:36,702 - INFO - State checkpointed successfully.
+2024-08-22 02:28:45,604 - INFO - State checkpointed successfully.
+2024-08-22 02:29:56,424 - INFO - State checkpointed successfully.
+2024-08-22 02:31:01,276 - INFO - State checkpointed successfully.
+2024-08-22 02:32:14,181 - INFO - State checkpointed successfully.
+2024-08-22 02:33:23,685 - INFO - State checkpointed successfully.
+2024-08-22 02:34:27,317 - INFO - State checkpointed successfully.
+2024-08-22 02:35:31,168 - INFO - State checkpointed successfully.
+2024-08-22 02:35:48,939 - INFO - Processing order with ID: 1756801814608832769, Status: Filled
+2024-08-22 02:35:48,939 - INFO - Order filled - ID: 1756801814608832769, Side: Sell, Price: 60673.7, Qty: 0.001
+2024-08-22 02:35:49,229 - INFO - Flushed pending updates to CSV.
+2024-08-22 02:35:49,380 - INFO - Processed filled sell order - Pair Profit: 0.05883259999999524
+2024-08-22 02:35:49,907 - INFO - Logged filled sell order to database
+2024-08-22 02:35:51,249 - INFO - marked sell order d26f2ddb-c72a-49f5-9587-f237a4e24d66
+2024-08-22 02:35:58,461 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 0.5 seconds...
+2024-08-22 02:35:58,462 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:35:59,473 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 1.0 seconds...
+2024-08-22 02:35:59,474 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:00,971 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 1.5 seconds...
+2024-08-22 02:36:00,971 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:03,151 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 2.0 seconds...
+2024-08-22 02:36:03,151 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:05,765 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 2.5 seconds...
+2024-08-22 02:36:05,765 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:08,802 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 3.0 seconds...
+2024-08-22 02:36:08,803 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:13,069 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 3.5 seconds...
+2024-08-22 02:36:13,070 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:17,114 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 4.0 seconds...
+2024-08-22 02:36:17,115 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:21,629 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 4.5 seconds...
+2024-08-22 02:36:21,630 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:26,842 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 5.0 seconds...
+2024-08-22 02:36:26,842 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:32,356 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 5.5 seconds...
+2024-08-22 02:36:32,356 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:43,165 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 6.0 seconds...
+2024-08-22 02:36:43,166 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:51,705 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 6.5 seconds...
+2024-08-22 02:36:51,706 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:36:58,804 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 7.0 seconds...
+2024-08-22 02:36:58,805 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:06,339 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 7.5 seconds...
+2024-08-22 02:37:06,340 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:14,351 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 8.0 seconds...
+2024-08-22 02:37:14,351 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:23,578 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 8.5 seconds...
+2024-08-22 02:37:23,579 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:32,928 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 9.0 seconds...
+2024-08-22 02:37:32,929 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:43,360 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 9.5 seconds...
+2024-08-22 02:37:43,360 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:37:53,725 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 10.0 seconds...
+2024-08-22 02:37:53,725 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:38:04,977 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 10.5 seconds...
+2024-08-22 02:38:04,978 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:38:16,282 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 11.0 seconds...
+2024-08-22 02:38:16,282 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:38:29,813 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 11.5 seconds...
+2024-08-22 02:38:29,814 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:38:42,289 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 12.0 seconds...
+2024-08-22 02:38:42,289 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:38:54,979 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 12.5 seconds...
+2024-08-22 02:38:54,980 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:39:07,964 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 13.0 seconds...
+2024-08-22 02:39:07,964 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:39:21,667 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 13.5 seconds...
+2024-08-22 02:39:21,668 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:39:36,437 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 14.0 seconds...
+2024-08-22 02:39:36,438 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:39:51,260 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 14.5 seconds...
+2024-08-22 02:39:51,260 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:40:07,105 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 15.0 seconds...
+2024-08-22 02:40:07,106 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:40:24,240 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 15.5 seconds...
+2024-08-22 02:40:24,241 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:40:40,283 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 16.0 seconds...
+2024-08-22 02:40:40,283 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:40:57,314 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 16.5 seconds...
+2024-08-22 02:40:57,315 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:41:16,213 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 17.0 seconds...
+2024-08-22 02:41:16,213 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:41:34,013 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 17.5 seconds...
+2024-08-22 02:41:34,014 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:41:53,545 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 18.0 seconds...
+2024-08-22 02:41:53,545 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:42:12,365 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 18.5 seconds...
+2024-08-22 02:42:12,366 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:42:31,409 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 19.0 seconds...
+2024-08-22 02:42:31,409 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:42:50,944 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 19.5 seconds...
+2024-08-22 02:42:50,945 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:43:11,177 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 20.0 seconds...
+2024-08-22 02:43:11,178 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:43:32,354 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 20.5 seconds...
+2024-08-22 02:43:32,354 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:43:53,540 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 21.0 seconds...
+2024-08-22 02:43:53,541 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:44:15,624 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 21.5 seconds...
+2024-08-22 02:44:15,624 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:44:38,129 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 22.0 seconds...
+2024-08-22 02:44:38,129 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:45:05,381 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 22.5 seconds...
+2024-08-22 02:45:05,381 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:45:28,392 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 23.0 seconds...
+2024-08-22 02:45:28,392 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:45:52,114 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 23.5 seconds...
+2024-08-22 02:45:52,115 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:46:16,094 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 24.0 seconds...
+2024-08-22 02:46:16,094 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:46:40,966 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 24.5 seconds...
+2024-08-22 02:46:40,967 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:47:06,280 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 25.0 seconds...
+2024-08-22 02:47:06,280 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:47:33,494 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 25.5 seconds...
+2024-08-22 02:47:33,495 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:48:02,065 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 26.0 seconds...
+2024-08-22 02:48:02,066 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:48:29,982 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 26.5 seconds...
+2024-08-22 02:48:29,983 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:48:57,062 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 27.0 seconds...
+2024-08-22 02:48:57,062 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:49:24,808 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 27.5 seconds...
+2024-08-22 02:49:24,809 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:49:52,902 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 28.0 seconds...
+2024-08-22 02:49:52,903 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:50:21,413 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 28.5 seconds...
+2024-08-22 02:50:21,413 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:50:50,478 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 29.0 seconds...
+2024-08-22 02:50:50,478 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:51:21,392 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 29.5 seconds...
+2024-08-22 02:51:21,392 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:51:54,107 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:51:54,108 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:52:26,138 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:52:26,138 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:52:56,681 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:52:56,681 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:53:27,326 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:53:27,327 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:53:58,367 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:53:58,367 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:54:29,449 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:54:29,450 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:55:02,229 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:55:02,230 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:55:37,364 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:55:37,365 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:56:07,848 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:56:07,849 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:56:38,636 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:56:38,637 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:57:09,597 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:57:09,597 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:57:40,920 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:57:40,921 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:58:11,793 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:58:11,794 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:58:43,032 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:58:43,033 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:59:13,724 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:59:13,725 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 02:59:44,255 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 02:59:44,256 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:00:15,122 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:00:15,122 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:00:47,316 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:00:47,317 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:01:18,788 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:01:18,788 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:01:49,467 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:01:49,468 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:02:20,375 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:02:20,376 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:02:51,107 - ERROR - Error placing buy order at 60493.7: 170131. Retrying in 30.0 seconds...
+2024-08-22 03:02:51,108 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:04,127 - INFO - Processing order with ID: 1756796745532401920, Status: Filled
+2024-08-22 03:03:04,127 - INFO - Order filled - ID: 1756796745532401920, Side: Sell, Price: 60853.7, Qty: 0.001
+2024-08-22 03:03:04,523 - INFO - Processed filled sell order - Pair Profit: 0.05847259999999466
+2024-08-22 03:03:05,177 - INFO - Logged filled sell order to database
+2024-08-22 03:03:07,272 - INFO - marked sell order 2c5e77c8-2d10-4cb0-b3e1-e0e7a6762bea
+2024-08-22 03:03:22,884 - INFO - Placed buy order at 60493.7, Order ID: 1757673446638446848
+2024-08-22 03:03:22,885 - INFO - Processing order with ID: 1757673446638446848, Status: New
+2024-08-22 03:03:29,158 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 0.5 seconds...
+2024-08-22 03:03:29,158 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:30,114 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 1.0 seconds...
+2024-08-22 03:03:30,114 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:31,665 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 1.5 seconds...
+2024-08-22 03:03:31,665 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:38,489 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 2.0 seconds...
+2024-08-22 03:03:38,490 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:41,090 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 2.5 seconds...
+2024-08-22 03:03:41,090 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:45,154 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 3.0 seconds...
+2024-08-22 03:03:45,154 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:49,486 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 3.5 seconds...
+2024-08-22 03:03:49,487 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:03:53,458 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 4.0 seconds...
+2024-08-22 03:03:53,458 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:01,243 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 4.5 seconds...
+2024-08-22 03:04:01,244 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:06,280 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 5.0 seconds...
+2024-08-22 03:04:06,281 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:18,443 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 5.5 seconds...
+2024-08-22 03:04:18,444 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:28,749 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 6.0 seconds...
+2024-08-22 03:04:28,750 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:35,312 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 6.5 seconds...
+2024-08-22 03:04:35,313 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:42,737 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 7.0 seconds...
+2024-08-22 03:04:42,738 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:50,955 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 7.5 seconds...
+2024-08-22 03:04:50,955 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:04:58,975 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 8.0 seconds...
+2024-08-22 03:04:58,975 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:08,403 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 8.5 seconds...
+2024-08-22 03:05:08,403 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:17,848 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 9.0 seconds...
+2024-08-22 03:05:17,848 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:27,408 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 9.5 seconds...
+2024-08-22 03:05:27,408 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:37,406 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 10.0 seconds...
+2024-08-22 03:05:37,407 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:48,734 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 10.5 seconds...
+2024-08-22 03:05:48,734 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:05:59,899 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 11.0 seconds...
+2024-08-22 03:05:59,900 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:06:12,446 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 11.5 seconds...
+2024-08-22 03:06:12,446 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:06:25,592 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 12.0 seconds...
+2024-08-22 03:06:25,593 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:06:38,061 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 12.5 seconds...
+2024-08-22 03:06:38,061 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:06:51,061 - ERROR - Error placing buy order at 60673.7: 170131. Retrying in 13.0 seconds...
+2024-08-22 03:06:51,062 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:05,083 - INFO - Processing order with ID: 1757675310570367232, Status: New
+2024-08-22 03:07:05,083 - INFO - Placed buy order at 60673.7, Order ID: 1757675310570367232
+2024-08-22 03:07:11,766 - INFO - Processing order with ID: 1756787057621297409, Status: Filled
+2024-08-22 03:07:11,766 - INFO - Order filled - ID: 1756787057621297409, Side: Sell, Price: 61033.7, Qty: 0.001
+2024-08-22 03:07:11,981 - INFO - Processed filled sell order - Pair Profit: 0.058112599999994075
+2024-08-22 03:07:14,729 - INFO - Logged filled sell order to database
+2024-08-22 03:07:17,079 - INFO - marked sell order 2e8f5a48-0e5a-40c9-a84e-1e4202823500
+2024-08-22 03:07:21,023 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 0.5 seconds...
+2024-08-22 03:07:21,023 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:22,273 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 1.0 seconds...
+2024-08-22 03:07:22,274 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:23,840 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 1.5 seconds...
+2024-08-22 03:07:23,841 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:26,118 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 2.0 seconds...
+2024-08-22 03:07:26,119 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:28,801 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 2.5 seconds...
+2024-08-22 03:07:28,802 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:32,310 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 3.0 seconds...
+2024-08-22 03:07:32,311 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:36,031 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 3.5 seconds...
+2024-08-22 03:07:36,032 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:40,488 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 4.0 seconds...
+2024-08-22 03:07:40,489 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:45,013 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 4.5 seconds...
+2024-08-22 03:07:45,014 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:50,158 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 5.0 seconds...
+2024-08-22 03:07:50,159 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:07:55,823 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 5.5 seconds...
+2024-08-22 03:07:55,824 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:01,857 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 6.0 seconds...
+2024-08-22 03:08:01,857 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:10,214 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 6.5 seconds...
+2024-08-22 03:08:10,215 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:17,218 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 7.0 seconds...
+2024-08-22 03:08:17,218 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:25,922 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 7.5 seconds...
+2024-08-22 03:08:25,923 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:34,155 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 8.0 seconds...
+2024-08-22 03:08:34,155 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:43,532 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 8.5 seconds...
+2024-08-22 03:08:43,533 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:08:52,848 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 9.0 seconds...
+2024-08-22 03:08:52,849 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:09:03,563 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 9.5 seconds...
+2024-08-22 03:09:03,563 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:09:14,262 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 10.0 seconds...
+2024-08-22 03:09:14,263 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:09:25,909 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 10.5 seconds...
+2024-08-22 03:09:25,909 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:09:40,222 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 11.0 seconds...
+2024-08-22 03:09:40,223 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:09:51,925 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 11.5 seconds...
+2024-08-22 03:09:51,925 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:10:04,546 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 12.0 seconds...
+2024-08-22 03:10:04,546 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:10:17,023 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 12.5 seconds...
+2024-08-22 03:10:17,023 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:10:30,344 - ERROR - Error placing buy order at 60853.7: 170131. Retrying in 13.0 seconds...
+2024-08-22 03:10:30,345 - ERROR - Error occurred on line     raise Exception(response['retCode'])
+2024-08-22 03:10:43,925 - INFO - Placed buy order at 60853.7, Order ID: 1757677146358507776
+2024-08-22 03:10:43,926 - INFO - Processing order with ID: 1757677146358507776, Status: New
+2024-08-22 03:10:53,380 - INFO - Placed buy order at 61033.7, Order ID: 1757677225672796416
+2024-08-22 03:10:53,381 - INFO - Processing order with ID: 1757677225672796416, Status: New
+2024-08-22 03:11:08,945 - INFO - State checkpointed successfully.
+2024-08-22 03:11:18,262 - INFO - Processing order with ID: 1756920091540547841, Status: Cancelled
+2024-08-22 03:11:18,262 - INFO - Order cancelled - ID: 1756920091540547841
+2024-08-22 03:11:18,263 - INFO - State checkpointed successfully.
+2024-08-22 03:11:36,545 - INFO - Processing order with ID: 1757677146358507776, Status: Cancelled
+2024-08-22 03:11:36,545 - INFO - Order cancelled - ID: 1757677146358507776
+2024-08-22 03:11:36,546 - INFO - State checkpointed successfully.
+2024-08-22 03:11:45,114 - INFO - Processing order with ID: 1757675310570367232, Status: Cancelled
+2024-08-22 03:11:45,114 - INFO - Order cancelled - ID: 1757675310570367232
+2024-08-22 03:11:45,115 - INFO - State checkpointed successfully.
+2024-08-22 03:11:47,123 - INFO - Processing order with ID: 1757673446638446848, Status: Cancelled
+2024-08-22 03:11:47,123 - INFO - Order cancelled - ID: 1757673446638446848
+2024-08-22 03:11:47,124 - INFO - State checkpointed successfully.
+2024-08-22 03:11:48,192 - INFO - Processing order with ID: 1757652172197423360, Status: Cancelled
+2024-08-22 03:11:48,192 - INFO - Order cancelled - ID: 1757652172197423360
+2024-08-22 03:11:48,193 - INFO - State checkpointed successfully.
+2024-08-22 03:11:49,099 - INFO - Processing order with ID: 1757651367838968064, Status: Cancelled
+2024-08-22 03:11:49,099 - INFO - Order cancelled - ID: 1757651367838968064
+2024-08-22 03:11:49,100 - INFO - State checkpointed successfully.
+2024-08-22 03:11:50,013 - INFO - Processing order with ID: 1757622258345797888, Status: Cancelled
+2024-08-22 03:11:50,014 - INFO - Order cancelled - ID: 1757622258345797888
+2024-08-22 03:11:50,015 - INFO - State checkpointed successfully.
+2024-08-22 03:11:50,846 - INFO - Processing order with ID: 1757605504601123072, Status: Cancelled
+2024-08-22 03:11:50,847 - INFO - Order cancelled - ID: 1757605504601123072
+2024-08-22 03:11:50,847 - INFO - State checkpointed successfully.
+2024-08-22 03:11:53,876 - INFO - Processing order with ID: 1757529505565862144, Status: Cancelled
+2024-08-22 03:11:53,876 - INFO - Order cancelled - ID: 1757529505565862144
+2024-08-22 03:11:53,877 - INFO - State checkpointed successfully.
+2024-08-22 03:12:02,348 - INFO - Processing order with ID: 1757519381556193536, Status: Cancelled
+2024-08-22 03:12:02,349 - INFO - Order cancelled - ID: 1757519381556193536
+2024-08-22 03:12:02,350 - INFO - State checkpointed successfully.
+2024-08-22 03:12:13,441 - INFO - State checkpointed successfully.
+2024-08-22 03:13:18,111 - INFO - State checkpointed successfully.
+2024-08-22 03:13:55,730 - INFO - Processing order with ID: 1757677225672796416, Status: Filled
+2024-08-22 03:13:55,730 - INFO - Order filled - ID: 1757677225672796416, Side: Buy, Price: 61033.7, Qty: 0.001
+2024-08-22 03:13:56,273 - INFO - Placed sell order at 61213.7, Order ID: 1757678756233046273
+2024-08-22 03:13:56,379 - INFO - Placed corresponding sell order with ID: 1757678756233046273
+2024-08-22 03:13:56,885 - INFO - Logged filled sell order to database
+2024-08-22 03:13:56,886 - INFO - Processing order with ID: 1757678756233046273, Status: New
+2024-08-22 03:14:23,222 - INFO - State checkpointed successfully.
+2024-08-22 03:15:27,599 - INFO - State checkpointed successfully.
+2024-08-22 03:16:31,602 - INFO - State checkpointed successfully.
+2024-08-22 03:17:35,970 - INFO - State checkpointed successfully.
+2024-08-22 03:18:39,611 - INFO - State checkpointed successfully.
+2024-08-22 03:19:45,471 - INFO - State checkpointed successfully.
+2024-08-22 03:20:49,400 - INFO - State checkpointed successfully.
+2024-08-22 03:21:52,681 - INFO - State checkpointed successfully.
+2024-08-22 03:22:59,799 - INFO - State checkpointed successfully.
+2024-08-22 03:24:05,573 - INFO - State checkpointed successfully.
+2024-08-22 03:25:11,874 - INFO - State checkpointed successfully.
+2024-08-22 03:26:17,992 - INFO - State checkpointed successfully.
+2024-08-22 03:27:22,065 - INFO - State checkpointed successfully.
+2024-08-22 03:28:28,542 - INFO - State checkpointed successfully.
+2024-08-22 03:29:33,715 - INFO - State checkpointed successfully.
+2024-08-22 03:30:40,202 - INFO - State checkpointed successfully.
+2024-08-22 03:31:46,041 - INFO - State checkpointed successfully.
+2024-08-22 03:32:56,484 - INFO - State checkpointed successfully.
+2024-08-22 03:34:00,908 - INFO - State checkpointed successfully.
+2024-08-22 03:34:47,581 - INFO - Processing order with ID: 1757678756233046273, Status: Filled
+2024-08-22 03:34:47,582 - INFO - Order filled - ID: 1757678756233046273, Side: Sell, Price: 61213.7, Qty: 0.001
+2024-08-22 03:34:47,977 - INFO - Processed filled sell order - Pair Profit: 0.05775259999999349
+2024-08-22 03:34:48,710 - INFO - Logged filled sell order to database
+2024-08-22 03:34:51,240 - INFO - marked sell order 12919e5a-157b-4a9b-a351-dd2e2bafa355
+2024-08-22 03:34:55,445 - INFO - Placed buy order at 61033.7, Order ID: 1757689322582403328
+2024-08-22 03:34:55,445 - INFO - Processing order with ID: 1757689322582403328, Status: New
+2024-08-22 03:35:06,268 - INFO - State checkpointed successfully.
+2024-08-22 03:35:16,845 - INFO - Placed buy order at 61213.7, Order ID: 1757689502107003136
+2024-08-22 03:35:16,847 - INFO - Processing order with ID: 1757689502107003136, Status: New
+2024-08-22 03:36:09,943 - INFO - State checkpointed successfully.
+2024-08-22 03:37:13,658 - INFO - State checkpointed successfully.
+2024-08-22 03:38:20,344 - INFO - State checkpointed successfully.
+2024-08-22 03:39:24,560 - INFO - State checkpointed successfully.
+2024-08-22 03:40:08,356 - INFO - Processing order with ID: 1757691947470121216, Status: New
+2024-08-22 03:40:08,357 - INFO - Placed buy order at 61393.7, Order ID: 1757691947470121216
+2024-08-22 03:40:12,571 - INFO - Processing order with ID: 1757691947470121216, Status: PartiallyFilled
+2024-08-22 03:40:12,574 - INFO - Processing order with ID: 1757691947470121216, Status: Filled
+2024-08-22 03:40:12,574 - INFO - Order filled - ID: 1757691947470121216, Side: Buy, Price: 61393.7, Qty: 0.001
+2024-08-22 03:40:13,821 - INFO - Placed sell order at 61573.7, Order ID: 1757691983750850816
+2024-08-22 03:40:13,926 - INFO - Placed corresponding sell order with ID: 1757691983750850816
+2024-08-22 03:40:14,397 - INFO - Logged filled sell order to database
+2024-08-22 03:40:14,397 - INFO - Processing order with ID: 1757691983750850816, Status: New
+2024-08-22 03:40:23,211 - INFO - Processing order with ID: 1757689502107003136, Status: Filled
+2024-08-22 03:40:23,211 - INFO - Order filled - ID: 1757689502107003136, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 03:40:25,033 - INFO - Placed sell order at 61393.7, Order ID: 1757692074557532416
+2024-08-22 03:40:25,322 - INFO - Placed corresponding sell order with ID: 1757692074557532416
+2024-08-22 03:40:25,700 - INFO - Logged filled sell order to database
+2024-08-22 03:40:25,701 - INFO - Processing order with ID: 1757692074557532416, Status: New
+2024-08-22 03:40:30,426 - INFO - State checkpointed successfully.
+2024-08-22 03:41:40,752 - INFO - State checkpointed successfully.
+2024-08-22 03:42:45,320 - INFO - State checkpointed successfully.
+2024-08-22 03:43:49,164 - INFO - State checkpointed successfully.
+2024-08-22 03:44:55,321 - INFO - State checkpointed successfully.
+2024-08-22 03:45:59,101 - INFO - State checkpointed successfully.
+2024-08-22 03:47:05,596 - INFO - State checkpointed successfully.
+2024-08-22 03:48:10,362 - INFO - State checkpointed successfully.
+2024-08-22 03:49:18,783 - INFO - State checkpointed successfully.
+2024-08-22 03:49:35,479 - INFO - Processing order with ID: 1757692074557532416, Status: Filled
+2024-08-22 03:49:35,479 - INFO - Order filled - ID: 1757692074557532416, Side: Sell, Price: 61393.7, Qty: 0.001
+2024-08-22 03:49:35,689 - INFO - Processed filled sell order - Pair Profit: 0.05739259999999291
+2024-08-22 03:49:36,493 - INFO - Logged filled sell order to database
+2024-08-22 03:49:38,083 - INFO - marked sell order e8ca57d9-75fc-4c3d-971a-ce37b5ca3d16
+2024-08-22 03:49:40,245 - INFO - Placed buy order at 61213.7, Order ID: 1757696744822761728
+2024-08-22 03:49:40,247 - INFO - Processing order with ID: 1757696744822761728, Status: New
+2024-08-22 03:50:23,749 - INFO - State checkpointed successfully.
+2024-08-22 03:51:29,619 - INFO - State checkpointed successfully.
+2024-08-22 03:52:35,618 - INFO - State checkpointed successfully.
+2024-08-22 03:53:41,245 - INFO - State checkpointed successfully.
+2024-08-22 03:54:45,352 - INFO - State checkpointed successfully.
+2024-08-22 03:55:52,356 - INFO - State checkpointed successfully.
+2024-08-22 03:56:29,164 - INFO - Processing order with ID: 1757691983750850816, Status: Filled
+2024-08-22 03:56:29,164 - INFO - Order filled - ID: 1757691983750850816, Side: Sell, Price: 61573.7, Qty: 0.001
+2024-08-22 03:56:29,269 - INFO - Flushed pending updates to CSV.
+2024-08-22 03:56:29,374 - INFO - Processed filled sell order - Pair Profit: 0.05703260000000654
+2024-08-22 03:56:29,732 - INFO - Logged filled sell order to database
+2024-08-22 03:56:31,540 - INFO - marked sell order d65bade6-d0fa-41e3-beab-612181f09590
+2024-08-22 03:56:33,380 - INFO - Placed buy order at 61393.7, Order ID: 1757700210450327809
+2024-08-22 03:56:33,380 - INFO - Processing order with ID: 1757700210450327809, Status: New
+2024-08-22 03:57:01,892 - INFO - State checkpointed successfully.
+2024-08-22 03:57:12,528 - INFO - Placed buy order at 61573.7, Order ID: 1757700538855942400
+2024-08-22 03:57:12,530 - INFO - Processing order with ID: 1757700538855942400, Status: New
+2024-08-22 03:57:15,401 - INFO - Processing order with ID: 1757700538855942400, Status: PartiallyFilled
+2024-08-22 03:57:15,402 - INFO - Processing order with ID: 1757700538855942400, Status: Filled
+2024-08-22 03:57:15,402 - INFO - Order filled - ID: 1757700538855942400, Side: Buy, Price: 61573.7, Qty: 0.001
+2024-08-22 03:57:15,983 - INFO - Placed sell order at 61753.7, Order ID: 1757700563862382848
+2024-08-22 03:57:16,088 - INFO - Placed corresponding sell order with ID: 1757700563862382848
+2024-08-22 03:57:17,679 - INFO - Logged filled sell order to database
+2024-08-22 03:57:17,680 - INFO - Processing order with ID: 1757700563862382848, Status: New
+2024-08-22 03:58:05,519 - INFO - State checkpointed successfully.
+2024-08-22 03:59:10,378 - INFO - State checkpointed successfully.
+2024-08-22 04:00:14,335 - INFO - State checkpointed successfully.
+2024-08-22 04:01:22,423 - INFO - State checkpointed successfully.
+2024-08-22 04:01:32,570 - INFO - Processing order with ID: 1757700563862382848, Status: Filled
+2024-08-22 04:01:32,571 - INFO - Order filled - ID: 1757700563862382848, Side: Sell, Price: 61753.7, Qty: 0.001
+2024-08-22 04:01:32,782 - INFO - Processed filled sell order - Pair Profit: 0.05667260000000596
+2024-08-22 04:01:34,373 - INFO - Logged filled sell order to database
+2024-08-22 04:01:36,999 - INFO - marked sell order fffef828-af9f-8109-95ee-f8ea10820d8a
+2024-08-22 04:01:40,768 - INFO - Placed buy order at 61573.7, Order ID: 1757702789007763712
+2024-08-22 04:01:40,768 - INFO - Processing order with ID: 1757702789007763712, Status: New
+2024-08-22 04:02:03,944 - INFO - Placed buy order at 61753.7, Order ID: 1757702983430531328
+2024-08-22 04:02:03,945 - INFO - Processing order with ID: 1757702983430531328, Status: New
+2024-08-22 04:02:10,051 - INFO - Processing order with ID: 1757702983430531328, Status: Filled
+2024-08-22 04:02:10,051 - INFO - Order filled - ID: 1757702983430531328, Side: Buy, Price: 61753.7, Qty: 0.001
+2024-08-22 04:02:13,743 - INFO - Placed sell order at 61933.7, Order ID: 1757703035540564224
+2024-08-22 04:02:14,034 - INFO - Placed corresponding sell order with ID: 1757703035540564224
+2024-08-22 04:02:16,172 - INFO - Logged filled sell order to database
+2024-08-22 04:02:16,172 - INFO - Processing order with ID: 1757703035540564224, Status: New
+2024-08-22 04:02:30,218 - INFO - State checkpointed successfully.
+2024-08-22 04:03:35,543 - INFO - State checkpointed successfully.
+2024-08-22 04:04:40,867 - INFO - State checkpointed successfully.
+2024-08-22 04:05:45,037 - INFO - State checkpointed successfully.
+2024-08-22 04:06:30,154 - INFO - Processing order with ID: 1757702789007763712, Status: Filled
+2024-08-22 04:06:30,154 - INFO - Order filled - ID: 1757702789007763712, Side: Buy, Price: 61573.7, Qty: 0.001
+2024-08-22 04:06:30,770 - INFO - Placed sell order at 61753.7, Order ID: 1757705217459448064
+2024-08-22 04:06:30,877 - INFO - Placed corresponding sell order with ID: 1757705217459448064
+2024-08-22 04:06:31,357 - INFO - Logged filled sell order to database
+2024-08-22 04:06:31,358 - INFO - Processing order with ID: 1757705217459448064, Status: New
+2024-08-22 04:06:31,722 - INFO - Processing order with ID: 1757700210450327809, Status: Filled
+2024-08-22 04:06:31,722 - INFO - Order filled - ID: 1757700210450327809, Side: Buy, Price: 61393.7, Qty: 0.001
+2024-08-22 04:06:32,524 - INFO - Placed sell order at 61573.7, Order ID: 1757705232156289280
+2024-08-22 04:06:32,819 - INFO - Placed corresponding sell order with ID: 1757705232156289280
+2024-08-22 04:06:33,335 - INFO - Logged filled sell order to database
+2024-08-22 04:06:33,336 - INFO - Processing order with ID: 1757705232156289280, Status: New
+2024-08-22 04:06:53,198 - INFO - State checkpointed successfully.
+2024-08-22 04:07:48,098 - INFO - Processing order with ID: 1757705232156289280, Status: Filled
+2024-08-22 04:07:48,098 - INFO - Order filled - ID: 1757705232156289280, Side: Sell, Price: 61573.7, Qty: 0.001
+2024-08-22 04:07:48,310 - INFO - Processed filled sell order - Pair Profit: 0.05703260000000654
+2024-08-22 04:07:50,393 - INFO - Logged filled sell order to database
+2024-08-22 04:07:51,175 - INFO - marked sell order e5992a7f-ae44-457f-aa40-8ed7397f48fe
+2024-08-22 04:07:59,684 - INFO - State checkpointed successfully.
+2024-08-22 04:08:32,222 - INFO - Placed buy order at 61393.7, Order ID: 1757706240542468352
+2024-08-22 04:08:32,223 - INFO - Processing order with ID: 1757706240542468352, Status: New
+2024-08-22 04:09:04,808 - INFO - State checkpointed successfully.
+2024-08-22 04:10:11,019 - INFO - State checkpointed successfully.
+2024-08-22 04:11:19,459 - INFO - State checkpointed successfully.
+2024-08-22 04:12:23,903 - INFO - State checkpointed successfully.
+2024-08-22 04:13:28,745 - INFO - State checkpointed successfully.
+2024-08-22 04:14:34,099 - INFO - State checkpointed successfully.
+2024-08-22 04:15:39,587 - INFO - State checkpointed successfully.
+2024-08-22 04:16:46,702 - INFO - State checkpointed successfully.
+2024-08-22 04:17:50,274 - INFO - State checkpointed successfully.
+2024-08-22 04:18:54,121 - INFO - State checkpointed successfully.
+2024-08-22 04:20:00,747 - INFO - State checkpointed successfully.
+2024-08-22 04:21:10,888 - INFO - State checkpointed successfully.
+2024-08-22 04:22:15,412 - INFO - State checkpointed successfully.
+2024-08-22 04:23:22,694 - INFO - State checkpointed successfully.
+2024-08-22 04:24:28,332 - INFO - State checkpointed successfully.
+2024-08-22 04:25:32,755 - INFO - State checkpointed successfully.
+2024-08-22 04:25:47,882 - INFO - Processing order with ID: 1757706240542468352, Status: Filled
+2024-08-22 04:25:47,882 - INFO - Order filled - ID: 1757706240542468352, Side: Buy, Price: 61393.7, Qty: 0.001
+2024-08-22 04:25:48,611 - INFO - Placed sell order at 61573.7, Order ID: 1757714929177422080
+2024-08-22 04:25:48,901 - INFO - Placed corresponding sell order with ID: 1757714929177422080
+2024-08-22 04:25:49,392 - INFO - Logged filled sell order to database
+2024-08-22 04:25:49,393 - INFO - Processing order with ID: 1757714929177422080, Status: New
+2024-08-22 04:26:38,238 - INFO - State checkpointed successfully.
+2024-08-22 04:27:41,556 - INFO - State checkpointed successfully.
+2024-08-22 04:28:46,418 - INFO - State checkpointed successfully.
+2024-08-22 04:29:51,039 - INFO - State checkpointed successfully.
+2024-08-22 04:30:57,536 - INFO - State checkpointed successfully.
+2024-08-22 04:32:05,437 - INFO - State checkpointed successfully.
+2024-08-22 04:33:12,624 - INFO - State checkpointed successfully.
+2024-08-22 04:33:33,672 - INFO - Processing order with ID: 1757696744822761728, Status: Filled
+2024-08-22 04:33:33,672 - INFO - Order filled - ID: 1757696744822761728, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 04:33:34,811 - INFO - Placed sell order at 61393.7, Order ID: 1757718836523919616
+2024-08-22 04:33:35,102 - INFO - Placed corresponding sell order with ID: 1757718836523919616
+2024-08-22 04:33:35,717 - INFO - Logged filled sell order to database
+2024-08-22 04:33:35,718 - INFO - Processing order with ID: 1757718836523919616, Status: New
+2024-08-22 04:34:15,959 - INFO - State checkpointed successfully.
+2024-08-22 04:35:19,516 - INFO - State checkpointed successfully.
+2024-08-22 04:36:25,742 - INFO - State checkpointed successfully.
+2024-08-22 04:37:33,122 - INFO - State checkpointed successfully.
+2024-08-22 04:38:37,764 - INFO - State checkpointed successfully.
+2024-08-22 04:39:42,072 - INFO - State checkpointed successfully.
+2024-08-22 04:40:45,745 - INFO - State checkpointed successfully.
+2024-08-22 04:41:50,649 - INFO - State checkpointed successfully.
+2024-08-22 04:42:57,444 - INFO - State checkpointed successfully.
+2024-08-22 04:44:01,610 - INFO - State checkpointed successfully.
+2024-08-22 04:45:06,780 - INFO - State checkpointed successfully.
+2024-08-22 04:46:10,705 - INFO - State checkpointed successfully.
+2024-08-22 04:46:36,006 - INFO - Processing order with ID: 1757689322582403328, Status: Filled
+2024-08-22 04:46:36,006 - INFO - Order filled - ID: 1757689322582403328, Side: Buy, Price: 61033.7, Qty: 0.001
+2024-08-22 04:46:36,477 - INFO - Placed sell order at 61213.7, Order ID: 1757725399208782080
+2024-08-22 04:46:36,582 - INFO - Placed corresponding sell order with ID: 1757725399208782080
+2024-08-22 04:46:37,119 - INFO - Logged filled sell order to database
+2024-08-22 04:46:37,120 - INFO - Processing order with ID: 1757725399208782080, Status: New
+2024-08-22 04:47:14,469 - INFO - State checkpointed successfully.
+2024-08-22 04:48:31,443 - INFO - State checkpointed successfully.
+2024-08-22 04:49:36,497 - INFO - State checkpointed successfully.
+2024-08-22 04:50:43,299 - INFO - State checkpointed successfully.
+2024-08-22 04:51:48,615 - INFO - State checkpointed successfully.
+2024-08-22 04:52:52,217 - INFO - State checkpointed successfully.
+2024-08-22 04:53:56,533 - INFO - State checkpointed successfully.
+2024-08-22 04:55:03,956 - INFO - State checkpointed successfully.
+2024-08-22 04:56:13,073 - INFO - State checkpointed successfully.
+2024-08-22 04:57:17,464 - INFO - State checkpointed successfully.
+2024-08-22 04:58:07,454 - INFO - Processing order with ID: 1757725399208782080, Status: Filled
+2024-08-22 04:58:07,455 - INFO - Order filled - ID: 1757725399208782080, Side: Sell, Price: 61213.7, Qty: 0.001
+2024-08-22 04:58:07,664 - INFO - Processed filled sell order - Pair Profit: 0.05775259999999349
+2024-08-22 04:58:10,350 - INFO - Logged filled sell order to database
+2024-08-22 04:58:11,750 - INFO - marked sell order 160a742d-e360-4f67-a52b-b0543213d6e9
+2024-08-22 04:58:24,825 - INFO - Placed buy order at 61033.7, Order ID: 1757731344315934976
+2024-08-22 04:58:24,826 - INFO - Processing order with ID: 1757731344315934976, Status: New
+2024-08-22 04:58:24,827 - INFO - State checkpointed successfully.
+2024-08-22 04:59:36,312 - INFO - State checkpointed successfully.
+2024-08-22 05:00:50,644 - INFO - State checkpointed successfully.
+2024-08-22 05:01:58,415 - INFO - State checkpointed successfully.
+2024-08-22 05:03:02,898 - INFO - State checkpointed successfully.
+2024-08-22 05:04:08,343 - INFO - State checkpointed successfully.
+2024-08-22 05:05:14,023 - INFO - State checkpointed successfully.
+2024-08-22 05:05:18,812 - INFO - Processing order with ID: 1757731344315934976, Status: Filled
+2024-08-22 05:05:18,813 - INFO - Order filled - ID: 1757731344315934976, Side: Buy, Price: 61033.7, Qty: 0.001
+2024-08-22 05:05:20,096 - INFO - Placed sell order at 61213.7, Order ID: 1757734817996564736
+2024-08-22 05:05:20,200 - INFO - Placed corresponding sell order with ID: 1757734817996564736
+2024-08-22 05:05:20,624 - INFO - Logged filled sell order to database
+2024-08-22 05:05:20,625 - INFO - Processing order with ID: 1757734817996564736, Status: New
+2024-08-22 05:06:20,229 - INFO - State checkpointed successfully.
+2024-08-22 05:07:26,027 - INFO - State checkpointed successfully.
+2024-08-22 05:08:32,870 - INFO - State checkpointed successfully.
+2024-08-22 05:09:38,673 - INFO - State checkpointed successfully.
+2024-08-22 05:10:52,795 - INFO - State checkpointed successfully.
+2024-08-22 05:11:59,106 - INFO - State checkpointed successfully.
+2024-08-22 05:13:03,692 - INFO - State checkpointed successfully.
+2024-08-22 05:14:10,700 - INFO - State checkpointed successfully.
+2024-08-22 05:15:15,758 - INFO - State checkpointed successfully.
+2024-08-22 05:16:22,120 - INFO - State checkpointed successfully.
+2024-08-22 05:17:31,618 - INFO - State checkpointed successfully.
+2024-08-22 05:18:38,607 - INFO - State checkpointed successfully.
+2024-08-22 05:19:44,982 - INFO - State checkpointed successfully.
+2024-08-22 05:20:51,645 - INFO - State checkpointed successfully.
+2024-08-22 05:20:54,312 - INFO - Processing order with ID: 1757734817996564736, Status: Filled
+2024-08-22 05:20:54,313 - INFO - Order filled - ID: 1757734817996564736, Side: Sell, Price: 61213.7, Qty: 0.001
+2024-08-22 05:20:54,526 - INFO - Processed filled sell order - Pair Profit: 0.05775259999999349
+2024-08-22 05:20:55,921 - INFO - Logged filled sell order to database
+2024-08-22 05:20:57,537 - INFO - marked sell order 24bf3716-6537-465b-b0c5-d0739066e9fa
+2024-08-22 05:21:03,426 - INFO - Processing order with ID: 1757718836523919616, Status: Filled
+2024-08-22 05:21:03,427 - INFO - Order filled - ID: 1757718836523919616, Side: Sell, Price: 61393.7, Qty: 0.001
+2024-08-22 05:21:03,532 - INFO - Flushed pending updates to CSV.
+2024-08-22 05:21:03,822 - INFO - Processed filled sell order - Pair Profit: 0.05739259999999291
+2024-08-22 05:21:04,288 - INFO - Logged filled sell order to database
+2024-08-22 05:21:07,487 - INFO - marked sell order 59c51a49-1e6c-4af0-9c77-3d7817c6fd12
+2024-08-22 05:21:07,844 - INFO - Placed buy order at 61213.7, Order ID: 1757742778148022528
+2024-08-22 05:21:07,845 - INFO - Processing order with ID: 1757742778148022528, Status: New
+2024-08-22 05:21:41,713 - INFO - Processing order with ID: 1757742778148022528, Status: Filled
+2024-08-22 05:21:41,713 - INFO - Order filled - ID: 1757742778148022528, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 05:21:42,289 - INFO - Placed sell order at 61393.7, Order ID: 1757743063167756544
+2024-08-22 05:21:42,396 - INFO - Placed corresponding sell order with ID: 1757743063167756544
+2024-08-22 05:21:42,822 - INFO - Logged filled sell order to database
+2024-08-22 05:21:42,823 - INFO - Processing order with ID: 1757743063167756544, Status: New
+2024-08-22 05:21:55,907 - INFO - State checkpointed successfully.
+2024-08-22 05:23:05,682 - INFO - State checkpointed successfully.
+2024-08-22 05:23:34,288 - INFO - Processing order with ID: 1757743063167756544, Status: Filled
+2024-08-22 05:23:34,289 - INFO - Order filled - ID: 1757743063167756544, Side: Sell, Price: 61393.7, Qty: 0.001
+2024-08-22 05:23:34,499 - INFO - Processed filled sell order - Pair Profit: 0.05739259999999291
+2024-08-22 05:23:36,532 - INFO - Logged filled sell order to database
+2024-08-22 05:23:39,577 - INFO - marked sell order aba5cb44-fae9-454a-8e71-ecbbf6aa8059
+2024-08-22 05:23:43,617 - INFO - Processing order with ID: 1757744084858267904, Status: New
+2024-08-22 05:23:43,618 - INFO - Placed buy order at 61213.7, Order ID: 1757744084858267904
+2024-08-22 05:24:11,857 - INFO - State checkpointed successfully.
+2024-08-22 05:24:36,830 - INFO - Processing order with ID: 1757744084858267904, Status: Filled
+2024-08-22 05:24:36,830 - INFO - Order filled - ID: 1757744084858267904, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 05:24:37,402 - INFO - Placed sell order at 61393.7, Order ID: 1757744532164012288
+2024-08-22 05:24:37,507 - INFO - Placed corresponding sell order with ID: 1757744532164012288
+2024-08-22 05:24:38,178 - INFO - Logged filled sell order to database
+2024-08-22 05:24:38,179 - INFO - Processing order with ID: 1757744532164012288, Status: New
+2024-08-22 05:24:40,539 - INFO - Placed buy order at 61033.7, Order ID: 1757744562363001088
+2024-08-22 05:24:40,540 - INFO - Processing order with ID: 1757744562363001088, Status: New
+2024-08-22 05:25:20,115 - INFO - State checkpointed successfully.
+2024-08-22 05:26:24,690 - INFO - State checkpointed successfully.
+2024-08-22 05:27:31,164 - INFO - State checkpointed successfully.
+2024-08-22 05:28:39,104 - INFO - State checkpointed successfully.
+2024-08-22 05:29:43,946 - INFO - State checkpointed successfully.
+2024-08-22 05:30:49,096 - INFO - State checkpointed successfully.
+2024-08-22 05:31:21,236 - INFO - Processing order with ID: 1757744532164012288, Status: Filled
+2024-08-22 05:31:21,236 - INFO - Order filled - ID: 1757744532164012288, Side: Sell, Price: 61393.7, Qty: 0.001
+2024-08-22 05:31:21,819 - INFO - Processed filled sell order - Pair Profit: 0.05739259999999291
+2024-08-22 05:31:22,341 - INFO - Logged filled sell order to database
+2024-08-22 05:31:23,458 - INFO - marked sell order 1832c1ab-c3b6-4f30-b61a-57cae47d2841
+2024-08-22 05:31:32,057 - INFO - Placed buy order at 61213.7, Order ID: 1757748014426188032
+2024-08-22 05:31:32,059 - INFO - Processing order with ID: 1757748014426188032, Status: New
+2024-08-22 05:31:53,760 - INFO - State checkpointed successfully.
+2024-08-22 05:32:58,784 - INFO - State checkpointed successfully.
+2024-08-22 05:34:06,658 - INFO - State checkpointed successfully.
+2024-08-22 05:35:13,779 - INFO - State checkpointed successfully.
+2024-08-22 05:36:19,895 - INFO - State checkpointed successfully.
+2024-08-22 05:37:28,265 - INFO - State checkpointed successfully.
+2024-08-22 05:38:32,858 - INFO - State checkpointed successfully.
+2024-08-22 05:39:37,615 - INFO - State checkpointed successfully.
+2024-08-22 05:40:44,735 - INFO - State checkpointed successfully.
+2024-08-22 05:41:55,082 - INFO - State checkpointed successfully.
+2024-08-22 05:42:58,986 - INFO - State checkpointed successfully.
+2024-08-22 05:44:03,351 - INFO - State checkpointed successfully.
+2024-08-22 05:45:11,283 - INFO - State checkpointed successfully.
+2024-08-22 05:46:16,388 - INFO - State checkpointed successfully.
+2024-08-22 05:47:22,353 - INFO - State checkpointed successfully.
+2024-08-22 05:48:32,223 - INFO - State checkpointed successfully.
+2024-08-22 05:49:12,577 - INFO - Processing order with ID: 1757748014426188032, Status: Filled
+2024-08-22 05:49:12,578 - INFO - Order filled - ID: 1757748014426188032, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 05:49:13,094 - INFO - Placed sell order at 61393.7, Order ID: 1757756911618713856
+2024-08-22 05:49:13,198 - INFO - Placed corresponding sell order with ID: 1757756911618713856
+2024-08-22 05:49:13,593 - INFO - Logged filled sell order to database
+2024-08-22 05:49:13,593 - INFO - Processing order with ID: 1757756911618713856, Status: New
+2024-08-22 05:49:36,601 - INFO - State checkpointed successfully.
+2024-08-22 05:50:43,384 - INFO - State checkpointed successfully.
+2024-08-22 05:51:58,016 - INFO - State checkpointed successfully.
+2024-08-22 05:53:02,584 - INFO - State checkpointed successfully.
+2024-08-22 05:54:07,256 - INFO - State checkpointed successfully.
+2024-08-22 05:55:11,464 - INFO - State checkpointed successfully.
+2024-08-22 05:56:19,448 - INFO - State checkpointed successfully.
+2024-08-22 05:57:26,887 - INFO - State checkpointed successfully.
+2024-08-22 05:58:40,464 - INFO - State checkpointed successfully.
+2024-08-22 05:59:45,330 - INFO - State checkpointed successfully.
+2024-08-22 06:00:53,295 - INFO - State checkpointed successfully.
+2024-08-22 06:02:03,867 - INFO - State checkpointed successfully.
+2024-08-22 06:03:15,660 - INFO - State checkpointed successfully.
+2024-08-22 06:04:26,448 - INFO - State checkpointed successfully.
+2024-08-22 06:05:33,644 - INFO - State checkpointed successfully.
+2024-08-22 06:06:39,550 - INFO - State checkpointed successfully.
+2024-08-22 06:07:44,316 - INFO - State checkpointed successfully.
+2024-08-22 06:08:49,722 - INFO - State checkpointed successfully.
+2024-08-22 06:09:55,206 - INFO - State checkpointed successfully.
+2024-08-22 06:10:05,146 - INFO - Processing order with ID: 1757756911618713856, Status: Filled
+2024-08-22 06:10:05,147 - INFO - Order filled - ID: 1757756911618713856, Side: Sell, Price: 61393.7, Qty: 0.001
+2024-08-22 06:10:05,362 - INFO - Processed filled sell order - Pair Profit: 0.05739259999999291
+2024-08-22 06:10:05,885 - INFO - Logged filled sell order to database
+2024-08-22 06:10:07,236 - INFO - marked sell order 3086835d-4927-4205-82d3-2d9164e8e411
+2024-08-22 06:10:12,521 - INFO - Processing order with ID: 1757767479880673536, Status: New
+2024-08-22 06:10:12,521 - INFO - Placed buy order at 61213.7, Order ID: 1757767479880673536
+2024-08-22 06:11:01,551 - INFO - State checkpointed successfully.
+2024-08-22 06:12:07,105 - INFO - State checkpointed successfully.
+2024-08-22 06:13:12,700 - INFO - State checkpointed successfully.
+2024-08-22 06:14:16,719 - INFO - State checkpointed successfully.
+2024-08-22 06:15:21,900 - INFO - State checkpointed successfully.
+2024-08-22 06:16:25,901 - INFO - State checkpointed successfully.
+2024-08-22 06:17:31,236 - INFO - State checkpointed successfully.
+2024-08-22 06:18:36,131 - INFO - State checkpointed successfully.
+2024-08-22 06:19:40,107 - INFO - State checkpointed successfully.
+2024-08-22 06:20:44,052 - INFO - State checkpointed successfully.
+2024-08-22 06:21:48,603 - INFO - State checkpointed successfully.
+2024-08-22 06:22:55,064 - INFO - State checkpointed successfully.
+2024-08-22 06:23:58,927 - INFO - State checkpointed successfully.
+2024-08-22 06:25:04,090 - INFO - State checkpointed successfully.
+2024-08-22 06:26:08,390 - INFO - State checkpointed successfully.
+2024-08-22 06:27:21,192 - INFO - State checkpointed successfully.
+2024-08-22 06:28:25,560 - INFO - State checkpointed successfully.
+2024-08-22 06:29:30,715 - INFO - State checkpointed successfully.
+2024-08-22 06:30:37,392 - INFO - State checkpointed successfully.
+2024-08-22 06:31:42,213 - INFO - State checkpointed successfully.
+2024-08-22 06:32:47,041 - INFO - State checkpointed successfully.
+2024-08-22 06:33:51,342 - INFO - State checkpointed successfully.
+2024-08-22 06:34:54,691 - INFO - State checkpointed successfully.
+2024-08-22 06:35:59,308 - INFO - State checkpointed successfully.
+2024-08-22 06:37:05,464 - INFO - State checkpointed successfully.
+2024-08-22 06:38:12,197 - INFO - State checkpointed successfully.
+2024-08-22 06:39:16,695 - INFO - State checkpointed successfully.
+2024-08-22 06:40:25,368 - INFO - State checkpointed successfully.
+2024-08-22 06:41:33,237 - INFO - State checkpointed successfully.
+2024-08-22 06:42:38,425 - INFO - State checkpointed successfully.
+2024-08-22 06:43:44,146 - INFO - State checkpointed successfully.
+2024-08-22 06:44:50,111 - INFO - State checkpointed successfully.
+2024-08-22 06:45:55,026 - INFO - State checkpointed successfully.
+2024-08-22 06:46:58,962 - INFO - State checkpointed successfully.
+2024-08-22 06:48:05,322 - INFO - State checkpointed successfully.
+2024-08-22 06:49:11,916 - INFO - State checkpointed successfully.
+2024-08-22 06:50:18,369 - INFO - State checkpointed successfully.
+2024-08-22 06:51:24,639 - INFO - State checkpointed successfully.
+2024-08-22 06:52:30,239 - INFO - State checkpointed successfully.
+2024-08-22 06:53:38,898 - INFO - State checkpointed successfully.
+2024-08-22 06:54:22,644 - INFO - Processing order with ID: 1757767479880673536, Status: Filled
+2024-08-22 06:54:22,645 - INFO - Order filled - ID: 1757767479880673536, Side: Buy, Price: 61213.7, Qty: 0.001
+2024-08-22 06:54:23,460 - INFO - Placed sell order at 61393.7, Order ID: 1757789711629641985
+2024-08-22 06:54:23,564 - INFO - Placed corresponding sell order with ID: 1757789711629641985
+2024-08-22 06:54:24,828 - INFO - Logged filled sell order to database
+2024-08-22 06:54:24,829 - INFO - Processing order with ID: 1757789711629641985, Status: New
+2024-08-22 06:54:43,413 - INFO - State checkpointed successfully.
+2024-08-22 06:55:49,981 - INFO - State checkpointed successfully.
+2024-08-22 06:56:54,702 - INFO - State checkpointed successfully.
+2024-08-22 06:58:02,042 - INFO - State checkpointed successfully.
+2024-08-22 06:59:07,506 - INFO - State checkpointed successfully.
+2024-08-22 07:00:18,884 - INFO - State checkpointed successfully.
+2024-08-22 07:01:23,636 - INFO - State checkpointed successfully.
+2024-08-22 07:02:28,628 - INFO - State checkpointed successfully.
+2024-08-22 07:03:34,020 - INFO - State checkpointed successfully.
+2024-08-22 07:04:39,835 - INFO - State checkpointed successfully.
+2024-08-22 07:05:43,273 - INFO - State checkpointed successfully.
+2024-08-22 07:06:46,723 - INFO - State checkpointed successfully.
+2024-08-22 07:07:54,452 - INFO - State checkpointed successfully.
+2024-08-22 07:09:00,398 - INFO - State checkpointed successfully.
+2024-08-22 07:10:05,508 - INFO - State checkpointed successfully.
+2024-08-22 07:11:11,290 - INFO - State checkpointed successfully.
+2024-08-22 07:12:15,254 - INFO - State checkpointed successfully.
+2024-08-22 07:13:23,176 - INFO - State checkpointed successfully.
+2024-08-22 07:14:28,436 - INFO - State checkpointed successfully.
+2024-08-22 07:15:37,810 - INFO - State checkpointed successfully.
+2024-08-22 07:16:48,392 - INFO - State checkpointed successfully.
+2024-08-22 07:18:15,503 - INFO - State checkpointed successfully.
+2024-08-22 07:19:21,163 - INFO - State checkpointed successfully.
+2024-08-22 07:20:29,080 - INFO - State checkpointed successfully.
+2024-08-22 07:21:35,591 - INFO - State checkpointed successfully.
+2024-08-22 07:22:41,544 - INFO - State checkpointed successfully.
+2024-08-22 07:23:46,440 - INFO - State checkpointed successfully.
+2024-08-22 07:24:49,906 - INFO - State checkpointed successfully.
+2024-08-22 07:25:55,998 - INFO - State checkpointed successfully.
+2024-08-22 07:27:00,763 - INFO - State checkpointed successfully.
+2024-08-22 07:28:04,873 - INFO - State checkpointed successfully.
+2024-08-22 07:29:09,247 - INFO - State checkpointed successfully.
+2024-08-22 07:30:16,603 - INFO - State checkpointed successfully.
+2024-08-22 07:31:20,681 - INFO - State checkpointed successfully.
+2024-08-22 07:32:29,550 - INFO - State checkpointed successfully.
+2024-08-22 07:33:33,591 - INFO - State checkpointed successfully.
+2024-08-22 07:34:40,416 - INFO - State checkpointed successfully.
+2024-08-22 07:35:45,485 - INFO - State checkpointed successfully.
+2024-08-22 07:36:50,944 - INFO - State checkpointed successfully.
+2024-08-22 07:37:55,567 - INFO - State checkpointed successfully.
+2024-08-22 07:38:18,728 - INFO - Processing order with ID: 1757744562363001088, Status: Filled
+2024-08-22 07:38:18,728 - INFO - Order filled - ID: 1757744562363001088, Side: Buy, Price: 61033.7, Qty: 0.001
+2024-08-22 07:38:19,256 - INFO - Placed sell order at 61213.7, Order ID: 1757811824704973056
+2024-08-22 07:38:19,361 - INFO - Placed corresponding sell order with ID: 1757811824704973056
+2024-08-22 07:38:20,033 - INFO - Logged filled sell order to database
+2024-08-22 07:38:20,034 - INFO - Processing order with ID: 1757811824704973056, Status: New
+2024-08-22 07:39:01,202 - INFO - State checkpointed successfully.
+2024-08-22 07:40:05,470 - INFO - State checkpointed successfully.
+2024-08-22 07:41:09,888 - INFO - State checkpointed successfully.
+2024-08-22 07:42:16,630 - INFO - State checkpointed successfully.
+2024-08-22 07:43:23,125 - INFO - State checkpointed successfully.
+2024-08-22 07:44:29,346 - INFO - State checkpointed successfully.
+2024-08-22 07:45:38,369 - INFO - State checkpointed successfully.
+2024-08-22 07:46:45,284 - INFO - State checkpointed successfully.
+2024-08-22 07:47:52,036 - INFO - State checkpointed successfully.
+2024-08-22 07:48:56,228 - INFO - State checkpointed successfully.
+2024-08-22 07:50:04,480 - INFO - State checkpointed successfully.
+2024-08-22 07:51:09,642 - INFO - State checkpointed successfully.
+2024-08-22 07:52:13,358 - INFO - State checkpointed successfully.
+2024-08-22 07:53:20,729 - INFO - State checkpointed successfully.
+2024-08-22 07:54:24,395 - INFO - State checkpointed successfully.
+2024-08-22 07:55:31,163 - INFO - State checkpointed successfully.
+2024-08-22 07:56:38,082 - INFO - State checkpointed successfully.
+2024-08-22 07:57:42,479 - INFO - State checkpointed successfully.
+2024-08-22 07:58:46,263 - INFO - State checkpointed successfully.
+2024-08-22 07:59:51,793 - INFO - State checkpointed successfully.
+2024-08-22 08:00:56,223 - INFO - State checkpointed successfully.
+2024-08-22 08:01:41,540 - INFO - Processing order with ID: 1757811824704973056, Status: Filled
+2024-08-22 08:01:41,540 - INFO - Order filled - ID: 1757811824704973056, Side: Sell, Price: 61213.7, Qty: 0.001
+2024-08-22 08:01:41,752 - INFO - Processed filled sell order - Pair Profit: 0.05775259999999349
+2024-08-22 08:01:42,772 - INFO - Logged filled sell order to database
+2024-08-22 08:01:43,543 - INFO - marked sell order 0039b1c3-86d7-452a-b9c0-20f51147d25d
+2024-08-22 08:01:52,210 - INFO - Placed buy order at 61033.7, Order ID: 1757823680945416448
+2024-08-22 08:01:52,212 - INFO - Processing order with ID: 1757823680945416448, Status: New
+2024-08-22 08:02:02,832 - INFO - State checkpointed successfully.
+2024-08-22 08:03:08,789 - INFO - State checkpointed successfully.
+2024-08-22 08:04:12,756 - INFO - State checkpointed successfully.
+2024-08-22 08:05:18,436 - INFO - State checkpointed successfully.
+2024-08-22 08:06:27,963 - INFO - State checkpointed successfully.
+2024-08-22 08:07:32,359 - INFO - State checkpointed successfully.
+2024-08-22 08:08:37,697 - INFO - State checkpointed successfully.
+2024-08-22 08:09:44,738 - INFO - State checkpointed successfully.
+2024-08-22 08:10:51,878 - INFO - State checkpointed successfully.
+2024-08-22 08:11:57,796 - INFO - State checkpointed successfully.
+2024-08-22 08:13:04,710 - INFO - State checkpointed successfully.
+2024-08-22 08:14:09,046 - INFO - State checkpointed successfully.
+2024-08-22 08:15:15,615 - INFO - State checkpointed successfully.
+2024-08-22 08:16:19,249 - INFO - State checkpointed successfully.
+2024-08-22 08:17:23,136 - INFO - State checkpointed successfully.
+2024-08-22 08:18:27,329 - INFO - State checkpointed successfully.
+2024-08-22 08:19:32,089 - INFO - State checkpointed successfully.
+2024-08-22 08:20:38,002 - INFO - State checkpointed successfully.
+2024-08-22 08:21:45,468 - INFO - State checkpointed successfully.
+2024-08-22 08:22:50,346 - INFO - State checkpointed successfully.
+2024-08-22 08:23:18,056 - INFO - Processing order with ID: 1757823680945416448, Status: Filled
+2024-08-22 08:23:18,057 - INFO - Order filled - ID: 1757823680945416448, Side: Buy, Price: 61033.7, Qty: 0.001
+2024-08-22 08:23:19,395 - INFO - Placed sell order at 61213.7, Order ID: 1757834468326205696
+2024-08-22 08:23:19,501 - INFO - Placed corresponding sell order with ID: 1757834468326205696
+2024-08-22 08:23:20,063 - INFO - Logged filled sell order to database
+2024-08-22 08:23:20,063 - INFO - Processing order with ID: 1757834468326205696, Status: New
+2024-08-22 08:23:54,322 - INFO - State checkpointed successfully.
+2024-08-22 08:24:58,719 - INFO - State checkpointed successfully.
+2024-08-22 08:26:04,287 - INFO - State checkpointed successfully.
+2024-08-22 08:27:10,230 - INFO - State checkpointed successfully.
+2024-08-22 08:28:16,988 - INFO - State checkpointed successfully.
+2024-08-22 08:29:22,900 - INFO - State checkpointed successfully.
+2024-08-22 08:30:28,658 - INFO - State checkpointed successfully.
+2024-08-22 08:31:34,639 - INFO - State checkpointed successfully.
+2024-08-22 08:32:40,239 - INFO - State checkpointed successfully.
+2024-08-22 08:33:45,076 - INFO - State checkpointed successfully.
+2024-08-22 08:34:49,445 - INFO - State checkpointed successfully.
+2024-08-22 08:35:52,753 - INFO - State checkpointed successfully.
+2024-08-22 08:36:58,374 - INFO - State checkpointed successfully.
+2024-08-22 08:38:04,419 - INFO - State checkpointed successfully.
+2024-08-22 08:39:08,532 - INFO - State checkpointed successfully.
+2024-08-22 08:40:12,404 - INFO - State checkpointed successfully.
+2024-08-22 08:41:18,097 - INFO - State checkpointed successfully.
+2024-08-22 08:42:25,058 - INFO - State checkpointed successfully.
+2024-08-22 08:43:31,706 - INFO - State checkpointed successfully.
+2024-08-22 08:44:36,509 - INFO - State checkpointed successfully.
+2024-08-22 08:45:43,573 - INFO - State checkpointed successfully.
+2024-08-22 08:46:47,965 - INFO - State checkpointed successfully.
+2024-08-22 08:47:53,039 - INFO - State checkpointed successfully.
+2024-08-22 08:48:58,161 - INFO - State checkpointed successfully.
+2024-08-22 08:50:03,544 - INFO - State checkpointed successfully.
+2024-08-22 08:51:09,221 - INFO - State checkpointed successfully.
+2024-08-22 08:52:13,369 - INFO - State checkpointed successfully.
+2024-08-22 08:53:20,333 - INFO - State checkpointed successfully.
+2024-08-22 08:54:23,828 - INFO - State checkpointed successfully.
+2024-08-22 08:55:28,577 - INFO - State checkpointed successfully.
+2024-08-22 08:56:33,679 - INFO - State checkpointed successfully.
+2024-08-22 08:57:40,232 - INFO - State checkpointed successfully.
+2024-08-22 08:58:44,766 - INFO - State checkpointed successfully.
+2024-08-22 08:59:48,882 - INFO - State checkpointed successfully.
+2024-08-22 09:00:55,101 - INFO - State checkpointed successfully.
+2024-08-22 09:02:00,949 - INFO - State checkpointed successfully.
+2024-08-22 09:03:06,053 - INFO - State checkpointed successfully.
+2024-08-22 09:04:12,060 - INFO - State checkpointed successfully.
+2024-08-22 09:05:17,409 - INFO - State checkpointed successfully.
+2024-08-22 09:06:21,951 - INFO - State checkpointed successfully.
+2024-08-22 09:07:29,041 - INFO - State checkpointed successfully.
+2024-08-22 09:08:33,955 - INFO - State checkpointed successfully.
+2024-08-22 09:09:49,240 - INFO - State checkpointed successfully.
+2024-08-22 09:10:53,805 - INFO - State checkpointed successfully.
+2024-08-22 09:12:00,021 - INFO - State checkpointed successfully.
+2024-08-22 09:13:04,292 - INFO - State checkpointed successfully.
+2024-08-22 09:14:09,079 - INFO - State checkpointed successfully.
+2024-08-22 09:15:16,717 - INFO - State checkpointed successfully.
+2024-08-22 09:16:21,850 - INFO - State checkpointed successfully.
+2024-08-22 09:17:28,073 - INFO - State checkpointed successfully.
+2024-08-22 09:18:32,575 - INFO - State checkpointed successfully.
+2024-08-22 09:19:39,047 - INFO - State checkpointed successfully.
+2024-08-22 09:20:42,781 - INFO - State checkpointed successfully.
+2024-08-22 09:21:48,100 - INFO - State checkpointed successfully.
+2024-08-22 09:22:54,173 - INFO - State checkpointed successfully.
+2024-08-22 09:23:59,508 - INFO - State checkpointed successfully.
+2024-08-22 09:25:03,136 - INFO - State checkpointed successfully.
+2024-08-22 09:26:07,547 - INFO - State checkpointed successfully.
+2024-08-22 09:27:13,305 - INFO - State checkpointed successfully.
+2024-08-22 09:28:18,828 - INFO - State checkpointed successfully.
+2024-08-22 09:29:26,862 - INFO - State checkpointed successfully.
+2024-08-22 09:30:34,616 - INFO - State checkpointed successfully.
+2024-08-22 09:31:40,174 - INFO - State checkpointed successfully.
+2024-08-22 09:32:46,010 - INFO - State checkpointed successfully.
+2024-08-22 09:33:50,225 - INFO - State checkpointed successfully.
+2024-08-22 09:34:57,892 - INFO - State checkpointed successfully.
+2024-08-22 09:36:04,180 - INFO - State checkpointed successfully.
+2024-08-22 09:37:10,326 - INFO - State checkpointed successfully.
+2024-08-22 09:38:16,598 - INFO - State checkpointed successfully.
+2024-08-22 09:39:19,983 - INFO - State checkpointed successfully.
+2024-08-22 09:40:27,235 - INFO - State checkpointed successfully.
+2024-08-22 09:41:32,559 - INFO - State checkpointed successfully.
+2024-08-22 09:42:36,015 - INFO - State checkpointed successfully.
+2024-08-22 09:43:43,211 - INFO - State checkpointed successfully.
+2024-08-22 09:44:47,184 - INFO - State checkpointed successfully.
+2024-08-22 09:45:51,782 - INFO - State checkpointed successfully.
+2024-08-22 09:46:57,969 - INFO - State checkpointed successfully.
+2024-08-22 09:48:02,985 - INFO - State checkpointed successfully.
+2024-08-22 09:49:08,030 - INFO - State checkpointed successfully.
+2024-08-22 09:50:13,877 - INFO - State checkpointed successfully.
+2024-08-22 09:51:18,909 - INFO - State checkpointed successfully.
+2024-08-22 09:52:22,513 - INFO - State checkpointed successfully.
+2024-08-22 09:53:28,914 - INFO - State checkpointed successfully.
+2024-08-22 09:54:32,589 - INFO - State checkpointed successfully.
+2024-08-22 09:55:39,071 - INFO - State checkpointed successfully.
+2024-08-22 09:56:47,073 - INFO - State checkpointed successfully.
+2024-08-22 09:58:12,058 - INFO - State checkpointed successfully.
+2024-08-22 09:59:16,847 - INFO - State checkpointed successfully.
+2024-08-22 10:00:22,766 - INFO - State checkpointed successfully.
+2024-08-22 10:01:27,874 - INFO - State checkpointed successfully.
+2024-08-22 10:02:31,666 - INFO - State checkpointed successfully.
+2024-08-22 10:03:41,495 - INFO - State checkpointed successfully.
+2024-08-22 10:04:45,955 - INFO - State checkpointed successfully.
+2024-08-22 10:05:51,140 - INFO - State checkpointed successfully.
+2024-08-22 10:06:58,114 - INFO - State checkpointed successfully.
+2024-08-22 10:08:04,808 - INFO - State checkpointed successfully.
+2024-08-22 10:09:12,106 - INFO - State checkpointed successfully.
+2024-08-22 10:10:17,034 - INFO - State checkpointed successfully.
+2024-08-22 10:11:26,942 - INFO - State checkpointed successfully.
+2024-08-22 10:12:31,099 - INFO - State checkpointed successfully.
+2024-08-22 10:13:35,894 - INFO - State checkpointed successfully.
+2024-08-22 10:14:39,326 - INFO - State checkpointed successfully.
+2024-08-22 10:15:47,217 - INFO - State checkpointed successfully.
+2024-08-22 10:16:53,800 - INFO - State checkpointed successfully.
+2024-08-22 10:17:59,351 - INFO - State checkpointed successfully.
+2024-08-22 10:19:05,167 - INFO - State checkpointed successfully.
+2024-08-22 10:20:09,605 - INFO - State checkpointed successfully.
+2024-08-22 10:21:20,596 - INFO - State checkpointed successfully.
+2024-08-22 10:22:26,155 - INFO - State checkpointed successfully.
+2024-08-22 10:23:31,310 - INFO - State checkpointed successfully.
+2024-08-22 10:24:37,337 - INFO - State checkpointed successfully.
+2024-08-22 10:25:41,819 - INFO - State checkpointed successfully.
+2024-08-22 10:26:46,857 - INFO - State checkpointed successfully.
+2024-08-22 10:27:52,229 - INFO - State checkpointed successfully.
+2024-08-22 10:28:57,522 - INFO - State checkpointed successfully.
+2024-08-22 10:30:05,515 - INFO - State checkpointed successfully.
+2024-08-22 10:31:11,043 - INFO - State checkpointed successfully.
+2024-08-22 10:32:17,743 - INFO - State checkpointed successfully.
+2024-08-22 10:33:21,240 - INFO - State checkpointed successfully.
+2024-08-22 10:34:33,378 - INFO - State checkpointed successfully.
+2024-08-22 10:35:39,089 - INFO - State checkpointed successfully.
+2024-08-22 10:36:44,732 - INFO - State checkpointed successfully.
+2024-08-22 10:37:51,357 - INFO - State checkpointed successfully.
+2024-08-22 10:38:56,453 - INFO - State checkpointed successfully.
+2024-08-22 10:40:00,663 - INFO - State checkpointed successfully.
+2024-08-22 10:41:04,413 - INFO - State checkpointed successfully.
+2024-08-22 10:42:08,211 - INFO - State checkpointed successfully.
+2024-08-22 10:43:15,308 - INFO - State checkpointed successfully.
+2024-08-22 10:44:21,023 - INFO - State checkpointed successfully.
+2024-08-22 10:45:27,895 - INFO - State checkpointed successfully.
+2024-08-22 10:46:34,048 - INFO - State checkpointed successfully.
+2024-08-22 10:47:41,537 - INFO - State checkpointed successfully.
+2024-08-22 10:48:45,642 - INFO - State checkpointed successfully.
+2024-08-22 10:49:50,598 - INFO - State checkpointed successfully.
+2024-08-22 10:50:56,521 - INFO - State checkpointed successfully.
+2024-08-22 10:52:00,614 - INFO - State checkpointed successfully.
+2024-08-22 10:53:09,650 - INFO - State checkpointed successfully.
+2024-08-22 10:54:14,563 - INFO - State checkpointed successfully.
+2024-08-22 10:55:22,330 - INFO - State checkpointed successfully.
+2024-08-22 10:56:27,758 - INFO - State checkpointed successfully.
+2024-08-22 10:57:33,532 - INFO - State checkpointed successfully.
+2024-08-22 10:58:40,221 - INFO - State checkpointed successfully.
+2024-08-22 10:59:46,002 - INFO - State checkpointed successfully.
+2024-08-22 11:00:50,524 - INFO - State checkpointed successfully.
+2024-08-22 11:01:57,461 - INFO - State checkpointed successfully.
+2024-08-22 11:03:04,313 - INFO - State checkpointed successfully.
+2024-08-22 11:04:09,607 - INFO - State checkpointed successfully.
+2024-08-22 11:05:13,392 - INFO - State checkpointed successfully.
+2024-08-22 11:06:19,376 - INFO - State checkpointed successfully.
+2024-08-22 11:07:26,823 - INFO - State checkpointed successfully.
+2024-08-22 11:08:34,766 - INFO - State checkpointed successfully.
+2024-08-22 11:09:41,391 - INFO - State checkpointed successfully.
+2024-08-22 11:10:47,229 - INFO - State checkpointed successfully.
+2024-08-22 11:11:52,901 - INFO - State checkpointed successfully.
+2024-08-22 11:12:58,218 - INFO - State checkpointed successfully.
+2024-08-22 11:14:02,208 - INFO - State checkpointed successfully.
+2024-08-22 11:15:09,737 - INFO - State checkpointed successfully.
+2024-08-22 11:16:13,796 - INFO - State checkpointed successfully.
+2024-08-22 11:17:18,674 - INFO - State checkpointed successfully.
+2024-08-22 11:18:27,073 - INFO - State checkpointed successfully.
+2024-08-22 11:19:33,622 - INFO - State checkpointed successfully.
+2024-08-22 11:20:40,510 - INFO - State checkpointed successfully.
+2024-08-22 11:21:45,047 - INFO - State checkpointed successfully.
+2024-08-22 11:22:52,192 - INFO - State checkpointed successfully.
+2024-08-22 11:24:00,719 - INFO - State checkpointed successfully.
+2024-08-22 11:25:04,896 - INFO - State checkpointed successfully.
+2024-08-22 11:26:10,214 - INFO - State checkpointed successfully.
+2024-08-22 11:27:15,742 - INFO - State checkpointed successfully.
+2024-08-22 11:28:19,676 - INFO - State checkpointed successfully.
+2024-08-22 11:29:23,689 - INFO - State checkpointed successfully.
+2024-08-22 11:30:31,428 - INFO - State checkpointed successfully.
+2024-08-22 11:31:45,191 - INFO - State checkpointed successfully.
+2024-08-22 11:32:50,312 - INFO - State checkpointed successfully.
+2024-08-22 11:33:54,649 - INFO - State checkpointed successfully.
+2024-08-22 11:34:58,544 - INFO - State checkpointed successfully.
+2024-08-22 11:36:05,468 - INFO - State checkpointed successfully.
+2024-08-22 11:37:11,512 - INFO - State checkpointed successfully.
+2024-08-22 11:38:15,307 - INFO - State checkpointed successfully.
+2024-08-22 11:39:22,507 - INFO - State checkpointed successfully.
+2024-08-22 11:40:28,917 - INFO - State checkpointed successfully.
+2024-08-22 11:41:33,590 - INFO - State checkpointed successfully.
+2024-08-22 11:42:42,808 - INFO - State checkpointed successfully.
+2024-08-22 11:43:49,252 - INFO - State checkpointed successfully.
+2024-08-22 11:44:53,814 - INFO - State checkpointed successfully.
+2024-08-22 11:46:02,723 - INFO - State checkpointed successfully.
+2024-08-22 11:47:07,074 - INFO - State checkpointed successfully.
+2024-08-22 11:48:12,247 - INFO - State checkpointed successfully.
+2024-08-22 11:49:16,101 - INFO - State checkpointed successfully.
+2024-08-22 11:50:23,726 - INFO - State checkpointed successfully.
+2024-08-22 11:51:28,080 - INFO - State checkpointed successfully.
+2024-08-22 11:52:35,201 - INFO - State checkpointed successfully.
+2024-08-22 11:53:40,546 - INFO - State checkpointed successfully.
+2024-08-22 11:54:44,803 - INFO - State checkpointed successfully.
+2024-08-22 11:55:50,030 - INFO - State checkpointed successfully.
+2024-08-22 11:56:55,212 - INFO - State checkpointed successfully.
+2024-08-22 11:58:00,331 - INFO - State checkpointed successfully.
+2024-08-22 11:59:05,527 - INFO - State checkpointed successfully.
+2024-08-22 12:00:09,480 - INFO - State checkpointed successfully.
+2024-08-22 12:01:13,952 - INFO - State checkpointed successfully.
+2024-08-22 12:02:17,320 - INFO - State checkpointed successfully.
+2024-08-22 12:03:22,836 - INFO - State checkpointed successfully.
+2024-08-22 12:04:30,868 - INFO - State checkpointed successfully.
+2024-08-22 12:05:38,034 - INFO - State checkpointed successfully.
+2024-08-22 12:06:43,072 - INFO - State checkpointed successfully.
+2024-08-22 12:07:50,476 - INFO - State checkpointed successfully.
+2024-08-22 12:08:55,888 - INFO - State checkpointed successfully.
+2024-08-22 12:10:04,919 - INFO - State checkpointed successfully.
+2024-08-22 12:11:15,469 - INFO - State checkpointed successfully.
+2024-08-22 12:12:23,323 - INFO - State checkpointed successfully.
+2024-08-22 12:13:28,067 - INFO - State checkpointed successfully.
+2024-08-22 12:14:33,522 - INFO - State checkpointed successfully.
+2024-08-22 12:15:38,270 - INFO - State checkpointed successfully.
+2024-08-22 12:16:44,340 - INFO - State checkpointed successfully.
+2024-08-22 12:17:49,868 - INFO - State checkpointed successfully.
+2024-08-22 12:18:53,928 - INFO - State checkpointed successfully.
+2024-08-22 12:19:59,888 - INFO - State checkpointed successfully.
+2024-08-22 12:21:07,418 - INFO - State checkpointed successfully.
+2024-08-22 12:22:12,285 - INFO - State checkpointed successfully.
+2024-08-22 12:23:22,310 - INFO - State checkpointed successfully.
+2024-08-22 12:24:28,369 - INFO - State checkpointed successfully.
+2024-08-22 12:25:34,695 - INFO - State checkpointed successfully.
+2024-08-22 12:26:39,497 - INFO - State checkpointed successfully.
+2024-08-22 12:27:48,789 - INFO - State checkpointed successfully.
+2024-08-22 12:28:54,007 - INFO - State checkpointed successfully.
+2024-08-22 12:30:00,232 - INFO - State checkpointed successfully.
+2024-08-22 12:31:04,154 - INFO - State checkpointed successfully.
+2024-08-22 12:32:11,745 - INFO - State checkpointed successfully.
+2024-08-22 12:33:18,704 - INFO - State checkpointed successfully.
+2024-08-22 12:34:23,430 - INFO - State checkpointed successfully.
+2024-08-22 12:35:29,190 - INFO - State checkpointed successfully.
+2024-08-22 12:36:39,551 - INFO - State checkpointed successfully.
+2024-08-22 12:37:44,765 - INFO - State checkpointed successfully.
+2024-08-22 12:38:48,359 - INFO - State checkpointed successfully.
+2024-08-22 12:39:52,925 - INFO - State checkpointed successfully.
+2024-08-22 12:40:56,832 - INFO - State checkpointed successfully.
+2024-08-22 12:42:03,403 - INFO - State checkpointed successfully.
+2024-08-22 12:43:08,578 - INFO - State checkpointed successfully.
+2024-08-22 12:44:12,585 - INFO - State checkpointed successfully.
+2024-08-22 12:45:18,276 - INFO - State checkpointed successfully.
+2024-08-22 12:46:22,408 - INFO - State checkpointed successfully.
+2024-08-22 12:47:29,346 - INFO - State checkpointed successfully.
+2024-08-22 12:48:33,315 - INFO - State checkpointed successfully.
+2024-08-22 12:49:36,517 - INFO - State checkpointed successfully.
+2024-08-22 12:50:42,667 - INFO - State checkpointed successfully.
+2024-08-22 12:51:48,611 - INFO - State checkpointed successfully.
+2024-08-22 12:52:55,451 - INFO - State checkpointed successfully.
+2024-08-22 12:54:02,207 - INFO - State checkpointed successfully.
+2024-08-22 12:55:08,015 - INFO - State checkpointed successfully.
+2024-08-22 12:56:12,134 - INFO - State checkpointed successfully.
+2024-08-22 12:57:16,833 - INFO - State checkpointed successfully.
+2024-08-22 12:58:22,837 - INFO - State checkpointed successfully.
+2024-08-22 12:59:29,486 - INFO - State checkpointed successfully.
+2024-08-22 13:00:33,718 - INFO - State checkpointed successfully.
+2024-08-22 13:01:38,854 - INFO - State checkpointed successfully.
+2024-08-22 13:02:43,984 - INFO - State checkpointed successfully.
+2024-08-22 13:03:47,805 - INFO - State checkpointed successfully.
+2024-08-22 13:04:53,663 - INFO - State checkpointed successfully.
+2024-08-22 13:05:57,570 - INFO - State checkpointed successfully.
+2024-08-22 13:07:02,045 - INFO - State checkpointed successfully.
+2024-08-22 13:08:08,307 - INFO - State checkpointed successfully.
