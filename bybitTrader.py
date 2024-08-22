@@ -74,7 +74,7 @@ class BybitTrader:
 
         def close(self):
             """Close the WebSocket connection and thread cleanly."""
-            if self.running:
+            if self.ws and self.ws.ws:
                 self.ws.ws.close()
                 self.running = False
 
@@ -184,14 +184,12 @@ class BybitTrader:
             "limit": 40
         }
         
-        # Append additional parameters passed via kwargs
         for key, value in kwargs.items():
             params[key] = value
 
         response = self.http_request(endpoint, "GET", params=params, info="Get Order History")
         if response.get('retCode') == 0:
             res = response['result']['list']
-            # res.reverse()
             print(f"Returned Order history")
             return res
         else:
@@ -264,6 +262,8 @@ class BybitTrader:
                 raise Exception('price too high')
             elif response['retCode'] == 170194:
                 raise Exception('price too low')
+            elif response['retCode'] == 170131:
+                raise Exception('insufficient balance')
             raise Exception(response['retCode'])
 
     def cancel_order(self, order_name=None,id=None,category="spot",symbol=None,verbose=True):
