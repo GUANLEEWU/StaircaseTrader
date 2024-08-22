@@ -140,8 +140,7 @@ class GridTrader:
             try:
                 if self.tokey(temp_price) not in self.buy_orders:
                     order_id = self.trader.create_order("spot", self.symbol, "Buy", "limit", self.buy_size, price=temp_price)
-                    self.openOrders.update({order_id:None})
-                    return order_id
+                    self.openOrders.update({order_id:'buy'})
                     break
                 else:
                     logging.info(f"{temp_price} buy order already exists")
@@ -170,6 +169,7 @@ class GridTrader:
             logging.error(f"Exception occurred while placing buy order at {temp_price}: {e}")
             logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
             self.upload_logs('buy_orders')
+        return order_id
             
             
 
@@ -258,6 +258,7 @@ class GridTrader:
         try:
             fee_in_usdt = fee * filled_price
             contribution = -(filled_price * qty) - fee_in_usdt
+            logging.info(f"popped {self.openOrders.pop(order['orderId'],None)} from openOrders")
             sell_order_id = self.place_sell_order(round(float(order['price']) + self.grid_size, 2), qty)
             
             if self.variables['last_checked_time'] is None or order_time > self.variables['last_checked_time']:
@@ -385,11 +386,11 @@ class GridTrader:
                             result = self.openOrders.pop(order_id, None)
                             logging.debug(f"Order cancelled - popped openOrders: {result} with key {order_id}")
                             if order['side'] == 'Buy':
-                                result = self.buy_orders.pop(self.tokey(order['price']), None)
-                                logging.debug(f"Order cancelled - popped buy_orders: {result} with key {self.tokey(order['price'])}")
+                                result = self.buy_orders.pop(self.tokey(float(order['price'])), None)
+                                logging.debug(f"Order cancelled - popped buy_orders: {result} with key {self.tokey(float(order['price']))}")
                             else:
-                                result = self.sell_orders.pop(self.tokey(order['price']), None)
-                                logging.debug(f"Order cancelled - popped sell_orders: {result} with key {self.tokey(order['price'])}")
+                                result = self.sell_orders.pop(self.tokey(float(order['price'])), None)
+                                logging.debug(f"Order cancelled - popped sell_orders: {result} with key {self.tokey(float(order['price']))}")
                                 result = self.order_tracking.pop(order_id, None)
                                 logging.debug(f"Order cancelled - popped order_tracking: {result} with key {order_id}")
                             if self.variables['last_checked_time'] is None or order_time > self.variables['last_checked_time']:
@@ -560,6 +561,8 @@ class GridTrader:
     # def get_open_orders(self):
         
     def tokey(self, n):
+        if type(n) == str:
+            n = float(n)
         return str(f"{round(n, 2):.2f}")
     def run(self):
         count = 0
@@ -619,8 +622,8 @@ class GridTrader:
             if self.trader.websocket and self.trader.websocket.ws:
                 try:
                     self.trader.websocket.close()
+                    self.upload_logs('graceful_shutdown')
                     logging.info("WebSocket connection closed.")
                 except Exception as e:
                     logging.error(f"Failed to close WebSocket: {e}")
-            self.upload_logs('graceful_shutdown')
             sys.exit(0)
