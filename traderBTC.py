@@ -6,7 +6,7 @@ import secret0 # type: ignore
 
 api_key = secret0.apiKeyProf
 secret_key = secret0.apiSecretProf
-grid_size = 180
+grid_size = 200
 buy_size = 0.001
 initial_price = 13.7
 symbol = "BTCUSDT"
