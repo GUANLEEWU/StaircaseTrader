@@ -6707,3 +6707,848 @@ KeyError: '59413.7'
 2024-08-22 20:48:46,790 - INFO - State checkpointed successfully.
 2024-08-22 20:49:53,728 - INFO - State checkpointed successfully.
 2024-08-22 20:51:03,394 - INFO - State checkpointed successfully.
+2024-08-23 00:45:35,236 - INFO - WebSocket Unified V5 (Auth) attempting connection...
+2024-08-23 00:45:35,918 - INFO - Websocket connected
+2024-08-23 00:45:35,918 - INFO - WebSocket Unified V5 (Auth) connected
+2024-08-23 00:45:36,134 - INFO - Processing order with ID: 1758328875827685632, side: Buy, Status: New
+2024-08-23 00:45:36,138 - INFO - Placed buy order at 60513.7, Order ID: 1758328875827685632
+2024-08-23 00:46:15,503 - INFO - Processing order with ID: 1758328875827685632, side: Buy, Status: Filled
+2024-08-23 00:46:15,503 - INFO - Received Order Filled Price: 60513.7, Qty: 0.001
+2024-08-23 00:46:15,503 - INFO - popped buy from openOrders
+2024-08-23 00:46:15,612 - INFO - Placed sell order at 60733.7, Order ID: 1758329207009929472
+2024-08-23 00:46:16,613 - INFO - Placed buy order at 60293.7, Order ID: 1758329215398537472
+2024-08-23 00:46:17,776 - INFO - Placed corresponding sell order with ID: 1758329207009929472
+2024-08-23 00:46:18,259 - INFO - Processing order with ID: 1758329207009929472, side: Sell, Status: New
+2024-08-23 00:46:18,260 - INFO - Processing order with ID: 1758329215398537472, side: Buy, Status: New
+2024-08-23 00:46:42,739 - INFO - State checkpointed successfully.
+2024-08-23 00:47:51,466 - INFO - State checkpointed successfully.
+2024-08-23 00:48:57,752 - INFO - State checkpointed successfully.
+2024-08-23 00:50:01,405 - INFO - State checkpointed successfully.
+2024-08-23 00:51:07,913 - INFO - State checkpointed successfully.
+2024-08-23 00:52:23,603 - INFO - State checkpointed successfully.
+2024-08-23 00:53:28,821 - INFO - State checkpointed successfully.
+2024-08-23 00:54:32,859 - INFO - State checkpointed successfully.
+2024-08-23 00:55:39,466 - INFO - State checkpointed successfully.
+2024-08-23 00:56:45,702 - INFO - State checkpointed successfully.
+2024-08-23 00:57:41,398 - INFO - Processing order with ID: 1758329215398537472, side: Buy, Status: Filled
+2024-08-23 00:57:41,398 - INFO - Received Order Filled Price: 60293.7, Qty: 0.001
+2024-08-23 00:57:41,398 - INFO - popped buy from openOrders
+2024-08-23 00:57:41,524 - INFO - Placed sell order at 60513.7, Order ID: 1758334960848431360
+2024-08-23 00:57:43,513 - INFO - Placed corresponding sell order with ID: 1758334960848431360
+2024-08-23 00:57:43,948 - INFO - Processing order with ID: 1758334960848431360, side: Sell, Status: New
+2024-08-23 00:57:54,846 - INFO - State checkpointed successfully.
+2024-08-23 00:58:16,875 - INFO - Placed buy order at 60073.7, Order ID: 1758335257402501376
+2024-08-23 00:58:16,876 - INFO - Processing order with ID: 1758335257402501376, side: Buy, Status: New
+2024-08-23 00:58:59,234 - INFO - State checkpointed successfully.
+2024-08-23 01:00:07,535 - INFO - State checkpointed successfully.
+2024-08-23 01:01:15,282 - INFO - State checkpointed successfully.
+2024-08-23 01:02:20,543 - INFO - State checkpointed successfully.
+2024-08-23 01:03:27,064 - INFO - State checkpointed successfully.
+2024-08-23 01:04:34,578 - INFO - State checkpointed successfully.
+2024-08-23 01:05:39,551 - INFO - State checkpointed successfully.
+2024-08-23 01:06:45,447 - INFO - State checkpointed successfully.
+2024-08-23 01:07:50,134 - INFO - State checkpointed successfully.
+2024-08-23 01:08:56,300 - INFO - State checkpointed successfully.
+2024-08-23 01:10:00,750 - INFO - State checkpointed successfully.
+2024-08-23 01:11:06,313 - INFO - State checkpointed successfully.
+2024-08-23 01:12:09,896 - INFO - State checkpointed successfully.
+2024-08-23 01:13:14,081 - INFO - State checkpointed successfully.
+2024-08-23 01:14:28,713 - INFO - State checkpointed successfully.
+2024-08-23 01:15:35,662 - INFO - State checkpointed successfully.
+2024-08-23 01:16:40,517 - INFO - State checkpointed successfully.
+2024-08-23 01:17:45,506 - INFO - State checkpointed successfully.
+2024-08-23 01:18:49,481 - INFO - State checkpointed successfully.
+2024-08-23 01:19:37,972 - INFO - Processing order with ID: 1758334960848431360, side: Sell, Status: Filled
+2024-08-23 01:19:37,972 - INFO - Received Order Filled Price: 60513.7, Qty: 0.001
+2024-08-23 01:19:38,081 - INFO - Processed filled sell order - Pair Profit: 0.09919259999999497
+2024-08-23 01:19:39,964 - INFO - Marked sell order b73fd745-6d2d-4777-8d33-0d2fb6dbb396 as filled
+2024-08-23 01:19:43,788 - INFO - Processing order with ID: 1758346052802799872, side: Buy, Status: New
+2024-08-23 01:19:43,788 - INFO - Placed buy order at 60293.7, Order ID: 1758346052802799872
+2024-08-23 01:19:43,789 - INFO - canceling 1758335257402501376 with level 60073.7
+2024-08-23 01:19:43,907 - INFO - Processing order with ID: 1758335257402501376, side: Buy, Status: Cancelled
+2024-08-23 01:19:54,426 - INFO - State checkpointed successfully.
+2024-08-23 01:20:58,824 - INFO - State checkpointed successfully.
+2024-08-23 01:22:08,635 - INFO - State checkpointed successfully.
+2024-08-23 01:23:12,180 - INFO - State checkpointed successfully.
+2024-08-23 01:24:17,625 - INFO - State checkpointed successfully.
+2024-08-23 01:25:21,447 - INFO - State checkpointed successfully.
+2024-08-23 01:26:26,205 - INFO - State checkpointed successfully.
+2024-08-23 01:27:30,437 - INFO - State checkpointed successfully.
+2024-08-23 01:28:34,205 - INFO - State checkpointed successfully.
+2024-08-23 01:29:39,692 - INFO - State checkpointed successfully.
+2024-08-23 01:30:45,118 - INFO - State checkpointed successfully.
+2024-08-23 01:31:50,716 - INFO - State checkpointed successfully.
+2024-08-23 01:31:57,799 - INFO - Processing order with ID: 1758346052802799872, side: Buy, Status: Filled
+2024-08-23 01:31:57,799 - INFO - Received Order Filled Price: 60293.7, Qty: 0.001
+2024-08-23 01:31:57,800 - INFO - popped buy from openOrders
+2024-08-23 01:31:57,907 - INFO - Placed sell order at 60513.7, Order ID: 1758352211039316224
+2024-08-23 01:31:58,444 - INFO - Placed corresponding sell order with ID: 1758352211039316224
+2024-08-23 01:31:58,835 - INFO - Processing order with ID: 1758352211039316224, side: Sell, Status: New
+2024-08-23 01:32:22,313 - INFO - Placed buy order at 60073.7, Order ID: 1758352415780071680
+2024-08-23 01:32:22,317 - INFO - Processing order with ID: 1758352415780071680, side: Buy, Status: New
+2024-08-23 01:32:56,270 - INFO - State checkpointed successfully.
+2024-08-23 01:34:11,527 - INFO - State checkpointed successfully.
+2024-08-23 01:35:16,107 - INFO - State checkpointed successfully.
+2024-08-23 01:36:24,103 - INFO - State checkpointed successfully.
+2024-08-23 01:37:33,011 - INFO - State checkpointed successfully.
+2024-08-23 01:39:05,472 - INFO - State checkpointed successfully.
+2024-08-23 01:40:14,129 - INFO - State checkpointed successfully.
+2024-08-23 01:41:23,269 - INFO - State checkpointed successfully.
+2024-08-23 01:42:30,099 - INFO - State checkpointed successfully.
+2024-08-23 01:43:36,708 - INFO - State checkpointed successfully.
+2024-08-23 01:44:41,455 - INFO - State checkpointed successfully.
+2024-08-23 01:45:45,392 - INFO - State checkpointed successfully.
+2024-08-23 01:46:48,803 - INFO - State checkpointed successfully.
+2024-08-23 01:47:56,657 - INFO - State checkpointed successfully.
+2024-08-23 01:49:01,919 - INFO - State checkpointed successfully.
+2024-08-23 01:50:07,056 - INFO - State checkpointed successfully.
+2024-08-23 01:51:11,940 - INFO - State checkpointed successfully.
+2024-08-23 01:52:17,840 - INFO - State checkpointed successfully.
+2024-08-23 01:53:26,089 - INFO - State checkpointed successfully.
+2024-08-23 01:54:30,644 - INFO - State checkpointed successfully.
+2024-08-23 01:55:36,052 - INFO - State checkpointed successfully.
+2024-08-23 01:56:40,994 - INFO - State checkpointed successfully.
+2024-08-23 01:57:46,308 - INFO - State checkpointed successfully.
+2024-08-23 01:58:52,528 - INFO - State checkpointed successfully.
+2024-08-23 01:59:56,019 - INFO - State checkpointed successfully.
+2024-08-23 02:01:04,295 - INFO - State checkpointed successfully.
+2024-08-23 02:02:09,210 - INFO - State checkpointed successfully.
+2024-08-23 02:03:13,655 - INFO - State checkpointed successfully.
+2024-08-23 02:04:19,384 - INFO - State checkpointed successfully.
+2024-08-23 02:05:25,191 - INFO - State checkpointed successfully.
+2024-08-23 02:06:31,061 - INFO - State checkpointed successfully.
+2024-08-23 02:07:35,107 - INFO - State checkpointed successfully.
+2024-08-23 02:08:40,923 - INFO - State checkpointed successfully.
+2024-08-23 02:09:47,045 - INFO - State checkpointed successfully.
+2024-08-23 02:10:55,341 - INFO - State checkpointed successfully.
+2024-08-23 02:12:03,823 - INFO - State checkpointed successfully.
+2024-08-23 02:13:08,204 - INFO - State checkpointed successfully.
+2024-08-23 02:14:11,413 - INFO - State checkpointed successfully.
+2024-08-23 02:15:18,406 - INFO - State checkpointed successfully.
+2024-08-23 02:16:23,032 - INFO - State checkpointed successfully.
+2024-08-23 02:17:27,883 - INFO - State checkpointed successfully.
+2024-08-23 02:18:33,329 - INFO - State checkpointed successfully.
+2024-08-23 02:19:40,042 - INFO - State checkpointed successfully.
+2024-08-23 02:20:01,770 - INFO - Processing order with ID: 1758352211039316224, side: Sell, Status: Filled
+2024-08-23 02:20:01,770 - INFO - Received Order Filled Price: 60513.7, Qty: 0.001
+2024-08-23 02:20:02,061 - INFO - Processed filled sell order - Pair Profit: 0.09919259999999497
+2024-08-23 02:20:04,984 - INFO - Marked sell order 8f99dd9e-5c5e-4ef8-9fdf-70b326b8fdf1 as filled
+2024-08-23 02:20:10,014 - INFO - Processing order with ID: 1758376471791233280, side: Buy, Status: New
+2024-08-23 02:20:10,014 - INFO - Placed buy order at 60293.7, Order ID: 1758376471791233280
+2024-08-23 02:20:10,015 - INFO - canceling 1758352415780071680 with level 60073.7
+2024-08-23 02:20:10,122 - INFO - Processing order with ID: 1758352415780071680, side: Buy, Status: Cancelled
+2024-08-23 02:20:47,363 - INFO - State checkpointed successfully.
+2024-08-23 02:21:51,496 - INFO - State checkpointed successfully.
+2024-08-23 02:22:55,072 - INFO - State checkpointed successfully.
+2024-08-23 02:24:00,064 - INFO - State checkpointed successfully.
+2024-08-23 02:25:04,033 - INFO - State checkpointed successfully.
+2024-08-23 02:26:09,062 - INFO - State checkpointed successfully.
+2024-08-23 02:27:13,963 - INFO - State checkpointed successfully.
+2024-08-23 02:28:19,079 - INFO - State checkpointed successfully.
+2024-08-23 02:29:23,900 - INFO - State checkpointed successfully.
+2024-08-23 02:30:29,194 - INFO - State checkpointed successfully.
+2024-08-23 02:31:33,593 - INFO - State checkpointed successfully.
+2024-08-23 02:32:41,115 - INFO - State checkpointed successfully.
+2024-08-23 02:33:47,899 - INFO - State checkpointed successfully.
+2024-08-23 02:34:51,454 - INFO - State checkpointed successfully.
+2024-08-23 02:35:57,955 - INFO - State checkpointed successfully.
+2024-08-23 02:37:01,574 - INFO - State checkpointed successfully.
+2024-08-23 02:38:07,760 - INFO - State checkpointed successfully.
+2024-08-23 02:39:11,986 - INFO - State checkpointed successfully.
+2024-08-23 02:40:25,684 - INFO - State checkpointed successfully.
+2024-08-23 02:41:31,835 - INFO - State checkpointed successfully.
+2024-08-23 02:42:37,546 - INFO - State checkpointed successfully.
+2024-08-23 02:43:40,892 - INFO - State checkpointed successfully.
+2024-08-23 02:44:48,915 - INFO - State checkpointed successfully.
+2024-08-23 02:45:52,988 - INFO - State checkpointed successfully.
+2024-08-23 02:46:57,940 - INFO - State checkpointed successfully.
+2024-08-23 02:48:04,535 - INFO - State checkpointed successfully.
+2024-08-23 02:49:09,595 - INFO - State checkpointed successfully.
+2024-08-23 02:50:15,108 - INFO - State checkpointed successfully.
+2024-08-23 02:51:19,105 - INFO - State checkpointed successfully.
+2024-08-23 02:52:24,059 - INFO - State checkpointed successfully.
+2024-08-23 02:53:27,591 - INFO - State checkpointed successfully.
+2024-08-23 02:54:30,940 - INFO - State checkpointed successfully.
+2024-08-23 02:55:36,194 - INFO - State checkpointed successfully.
+2024-08-23 02:56:41,996 - INFO - State checkpointed successfully.
+2024-08-23 02:57:50,061 - INFO - State checkpointed successfully.
+2024-08-23 02:58:55,004 - INFO - State checkpointed successfully.
+2024-08-23 02:58:55,125 - INFO - Processing order with ID: 1758376471791233280, side: Buy, Status: Filled
+2024-08-23 02:58:55,125 - INFO - Received Order Filled Price: 60293.7, Qty: 0.001
+2024-08-23 02:58:55,125 - INFO - popped buy from openOrders
+2024-08-23 02:58:55,419 - INFO - Placed sell order at 60513.7, Order ID: 1758395978702219520
+2024-08-23 02:58:55,930 - INFO - Placed corresponding sell order with ID: 1758395978702219520
+2024-08-23 02:58:56,382 - INFO - Processing order with ID: 1758395978702219520, side: Sell, Status: New
+2024-08-23 02:59:11,277 - INFO - Placed buy order at 60073.7, Order ID: 1758396111728765185
+2024-08-23 02:59:11,277 - INFO - Processing order with ID: 1758396111728765185, side: Buy, Status: New
+2024-08-23 03:00:00,013 - INFO - State checkpointed successfully.
+2024-08-23 03:01:06,571 - INFO - State checkpointed successfully.
+2024-08-23 03:02:11,173 - INFO - State checkpointed successfully.
+2024-08-23 03:03:17,720 - INFO - State checkpointed successfully.
+2024-08-23 03:04:23,138 - INFO - State checkpointed successfully.
+2024-08-23 03:05:28,631 - INFO - State checkpointed successfully.
+2024-08-23 03:06:35,230 - INFO - State checkpointed successfully.
+2024-08-23 03:07:39,659 - INFO - State checkpointed successfully.
+2024-08-23 03:08:43,034 - INFO - State checkpointed successfully.
+2024-08-23 03:09:48,902 - INFO - State checkpointed successfully.
+2024-08-23 03:10:53,795 - INFO - State checkpointed successfully.
+2024-08-23 03:12:03,177 - INFO - State checkpointed successfully.
+2024-08-23 03:13:07,778 - INFO - State checkpointed successfully.
+2024-08-23 03:14:12,945 - INFO - State checkpointed successfully.
+2024-08-23 03:15:18,243 - INFO - State checkpointed successfully.
+2024-08-23 03:16:22,785 - INFO - State checkpointed successfully.
+2024-08-23 03:17:29,770 - INFO - State checkpointed successfully.
+2024-08-23 03:18:33,386 - INFO - State checkpointed successfully.
+2024-08-23 03:19:38,554 - INFO - State checkpointed successfully.
+2024-08-23 03:20:42,871 - INFO - State checkpointed successfully.
+2024-08-23 03:21:48,180 - INFO - State checkpointed successfully.
+2024-08-23 03:22:52,044 - INFO - State checkpointed successfully.
+2024-08-23 03:23:55,810 - INFO - State checkpointed successfully.
+2024-08-23 03:25:00,935 - INFO - State checkpointed successfully.
+2024-08-23 03:26:08,124 - INFO - State checkpointed successfully.
+2024-08-23 03:27:14,403 - INFO - State checkpointed successfully.
+2024-08-23 03:28:19,024 - INFO - State checkpointed successfully.
+2024-08-23 03:29:23,308 - INFO - State checkpointed successfully.
+2024-08-23 03:30:34,156 - INFO - State checkpointed successfully.
+2024-08-23 03:31:38,965 - INFO - State checkpointed successfully.
+2024-08-23 03:32:45,079 - INFO - State checkpointed successfully.
+2024-08-23 03:33:52,026 - INFO - State checkpointed successfully.
+2024-08-23 03:34:57,771 - INFO - State checkpointed successfully.
+2024-08-23 03:36:02,756 - INFO - State checkpointed successfully.
+2024-08-23 03:37:07,571 - INFO - State checkpointed successfully.
+2024-08-23 03:38:12,400 - INFO - State checkpointed successfully.
+2024-08-23 03:39:17,364 - INFO - State checkpointed successfully.
+2024-08-23 03:40:23,542 - INFO - State checkpointed successfully.
+2024-08-23 03:41:31,929 - INFO - State checkpointed successfully.
+2024-08-23 03:42:37,381 - INFO - State checkpointed successfully.
+2024-08-23 03:43:40,307 - INFO - State checkpointed successfully.
+2024-08-23 03:44:45,337 - INFO - State checkpointed successfully.
+2024-08-23 03:45:50,915 - INFO - State checkpointed successfully.
+2024-08-23 03:46:55,510 - INFO - State checkpointed successfully.
+2024-08-23 03:47:59,542 - INFO - State checkpointed successfully.
+2024-08-23 03:49:05,786 - INFO - State checkpointed successfully.
+2024-08-23 03:50:11,057 - INFO - State checkpointed successfully.
+2024-08-23 03:51:19,952 - INFO - State checkpointed successfully.
+2024-08-23 03:52:23,656 - INFO - State checkpointed successfully.
+2024-08-23 03:53:28,453 - INFO - State checkpointed successfully.
+2024-08-23 03:54:34,991 - INFO - State checkpointed successfully.
+2024-08-23 03:55:41,521 - INFO - State checkpointed successfully.
+2024-08-23 03:56:49,374 - INFO - State checkpointed successfully.
+2024-08-23 03:57:54,019 - INFO - State checkpointed successfully.
+2024-08-23 03:58:57,338 - INFO - State checkpointed successfully.
+2024-08-23 04:00:03,288 - INFO - State checkpointed successfully.
+2024-08-23 04:01:08,027 - INFO - State checkpointed successfully.
+2024-08-23 04:02:14,926 - INFO - State checkpointed successfully.
+2024-08-23 04:03:19,299 - INFO - State checkpointed successfully.
+2024-08-23 04:04:23,749 - INFO - State checkpointed successfully.
+2024-08-23 04:04:24,277 - INFO - Processing order with ID: 1758395978702219520, side: Sell, Status: Filled
+2024-08-23 04:04:24,277 - INFO - Received Order Filled Price: 60513.7, Qty: 0.001
+2024-08-23 04:04:24,382 - INFO - Processed filled sell order - Pair Profit: 0.09919259999999497
+2024-08-23 04:04:28,954 - INFO - Marked sell order 8ff54608-f05c-40b9-8114-816736e65179 as filled
+2024-08-23 04:04:31,533 - INFO - Placed buy order at 60293.7, Order ID: 1758428997227997440
+2024-08-23 04:04:31,533 - INFO - canceling 1758396111728765185 with level 60073.7
+2024-08-23 04:04:31,550 - INFO - Processing order with ID: 1758428997227997440, side: Buy, Status: New
+2024-08-23 04:04:31,651 - INFO - Processing order with ID: 1758396111728765185, side: Buy, Status: Cancelled
+2024-08-23 04:05:29,688 - INFO - State checkpointed successfully.
+2024-08-23 04:06:33,672 - INFO - State checkpointed successfully.
+2024-08-23 04:07:39,374 - INFO - State checkpointed successfully.
+2024-08-23 04:08:43,675 - INFO - State checkpointed successfully.
+2024-08-23 04:09:48,210 - INFO - State checkpointed successfully.
+2024-08-23 04:10:51,653 - INFO - State checkpointed successfully.
+2024-08-23 04:11:57,396 - INFO - State checkpointed successfully.
+2024-08-23 04:13:03,027 - INFO - State checkpointed successfully.
+2024-08-23 04:14:08,068 - INFO - State checkpointed successfully.
+2024-08-23 04:15:12,241 - INFO - State checkpointed successfully.
+2024-08-23 04:16:17,637 - INFO - State checkpointed successfully.
+2024-08-23 04:17:23,051 - INFO - State checkpointed successfully.
+2024-08-23 04:18:28,587 - INFO - State checkpointed successfully.
+2024-08-23 04:19:33,540 - INFO - State checkpointed successfully.
+2024-08-23 04:20:37,087 - INFO - State checkpointed successfully.
+2024-08-23 04:21:42,128 - INFO - State checkpointed successfully.
+2024-08-23 04:22:47,686 - INFO - State checkpointed successfully.
+2024-08-23 04:23:56,708 - INFO - State checkpointed successfully.
+2024-08-23 04:25:01,009 - INFO - State checkpointed successfully.
+2024-08-23 04:26:05,097 - INFO - State checkpointed successfully.
+2024-08-23 04:27:10,490 - INFO - State checkpointed successfully.
+2024-08-23 04:28:15,280 - INFO - State checkpointed successfully.
+2024-08-23 04:29:22,209 - INFO - State checkpointed successfully.
+2024-08-23 04:30:26,020 - INFO - State checkpointed successfully.
+2024-08-23 04:31:33,356 - INFO - State checkpointed successfully.
+2024-08-23 04:32:41,606 - INFO - State checkpointed successfully.
+2024-08-23 04:33:51,892 - INFO - State checkpointed successfully.
+2024-08-23 04:34:56,075 - INFO - State checkpointed successfully.
+2024-08-23 04:36:00,325 - INFO - State checkpointed successfully.
+2024-08-23 04:37:04,601 - INFO - State checkpointed successfully.
+2024-08-23 04:38:10,974 - INFO - State checkpointed successfully.
+2024-08-23 04:39:14,921 - INFO - State checkpointed successfully.
+2024-08-23 04:40:19,715 - INFO - State checkpointed successfully.
+2024-08-23 04:41:25,641 - INFO - State checkpointed successfully.
+2024-08-23 04:42:31,331 - INFO - State checkpointed successfully.
+2024-08-23 04:43:36,947 - INFO - State checkpointed successfully.
+2024-08-23 04:44:44,716 - INFO - State checkpointed successfully.
+2024-08-23 04:45:50,628 - INFO - State checkpointed successfully.
+2024-08-23 04:46:55,401 - INFO - State checkpointed successfully.
+2024-08-23 04:47:59,688 - INFO - State checkpointed successfully.
+2024-08-23 04:49:05,144 - INFO - State checkpointed successfully.
+2024-08-23 04:50:09,750 - INFO - State checkpointed successfully.
+2024-08-23 04:51:15,447 - INFO - State checkpointed successfully.
+2024-08-23 04:52:19,750 - INFO - State checkpointed successfully.
+2024-08-23 04:53:24,171 - INFO - State checkpointed successfully.
+2024-08-23 04:54:28,846 - INFO - State checkpointed successfully.
+2024-08-23 04:55:34,137 - INFO - State checkpointed successfully.
+2024-08-23 04:56:38,045 - INFO - State checkpointed successfully.
+2024-08-23 04:57:44,218 - INFO - State checkpointed successfully.
+2024-08-23 04:58:48,566 - INFO - State checkpointed successfully.
+2024-08-23 04:59:53,522 - INFO - State checkpointed successfully.
+2024-08-23 05:00:59,716 - INFO - State checkpointed successfully.
+2024-08-23 05:02:09,441 - INFO - State checkpointed successfully.
+2024-08-23 05:03:13,300 - INFO - State checkpointed successfully.
+2024-08-23 05:04:21,003 - INFO - State checkpointed successfully.
+2024-08-23 05:05:24,341 - INFO - State checkpointed successfully.
+2024-08-23 05:06:28,507 - INFO - State checkpointed successfully.
+2024-08-23 05:07:34,655 - INFO - State checkpointed successfully.
+2024-08-23 05:08:41,325 - INFO - State checkpointed successfully.
+2024-08-23 05:09:46,439 - INFO - State checkpointed successfully.
+2024-08-23 05:10:51,920 - INFO - State checkpointed successfully.
+2024-08-23 05:11:56,319 - INFO - State checkpointed successfully.
+2024-08-23 05:13:00,676 - INFO - State checkpointed successfully.
+2024-08-23 05:14:06,961 - INFO - State checkpointed successfully.
+2024-08-23 05:15:11,373 - INFO - State checkpointed successfully.
+2024-08-23 05:16:14,723 - INFO - State checkpointed successfully.
+2024-08-23 05:17:19,673 - INFO - State checkpointed successfully.
+2024-08-23 05:18:23,760 - INFO - State checkpointed successfully.
+2024-08-23 05:19:27,953 - INFO - State checkpointed successfully.
+2024-08-23 05:20:32,451 - INFO - State checkpointed successfully.
+2024-08-23 05:21:36,764 - INFO - State checkpointed successfully.
+2024-08-23 05:22:41,433 - INFO - State checkpointed successfully.
+2024-08-23 05:23:47,412 - INFO - State checkpointed successfully.
+2024-08-23 05:24:54,318 - INFO - State checkpointed successfully.
+2024-08-23 05:26:01,213 - INFO - State checkpointed successfully.
+2024-08-23 05:27:08,643 - INFO - State checkpointed successfully.
+2024-08-23 05:28:12,790 - INFO - State checkpointed successfully.
+2024-08-23 05:29:17,762 - INFO - State checkpointed successfully.
+2024-08-23 05:30:23,397 - INFO - State checkpointed successfully.
+2024-08-23 05:31:30,872 - INFO - State checkpointed successfully.
+2024-08-23 05:32:39,552 - INFO - State checkpointed successfully.
+2024-08-23 05:33:44,568 - INFO - State checkpointed successfully.
+2024-08-23 05:34:49,948 - INFO - State checkpointed successfully.
+2024-08-23 05:35:54,995 - INFO - State checkpointed successfully.
+2024-08-23 05:37:01,475 - INFO - State checkpointed successfully.
+2024-08-23 05:38:05,539 - INFO - State checkpointed successfully.
+2024-08-23 05:39:09,030 - INFO - State checkpointed successfully.
+2024-08-23 05:40:13,516 - INFO - State checkpointed successfully.
+2024-08-23 05:41:17,750 - INFO - State checkpointed successfully.
+2024-08-23 05:42:25,092 - INFO - State checkpointed successfully.
+2024-08-23 05:43:28,578 - INFO - State checkpointed successfully.
+2024-08-23 05:44:31,982 - INFO - State checkpointed successfully.
+2024-08-23 05:45:37,265 - INFO - State checkpointed successfully.
+2024-08-23 05:46:41,613 - INFO - State checkpointed successfully.
+2024-08-23 05:47:46,363 - INFO - State checkpointed successfully.
+2024-08-23 05:48:53,364 - INFO - State checkpointed successfully.
+2024-08-23 05:49:58,230 - INFO - State checkpointed successfully.
+2024-08-23 05:51:02,350 - INFO - State checkpointed successfully.
+2024-08-23 05:52:07,853 - INFO - State checkpointed successfully.
+2024-08-23 05:53:11,768 - INFO - State checkpointed successfully.
+2024-08-23 05:54:16,773 - INFO - State checkpointed successfully.
+2024-08-23 05:55:24,786 - INFO - State checkpointed successfully.
+2024-08-23 05:56:32,483 - INFO - State checkpointed successfully.
+2024-08-23 05:57:40,668 - INFO - State checkpointed successfully.
+2024-08-23 05:58:48,448 - INFO - State checkpointed successfully.
+2024-08-23 05:59:53,067 - INFO - State checkpointed successfully.
+2024-08-23 06:00:58,027 - INFO - State checkpointed successfully.
+2024-08-23 06:02:02,565 - INFO - State checkpointed successfully.
+2024-08-23 06:03:06,464 - INFO - State checkpointed successfully.
+2024-08-23 06:04:12,670 - INFO - State checkpointed successfully.
+2024-08-23 06:05:18,397 - INFO - State checkpointed successfully.
+2024-08-23 06:06:24,279 - INFO - State checkpointed successfully.
+2024-08-23 06:07:30,398 - INFO - State checkpointed successfully.
+2024-08-23 06:08:38,838 - INFO - State checkpointed successfully.
+2024-08-23 06:09:43,836 - INFO - State checkpointed successfully.
+2024-08-23 06:10:51,046 - INFO - State checkpointed successfully.
+2024-08-23 06:11:56,276 - INFO - State checkpointed successfully.
+2024-08-23 06:13:00,037 - INFO - State checkpointed successfully.
+2024-08-23 06:14:07,523 - INFO - State checkpointed successfully.
+2024-08-23 06:15:11,052 - INFO - State checkpointed successfully.
+2024-08-23 06:16:39,982 - INFO - State checkpointed successfully.
+2024-08-23 06:17:45,120 - INFO - State checkpointed successfully.
+2024-08-23 06:18:50,645 - INFO - State checkpointed successfully.
+2024-08-23 06:19:56,833 - INFO - State checkpointed successfully.
+2024-08-23 06:21:01,733 - INFO - State checkpointed successfully.
+2024-08-23 06:22:07,769 - INFO - State checkpointed successfully.
+2024-08-23 06:23:11,580 - INFO - State checkpointed successfully.
+2024-08-23 06:24:16,015 - INFO - State checkpointed successfully.
+2024-08-23 06:25:20,724 - INFO - State checkpointed successfully.
+2024-08-23 06:26:27,286 - INFO - State checkpointed successfully.
+2024-08-23 06:27:31,818 - INFO - State checkpointed successfully.
+2024-08-23 06:28:39,200 - INFO - State checkpointed successfully.
+2024-08-23 06:29:43,899 - INFO - State checkpointed successfully.
+2024-08-23 06:30:48,978 - INFO - State checkpointed successfully.
+2024-08-23 06:31:54,056 - INFO - State checkpointed successfully.
+2024-08-23 06:32:59,572 - INFO - State checkpointed successfully.
+2024-08-23 06:34:07,226 - INFO - State checkpointed successfully.
+2024-08-23 06:35:12,926 - INFO - State checkpointed successfully.
+2024-08-23 06:36:17,715 - INFO - State checkpointed successfully.
+2024-08-23 06:37:23,022 - INFO - State checkpointed successfully.
+2024-08-23 06:38:29,010 - INFO - State checkpointed successfully.
+2024-08-23 06:39:32,775 - INFO - State checkpointed successfully.
+2024-08-23 06:40:36,591 - INFO - State checkpointed successfully.
+2024-08-23 06:41:41,255 - INFO - State checkpointed successfully.
+2024-08-23 06:42:45,542 - INFO - State checkpointed successfully.
+2024-08-23 06:43:54,971 - INFO - State checkpointed successfully.
+2024-08-23 06:45:02,210 - INFO - State checkpointed successfully.
+2024-08-23 06:46:08,269 - INFO - State checkpointed successfully.
+2024-08-23 06:47:14,504 - INFO - State checkpointed successfully.
+2024-08-23 06:48:19,471 - INFO - State checkpointed successfully.
+2024-08-23 06:49:33,465 - INFO - State checkpointed successfully.
+2024-08-23 06:50:50,228 - INFO - State checkpointed successfully.
+2024-08-23 06:51:54,298 - INFO - State checkpointed successfully.
+2024-08-23 06:53:01,846 - INFO - State checkpointed successfully.
+2024-08-23 06:54:05,308 - INFO - State checkpointed successfully.
+2024-08-23 06:55:11,021 - INFO - State checkpointed successfully.
+2024-08-23 06:56:16,561 - INFO - State checkpointed successfully.
+2024-08-23 06:57:23,181 - INFO - State checkpointed successfully.
+2024-08-23 06:58:27,692 - INFO - State checkpointed successfully.
+2024-08-23 06:59:30,924 - INFO - State checkpointed successfully.
+2024-08-23 07:00:36,220 - INFO - State checkpointed successfully.
+2024-08-23 07:01:43,902 - INFO - State checkpointed successfully.
+2024-08-23 07:02:48,372 - INFO - State checkpointed successfully.
+2024-08-23 07:03:53,172 - INFO - State checkpointed successfully.
+2024-08-23 07:04:57,308 - INFO - State checkpointed successfully.
+2024-08-23 07:06:01,876 - INFO - State checkpointed successfully.
+2024-08-23 07:07:05,679 - INFO - State checkpointed successfully.
+2024-08-23 07:08:11,063 - INFO - State checkpointed successfully.
+2024-08-23 07:09:16,130 - INFO - State checkpointed successfully.
+2024-08-23 07:10:21,172 - INFO - State checkpointed successfully.
+2024-08-23 07:11:24,844 - INFO - State checkpointed successfully.
+2024-08-23 07:12:29,181 - INFO - State checkpointed successfully.
+2024-08-23 07:13:32,816 - INFO - State checkpointed successfully.
+2024-08-23 07:14:38,738 - INFO - State checkpointed successfully.
+2024-08-23 07:15:42,467 - INFO - State checkpointed successfully.
+2024-08-23 07:16:46,463 - INFO - State checkpointed successfully.
+2024-08-23 07:17:50,580 - INFO - State checkpointed successfully.
+2024-08-23 07:18:57,565 - INFO - State checkpointed successfully.
+2024-08-23 07:20:05,688 - INFO - State checkpointed successfully.
+2024-08-23 07:21:10,421 - INFO - State checkpointed successfully.
+2024-08-23 07:22:15,204 - INFO - State checkpointed successfully.
+2024-08-23 07:23:21,039 - INFO - State checkpointed successfully.
+2024-08-23 07:24:26,895 - INFO - State checkpointed successfully.
+2024-08-23 07:25:33,085 - INFO - State checkpointed successfully.
+2024-08-23 07:26:37,489 - INFO - State checkpointed successfully.
+2024-08-23 07:27:43,575 - INFO - State checkpointed successfully.
+2024-08-23 07:28:48,963 - INFO - State checkpointed successfully.
+2024-08-23 07:29:52,785 - INFO - State checkpointed successfully.
+2024-08-23 07:30:56,943 - INFO - State checkpointed successfully.
+2024-08-23 07:32:00,894 - INFO - State checkpointed successfully.
+2024-08-23 07:33:05,194 - INFO - State checkpointed successfully.
+2024-08-23 07:34:10,048 - INFO - State checkpointed successfully.
+2024-08-23 07:35:14,969 - INFO - State checkpointed successfully.
+2024-08-23 07:36:20,233 - INFO - State checkpointed successfully.
+2024-08-23 07:37:26,751 - INFO - State checkpointed successfully.
+2024-08-23 07:38:30,764 - INFO - State checkpointed successfully.
+2024-08-23 07:39:35,654 - INFO - State checkpointed successfully.
+2024-08-23 07:40:39,722 - INFO - State checkpointed successfully.
+2024-08-23 07:41:50,283 - INFO - State checkpointed successfully.
+2024-08-23 07:42:54,439 - INFO - State checkpointed successfully.
+2024-08-23 07:43:58,242 - INFO - State checkpointed successfully.
+2024-08-23 07:45:03,226 - INFO - State checkpointed successfully.
+2024-08-23 07:46:08,154 - INFO - State checkpointed successfully.
+2024-08-23 07:47:12,971 - INFO - State checkpointed successfully.
+2024-08-23 07:48:17,677 - INFO - State checkpointed successfully.
+2024-08-23 07:49:23,272 - INFO - State checkpointed successfully.
+2024-08-23 07:50:28,830 - INFO - State checkpointed successfully.
+2024-08-23 07:51:33,308 - INFO - State checkpointed successfully.
+2024-08-23 07:52:42,018 - INFO - State checkpointed successfully.
+2024-08-23 07:53:50,066 - INFO - State checkpointed successfully.
+2024-08-23 07:54:55,780 - INFO - State checkpointed successfully.
+2024-08-23 07:56:01,799 - INFO - State checkpointed successfully.
+2024-08-23 07:57:06,626 - INFO - State checkpointed successfully.
+2024-08-23 07:58:13,734 - INFO - State checkpointed successfully.
+2024-08-23 07:59:23,117 - INFO - State checkpointed successfully.
+2024-08-23 08:00:30,807 - INFO - State checkpointed successfully.
+2024-08-23 08:01:42,097 - INFO - State checkpointed successfully.
+2024-08-23 08:02:46,587 - INFO - State checkpointed successfully.
+2024-08-23 08:03:54,920 - INFO - State checkpointed successfully.
+2024-08-23 08:05:00,523 - INFO - State checkpointed successfully.
+2024-08-23 08:06:05,003 - INFO - State checkpointed successfully.
+2024-08-23 08:07:16,687 - INFO - State checkpointed successfully.
+2024-08-23 08:08:20,964 - INFO - State checkpointed successfully.
+2024-08-23 08:09:41,978 - INFO - State checkpointed successfully.
+2024-08-23 08:10:45,279 - INFO - State checkpointed successfully.
+2024-08-23 08:11:52,199 - INFO - State checkpointed successfully.
+2024-08-23 08:12:58,910 - INFO - State checkpointed successfully.
+2024-08-23 08:14:04,141 - INFO - State checkpointed successfully.
+2024-08-23 08:15:11,487 - INFO - State checkpointed successfully.
+2024-08-23 08:16:16,327 - INFO - State checkpointed successfully.
+2024-08-23 08:17:19,933 - INFO - State checkpointed successfully.
+2024-08-23 08:18:25,549 - INFO - State checkpointed successfully.
+2024-08-23 08:19:30,141 - INFO - State checkpointed successfully.
+2024-08-23 08:20:33,973 - INFO - State checkpointed successfully.
+2024-08-23 08:21:37,986 - INFO - State checkpointed successfully.
+2024-08-23 08:22:44,666 - INFO - State checkpointed successfully.
+2024-08-23 08:23:48,634 - INFO - State checkpointed successfully.
+2024-08-23 08:24:53,234 - INFO - State checkpointed successfully.
+2024-08-23 08:25:59,198 - INFO - State checkpointed successfully.
+2024-08-23 08:27:04,277 - INFO - State checkpointed successfully.
+2024-08-23 08:28:12,438 - INFO - State checkpointed successfully.
+2024-08-23 08:29:19,187 - INFO - State checkpointed successfully.
+2024-08-23 08:30:28,866 - INFO - State checkpointed successfully.
+2024-08-23 08:31:36,113 - INFO - State checkpointed successfully.
+2024-08-23 08:32:40,343 - INFO - State checkpointed successfully.
+2024-08-23 08:33:44,117 - INFO - State checkpointed successfully.
+2024-08-23 08:34:52,237 - INFO - State checkpointed successfully.
+2024-08-23 08:36:05,042 - INFO - State checkpointed successfully.
+2024-08-23 08:37:11,065 - INFO - State checkpointed successfully.
+2024-08-23 08:37:56,353 - INFO - Processing order with ID: 1758329207009929472, side: Sell, Status: Filled
+2024-08-23 08:37:56,354 - INFO - Received Order Filled Price: 60733.7, Qty: 0.001
+2024-08-23 08:37:56,460 - INFO - Processed filled sell order - Pair Profit: 0.09875259999999741
+2024-08-23 08:37:59,587 - INFO - Placed buy order at 60733.7, Order ID: 1758566637952657664
+2024-08-23 08:37:59,587 - INFO - canceling 1758428997227997440 with level 60293.7
+2024-08-23 08:38:01,896 - INFO - Marked sell order 75fdd448-aaad-4bf6-8fc9-1871af6cb597 as filled
+2024-08-23 08:38:01,896 - INFO - Processing order with ID: 1758566637952657664, side: Buy, Status: New
+2024-08-23 08:38:01,897 - INFO - Processing order with ID: 1758428997227997440, side: Buy, Status: Cancelled
+2024-08-23 08:38:10,617 - INFO - Processing order with ID: 1758566637952657664, side: Buy, Status: Filled
+2024-08-23 08:38:10,617 - INFO - Received Order Filled Price: 60733.7, Qty: 0.001
+2024-08-23 08:38:10,617 - INFO - popped buy from openOrders
+2024-08-23 08:38:10,728 - INFO - Placed sell order at 60953.7, Order ID: 1758566731418528000
+2024-08-23 08:38:11,340 - INFO - Placed corresponding sell order with ID: 1758566731418528000
+2024-08-23 08:38:11,748 - INFO - Processing order with ID: 1758566731418528000, side: Sell, Status: New
+2024-08-23 08:38:15,327 - INFO - State checkpointed successfully.
+2024-08-23 08:39:13,788 - INFO - Processing order with ID: 1758566731418528000, side: Sell, Status: Filled
+2024-08-23 08:39:13,788 - INFO - Received Order Filled Price: 60953.7, Qty: 0.001
+2024-08-23 08:39:13,894 - INFO - Flushed pending updates to CSV.
+2024-08-23 08:39:13,894 - INFO - Processed filled sell order - Pair Profit: 0.09831259999999986
+2024-08-23 08:39:16,828 - INFO - Marked sell order 5b502208-de6c-43a7-9407-582ddd779695 as filled
+2024-08-23 08:39:18,348 - INFO - Processing order with ID: 1758567298639423744, side: Buy, Status: New
+2024-08-23 08:39:18,348 - INFO - Placed buy order at 60733.7, Order ID: 1758567298639423744
+2024-08-23 08:39:23,460 - INFO - State checkpointed successfully.
+2024-08-23 08:40:27,924 - INFO - State checkpointed successfully.
+2024-08-23 08:41:32,758 - INFO - State checkpointed successfully.
+2024-08-23 08:42:39,115 - INFO - State checkpointed successfully.
+2024-08-23 08:43:44,551 - INFO - State checkpointed successfully.
+2024-08-23 08:44:51,425 - INFO - State checkpointed successfully.
+2024-08-23 08:45:56,045 - INFO - State checkpointed successfully.
+2024-08-23 08:46:59,573 - INFO - State checkpointed successfully.
+2024-08-23 08:48:04,799 - INFO - State checkpointed successfully.
+2024-08-23 08:49:08,793 - INFO - State checkpointed successfully.
+2024-08-23 08:50:14,081 - INFO - State checkpointed successfully.
+2024-08-23 08:51:18,660 - INFO - State checkpointed successfully.
+2024-08-23 08:51:56,180 - INFO - Processing order with ID: 1758567298639423744, side: Buy, Status: Filled
+2024-08-23 08:51:56,180 - INFO - Received Order Filled Price: 60733.7, Qty: 0.001
+2024-08-23 08:51:56,180 - INFO - popped buy from openOrders
+2024-08-23 08:51:56,290 - INFO - Placed sell order at 60953.7, Order ID: 1758573656726137088
+2024-08-23 08:51:56,381 - INFO - Placed buy order at 60513.7, Order ID: 1758573657497889024
+2024-08-23 08:51:57,694 - INFO - Placed corresponding sell order with ID: 1758573656726137088
+2024-08-23 08:51:58,136 - INFO - Processing order with ID: 1758573656726137088, side: Sell, Status: New
+2024-08-23 08:51:58,137 - INFO - Processing order with ID: 1758573657497889024, side: Buy, Status: New
+2024-08-23 08:52:23,246 - INFO - State checkpointed successfully.
+2024-08-23 08:53:28,753 - INFO - State checkpointed successfully.
+2024-08-23 08:54:33,751 - INFO - State checkpointed successfully.
+2024-08-23 08:55:39,905 - INFO - State checkpointed successfully.
+2024-08-23 08:56:51,030 - INFO - State checkpointed successfully.
+2024-08-23 08:57:57,082 - INFO - State checkpointed successfully.
+2024-08-23 08:59:03,458 - INFO - State checkpointed successfully.
+2024-08-23 09:00:06,997 - INFO - State checkpointed successfully.
+2024-08-23 09:01:14,955 - INFO - State checkpointed successfully.
+2024-08-23 09:02:18,905 - INFO - State checkpointed successfully.
+2024-08-23 09:03:24,262 - INFO - State checkpointed successfully.
+2024-08-23 09:04:29,386 - INFO - State checkpointed successfully.
+2024-08-23 09:05:36,039 - INFO - State checkpointed successfully.
+2024-08-23 09:06:40,644 - INFO - State checkpointed successfully.
+2024-08-23 09:07:44,545 - INFO - State checkpointed successfully.
+2024-08-23 09:08:52,377 - INFO - State checkpointed successfully.
+2024-08-23 09:09:56,910 - INFO - State checkpointed successfully.
+2024-08-23 09:11:01,443 - INFO - State checkpointed successfully.
+2024-08-23 09:12:06,747 - INFO - State checkpointed successfully.
+2024-08-23 09:13:13,289 - INFO - State checkpointed successfully.
+2024-08-23 09:14:17,941 - INFO - State checkpointed successfully.
+2024-08-23 09:15:23,141 - INFO - State checkpointed successfully.
+2024-08-23 09:16:31,974 - INFO - State checkpointed successfully.
+2024-08-23 09:17:36,660 - INFO - State checkpointed successfully.
+2024-08-23 09:18:41,674 - INFO - State checkpointed successfully.
+2024-08-23 09:19:46,210 - INFO - State checkpointed successfully.
+2024-08-23 09:20:51,124 - INFO - State checkpointed successfully.
+2024-08-23 09:21:54,674 - INFO - State checkpointed successfully.
+2024-08-23 09:22:59,740 - INFO - State checkpointed successfully.
+2024-08-23 09:24:03,826 - INFO - State checkpointed successfully.
+2024-08-23 09:25:10,009 - INFO - State checkpointed successfully.
+2024-08-23 09:26:15,390 - INFO - State checkpointed successfully.
+2024-08-23 09:27:20,818 - INFO - State checkpointed successfully.
+2024-08-23 09:28:25,755 - INFO - State checkpointed successfully.
+2024-08-23 09:29:29,971 - INFO - State checkpointed successfully.
+2024-08-23 09:30:33,959 - INFO - State checkpointed successfully.
+2024-08-23 09:31:39,694 - INFO - State checkpointed successfully.
+2024-08-23 09:32:46,475 - INFO - State checkpointed successfully.
+2024-08-23 09:33:50,623 - INFO - State checkpointed successfully.
+2024-08-23 09:34:55,678 - INFO - State checkpointed successfully.
+2024-08-23 09:36:00,341 - INFO - State checkpointed successfully.
+2024-08-23 09:37:04,737 - INFO - State checkpointed successfully.
+2024-08-23 09:38:09,978 - INFO - State checkpointed successfully.
+2024-08-23 09:39:16,055 - INFO - State checkpointed successfully.
+2024-08-23 09:40:22,076 - INFO - State checkpointed successfully.
+2024-08-23 09:41:26,125 - INFO - State checkpointed successfully.
+2024-08-23 09:42:30,196 - INFO - State checkpointed successfully.
+2024-08-23 09:43:33,622 - INFO - State checkpointed successfully.
+2024-08-23 09:44:38,589 - INFO - State checkpointed successfully.
+2024-08-23 09:45:46,794 - INFO - State checkpointed successfully.
+2024-08-23 09:46:50,383 - INFO - State checkpointed successfully.
+2024-08-23 09:47:54,104 - INFO - State checkpointed successfully.
+2024-08-23 09:48:59,671 - INFO - State checkpointed successfully.
+2024-08-23 09:50:02,854 - INFO - State checkpointed successfully.
+2024-08-23 09:51:07,507 - INFO - State checkpointed successfully.
+2024-08-23 09:52:11,991 - INFO - State checkpointed successfully.
+2024-08-23 09:53:19,888 - INFO - State checkpointed successfully.
+2024-08-23 09:54:23,403 - INFO - State checkpointed successfully.
+2024-08-23 09:55:29,785 - INFO - State checkpointed successfully.
+2024-08-23 09:56:35,768 - INFO - State checkpointed successfully.
+2024-08-23 09:57:42,470 - INFO - State checkpointed successfully.
+2024-08-23 09:58:47,462 - INFO - State checkpointed successfully.
+2024-08-23 09:59:52,232 - INFO - State checkpointed successfully.
+2024-08-23 10:00:57,144 - INFO - State checkpointed successfully.
+2024-08-23 10:02:04,861 - INFO - State checkpointed successfully.
+2024-08-23 10:03:08,766 - INFO - State checkpointed successfully.
+2024-08-23 10:04:12,280 - INFO - State checkpointed successfully.
+2024-08-23 10:05:16,785 - INFO - State checkpointed successfully.
+2024-08-23 10:06:22,902 - INFO - State checkpointed successfully.
+2024-08-23 10:07:27,157 - INFO - State checkpointed successfully.
+2024-08-23 10:08:31,143 - INFO - State checkpointed successfully.
+2024-08-23 10:09:36,787 - INFO - State checkpointed successfully.
+2024-08-23 10:10:48,107 - INFO - State checkpointed successfully.
+2024-08-23 10:11:53,573 - INFO - State checkpointed successfully.
+2024-08-23 10:12:58,285 - INFO - State checkpointed successfully.
+2024-08-23 10:14:01,496 - INFO - State checkpointed successfully.
+2024-08-23 10:15:06,686 - INFO - State checkpointed successfully.
+2024-08-23 10:16:10,557 - INFO - State checkpointed successfully.
+2024-08-23 10:17:14,531 - INFO - State checkpointed successfully.
+2024-08-23 10:18:18,705 - INFO - State checkpointed successfully.
+2024-08-23 10:19:23,332 - INFO - State checkpointed successfully.
+2024-08-23 10:20:28,598 - INFO - State checkpointed successfully.
+2024-08-23 10:21:36,289 - INFO - State checkpointed successfully.
+2024-08-23 10:22:40,996 - INFO - State checkpointed successfully.
+2024-08-23 10:23:46,505 - INFO - State checkpointed successfully.
+2024-08-23 10:24:50,182 - INFO - State checkpointed successfully.
+2024-08-23 10:25:55,482 - INFO - State checkpointed successfully.
+2024-08-23 10:26:59,463 - INFO - State checkpointed successfully.
+2024-08-23 10:28:06,112 - INFO - State checkpointed successfully.
+2024-08-23 10:29:12,409 - INFO - State checkpointed successfully.
+2024-08-23 10:30:17,931 - INFO - State checkpointed successfully.
+2024-08-23 10:31:22,109 - INFO - State checkpointed successfully.
+2024-08-23 10:32:26,529 - INFO - State checkpointed successfully.
+2024-08-23 10:33:31,783 - INFO - State checkpointed successfully.
+2024-08-23 10:34:36,824 - INFO - State checkpointed successfully.
+2024-08-23 10:35:42,794 - INFO - State checkpointed successfully.
+2024-08-23 10:36:47,253 - INFO - State checkpointed successfully.
+2024-08-23 10:37:51,839 - INFO - State checkpointed successfully.
+2024-08-23 10:38:58,378 - INFO - State checkpointed successfully.
+2024-08-23 10:40:02,367 - INFO - State checkpointed successfully.
+2024-08-23 10:41:07,044 - INFO - State checkpointed successfully.
+2024-08-23 10:42:11,249 - INFO - State checkpointed successfully.
+2024-08-23 10:43:16,294 - INFO - State checkpointed successfully.
+2024-08-23 10:44:19,929 - INFO - State checkpointed successfully.
+2024-08-23 10:45:23,971 - INFO - State checkpointed successfully.
+2024-08-23 10:46:28,838 - INFO - State checkpointed successfully.
+2024-08-23 10:47:33,684 - INFO - State checkpointed successfully.
+2024-08-23 10:48:38,776 - INFO - State checkpointed successfully.
+2024-08-23 10:49:44,596 - INFO - State checkpointed successfully.
+2024-08-23 10:51:01,935 - INFO - State checkpointed successfully.
+2024-08-23 10:52:21,482 - INFO - State checkpointed successfully.
+2024-08-23 10:53:26,607 - INFO - State checkpointed successfully.
+2024-08-23 10:54:34,754 - INFO - State checkpointed successfully.
+2024-08-23 10:55:38,690 - INFO - State checkpointed successfully.
+2024-08-23 10:56:44,508 - INFO - State checkpointed successfully.
+2024-08-23 10:57:49,454 - INFO - State checkpointed successfully.
+2024-08-23 10:58:53,605 - INFO - State checkpointed successfully.
+2024-08-23 10:59:59,011 - INFO - State checkpointed successfully.
+2024-08-23 11:01:03,608 - INFO - State checkpointed successfully.
+2024-08-23 11:02:10,132 - INFO - State checkpointed successfully.
+2024-08-23 11:03:14,583 - INFO - State checkpointed successfully.
+2024-08-23 11:04:18,998 - INFO - State checkpointed successfully.
+2024-08-23 11:05:23,626 - INFO - State checkpointed successfully.
+2024-08-23 11:06:34,940 - INFO - State checkpointed successfully.
+2024-08-23 11:07:39,481 - INFO - State checkpointed successfully.
+2024-08-23 11:08:45,551 - INFO - State checkpointed successfully.
+2024-08-23 11:09:50,676 - INFO - State checkpointed successfully.
+2024-08-23 11:10:54,341 - INFO - State checkpointed successfully.
+2024-08-23 11:11:58,722 - INFO - State checkpointed successfully.
+2024-08-23 11:13:04,469 - INFO - State checkpointed successfully.
+2024-08-23 11:14:07,640 - INFO - State checkpointed successfully.
+2024-08-23 11:15:13,061 - INFO - State checkpointed successfully.
+2024-08-23 11:16:18,754 - INFO - State checkpointed successfully.
+2024-08-23 11:17:23,977 - INFO - State checkpointed successfully.
+2024-08-23 11:18:28,603 - INFO - State checkpointed successfully.
+2024-08-23 11:19:33,696 - INFO - State checkpointed successfully.
+2024-08-23 11:20:47,502 - INFO - State checkpointed successfully.
+2024-08-23 11:21:52,111 - INFO - State checkpointed successfully.
+2024-08-23 11:22:56,461 - INFO - State checkpointed successfully.
+2024-08-23 11:24:02,802 - INFO - State checkpointed successfully.
+2024-08-23 11:25:06,808 - INFO - State checkpointed successfully.
+2024-08-23 11:26:12,712 - INFO - State checkpointed successfully.
+2024-08-23 11:27:17,465 - INFO - State checkpointed successfully.
+2024-08-23 11:28:21,110 - INFO - State checkpointed successfully.
+2024-08-23 11:29:25,477 - INFO - State checkpointed successfully.
+2024-08-23 11:30:30,061 - INFO - State checkpointed successfully.
+2024-08-23 11:31:33,547 - INFO - State checkpointed successfully.
+2024-08-23 11:32:38,435 - INFO - State checkpointed successfully.
+2024-08-23 11:33:50,672 - INFO - State checkpointed successfully.
+2024-08-23 11:34:55,511 - INFO - State checkpointed successfully.
+2024-08-23 11:36:02,579 - INFO - State checkpointed successfully.
+2024-08-23 11:37:10,323 - INFO - State checkpointed successfully.
+2024-08-23 11:38:17,255 - INFO - State checkpointed successfully.
+2024-08-23 11:39:23,402 - INFO - State checkpointed successfully.
+2024-08-23 11:40:29,660 - INFO - State checkpointed successfully.
+2024-08-23 11:41:34,044 - INFO - State checkpointed successfully.
+2024-08-23 11:42:40,065 - INFO - State checkpointed successfully.
+2024-08-23 11:43:43,736 - INFO - State checkpointed successfully.
+2024-08-23 11:44:52,896 - INFO - State checkpointed successfully.
+2024-08-23 11:45:58,525 - INFO - State checkpointed successfully.
+2024-08-23 11:47:05,338 - INFO - State checkpointed successfully.
+2024-08-23 11:48:10,605 - INFO - State checkpointed successfully.
+2024-08-23 11:49:14,485 - INFO - State checkpointed successfully.
+2024-08-23 11:50:23,838 - INFO - State checkpointed successfully.
+2024-08-23 11:51:27,094 - INFO - State checkpointed successfully.
+2024-08-23 11:52:30,968 - INFO - State checkpointed successfully.
+2024-08-23 11:53:36,310 - INFO - State checkpointed successfully.
+2024-08-23 11:54:40,180 - INFO - State checkpointed successfully.
+2024-08-23 11:55:43,306 - INFO - State checkpointed successfully.
+2024-08-23 11:56:49,281 - INFO - State checkpointed successfully.
+2024-08-23 11:57:56,602 - INFO - State checkpointed successfully.
+2024-08-23 11:59:00,336 - INFO - State checkpointed successfully.
+2024-08-23 12:00:06,892 - INFO - State checkpointed successfully.
+2024-08-23 12:01:12,431 - INFO - State checkpointed successfully.
+2024-08-23 12:02:19,441 - INFO - State checkpointed successfully.
+2024-08-23 12:03:26,976 - INFO - State checkpointed successfully.
+2024-08-23 12:04:31,234 - INFO - State checkpointed successfully.
+2024-08-23 12:05:36,622 - INFO - State checkpointed successfully.
+2024-08-23 12:06:42,661 - INFO - State checkpointed successfully.
+2024-08-23 12:07:48,417 - INFO - State checkpointed successfully.
+2024-08-23 12:08:53,742 - INFO - State checkpointed successfully.
+2024-08-23 12:09:58,480 - INFO - State checkpointed successfully.
+2024-08-23 12:11:02,289 - INFO - State checkpointed successfully.
+2024-08-23 12:12:07,586 - INFO - State checkpointed successfully.
+2024-08-23 12:13:18,502 - INFO - State checkpointed successfully.
+2024-08-23 12:14:22,179 - INFO - State checkpointed successfully.
+2024-08-23 12:15:26,221 - INFO - State checkpointed successfully.
+2024-08-23 12:16:31,577 - INFO - State checkpointed successfully.
+2024-08-23 12:17:35,888 - INFO - State checkpointed successfully.
+2024-08-23 12:18:40,031 - INFO - State checkpointed successfully.
+2024-08-23 12:19:46,481 - INFO - State checkpointed successfully.
+2024-08-23 12:20:50,375 - INFO - State checkpointed successfully.
+2024-08-23 12:21:54,646 - INFO - State checkpointed successfully.
+2024-08-23 12:23:00,740 - INFO - State checkpointed successfully.
+2024-08-23 12:24:05,265 - INFO - State checkpointed successfully.
+2024-08-23 12:25:11,515 - INFO - State checkpointed successfully.
+2024-08-23 12:26:16,349 - INFO - State checkpointed successfully.
+2024-08-23 12:27:20,515 - INFO - State checkpointed successfully.
+2024-08-23 12:28:23,949 - INFO - State checkpointed successfully.
+2024-08-23 12:29:31,944 - INFO - State checkpointed successfully.
+2024-08-23 12:30:41,131 - INFO - State checkpointed successfully.
+2024-08-23 12:31:46,965 - INFO - State checkpointed successfully.
+2024-08-23 12:32:53,322 - INFO - State checkpointed successfully.
+2024-08-23 12:33:56,965 - INFO - State checkpointed successfully.
+2024-08-23 12:35:04,620 - INFO - State checkpointed successfully.
+2024-08-23 12:36:09,097 - INFO - State checkpointed successfully.
+2024-08-23 12:37:16,481 - INFO - State checkpointed successfully.
+2024-08-23 12:38:20,756 - INFO - State checkpointed successfully.
+2024-08-23 12:39:31,789 - INFO - State checkpointed successfully.
+2024-08-23 12:40:34,977 - INFO - State checkpointed successfully.
+2024-08-23 12:41:39,294 - INFO - State checkpointed successfully.
+2024-08-23 12:42:45,283 - INFO - State checkpointed successfully.
+2024-08-23 12:43:48,901 - INFO - State checkpointed successfully.
+2024-08-23 12:44:53,208 - INFO - State checkpointed successfully.
+2024-08-23 12:46:01,340 - INFO - State checkpointed successfully.
+2024-08-23 12:47:05,015 - INFO - State checkpointed successfully.
+2024-08-23 12:48:12,382 - INFO - State checkpointed successfully.
+2024-08-23 12:49:16,372 - INFO - State checkpointed successfully.
+2024-08-23 12:50:22,719 - INFO - State checkpointed successfully.
+2024-08-23 12:51:26,587 - INFO - State checkpointed successfully.
+2024-08-23 12:52:32,017 - INFO - State checkpointed successfully.
+2024-08-23 12:53:38,126 - INFO - State checkpointed successfully.
+2024-08-23 12:54:41,485 - INFO - State checkpointed successfully.
+2024-08-23 12:55:47,279 - INFO - State checkpointed successfully.
+2024-08-23 12:56:51,756 - INFO - State checkpointed successfully.
+2024-08-23 12:57:57,411 - INFO - State checkpointed successfully.
+2024-08-23 12:59:01,757 - INFO - State checkpointed successfully.
+2024-08-23 13:00:06,176 - INFO - State checkpointed successfully.
+2024-08-23 13:01:18,457 - INFO - State checkpointed successfully.
+2024-08-23 13:02:26,212 - INFO - State checkpointed successfully.
+2024-08-23 13:02:55,814 - INFO - Processing order with ID: 1758573656726137088, side: Sell, Status: Filled
+2024-08-23 13:02:55,814 - INFO - Received Order Filled Price: 60953.7, Qty: 0.001
+2024-08-23 13:02:55,920 - INFO - Processed filled sell order - Pair Profit: 0.09831259999999986
+2024-08-23 13:02:58,298 - INFO - Placed buy order at 60733.7, Order ID: 1758700006006941952
+2024-08-23 13:02:58,298 - INFO - canceling 1758573657497889024 with level 60513.7
+2024-08-23 13:03:01,828 - INFO - Marked sell order 2656c0ae-b087-4056-9938-2b1ad09b8035 as filled
+2024-08-23 13:03:01,829 - INFO - Processing order with ID: 1758700006006941952, side: Buy, Status: New
+2024-08-23 13:03:01,829 - INFO - Processing order with ID: 1758573657497889024, side: Buy, Status: Cancelled
+2024-08-23 13:03:04,083 - INFO - Processing order with ID: 1758700054526650624, side: Buy, Status: New
+2024-08-23 13:03:04,083 - INFO - Placed buy order at 60953.7, Order ID: 1758700054526650624
+2024-08-23 13:03:04,084 - INFO - canceling 1758700006006941952 with level 60733.7
+2024-08-23 13:03:04,195 - INFO - Processing order with ID: 1758700006006941952, side: Buy, Status: Cancelled
+2024-08-23 13:03:05,528 - INFO - Processing order with ID: 1758700054526650624, side: Buy, Status: PartiallyFilled
+2024-08-23 13:03:05,624 - INFO - Processing order with ID: 1758700054526650624, side: Buy, Status: PartiallyFilled
+2024-08-23 13:03:06,448 - INFO - Processing order with ID: 1758700054526650624, side: Buy, Status: Filled
+2024-08-23 13:03:06,448 - INFO - Received Order Filled Price: 60953.7, Qty: 0.001
+2024-08-23 13:03:06,448 - INFO - popped buy from openOrders
+2024-08-23 13:03:06,555 - INFO - Placed sell order at 61173.7, Order ID: 1758700075280066816
+2024-08-23 13:03:07,454 - INFO - Placed corresponding sell order with ID: 1758700075280066816
+2024-08-23 13:03:09,024 - INFO - Processing order with ID: 1758700075280066816, side: Sell, Status: New
+2024-08-23 13:03:09,411 - INFO - Placed buy order at 60733.7, Order ID: 1758700099229542656
+2024-08-23 13:03:09,413 - INFO - Processing order with ID: 1758700099229542656, side: Buy, Status: New
+2024-08-23 13:03:31,112 - INFO - State checkpointed successfully.
+2024-08-23 13:04:35,830 - INFO - State checkpointed successfully.
+2024-08-23 13:05:43,414 - INFO - State checkpointed successfully.
+2024-08-23 13:06:47,591 - INFO - State checkpointed successfully.
+2024-08-23 13:07:52,356 - INFO - State checkpointed successfully.
+2024-08-23 13:08:57,241 - INFO - State checkpointed successfully.
+2024-08-23 13:10:04,828 - INFO - State checkpointed successfully.
+2024-08-23 13:11:08,873 - INFO - State checkpointed successfully.
+2024-08-23 13:12:14,820 - INFO - State checkpointed successfully.
+2024-08-23 13:13:23,239 - INFO - State checkpointed successfully.
+2024-08-23 13:14:27,618 - INFO - State checkpointed successfully.
+2024-08-23 13:15:31,596 - INFO - State checkpointed successfully.
+2024-08-23 13:16:36,810 - INFO - State checkpointed successfully.
+2024-08-23 13:17:41,207 - INFO - State checkpointed successfully.
+2024-08-23 13:18:46,487 - INFO - State checkpointed successfully.
+2024-08-23 13:19:51,523 - INFO - State checkpointed successfully.
+2024-08-23 13:20:56,974 - INFO - State checkpointed successfully.
+2024-08-23 13:22:05,023 - INFO - State checkpointed successfully.
+2024-08-23 13:23:10,831 - INFO - State checkpointed successfully.
+2024-08-23 13:24:14,903 - INFO - State checkpointed successfully.
+2024-08-23 13:25:21,260 - INFO - State checkpointed successfully.
+2024-08-23 13:26:24,971 - INFO - State checkpointed successfully.
+2024-08-23 13:27:31,534 - INFO - State checkpointed successfully.
+2024-08-23 13:28:42,787 - INFO - State checkpointed successfully.
+2024-08-23 13:29:50,270 - INFO - State checkpointed successfully.
+2024-08-23 13:30:54,767 - INFO - State checkpointed successfully.
+2024-08-23 13:32:03,072 - INFO - State checkpointed successfully.
+2024-08-23 13:33:08,198 - INFO - State checkpointed successfully.
+2024-08-23 13:34:15,411 - INFO - State checkpointed successfully.
+2024-08-23 13:35:20,280 - INFO - State checkpointed successfully.
+2024-08-23 13:36:27,606 - INFO - State checkpointed successfully.
+2024-08-23 13:37:31,303 - INFO - State checkpointed successfully.
+2024-08-23 13:38:34,819 - INFO - State checkpointed successfully.
+2024-08-23 13:39:46,426 - INFO - State checkpointed successfully.
+2024-08-23 13:40:52,065 - INFO - State checkpointed successfully.
+2024-08-23 13:41:58,911 - INFO - State checkpointed successfully.
+2024-08-23 13:43:03,991 - INFO - State checkpointed successfully.
+2024-08-23 13:44:07,710 - INFO - State checkpointed successfully.
+2024-08-23 13:45:14,260 - INFO - State checkpointed successfully.
+2024-08-23 13:46:20,399 - INFO - State checkpointed successfully.
+2024-08-23 13:47:26,400 - INFO - State checkpointed successfully.
+2024-08-23 13:48:31,496 - INFO - State checkpointed successfully.
+2024-08-23 13:49:35,783 - INFO - State checkpointed successfully.
+2024-08-23 13:50:39,071 - INFO - State checkpointed successfully.
+2024-08-23 13:51:43,349 - INFO - State checkpointed successfully.
+2024-08-23 13:52:48,642 - INFO - State checkpointed successfully.
+2024-08-23 13:53:52,138 - INFO - State checkpointed successfully.
+2024-08-23 13:54:57,863 - INFO - State checkpointed successfully.
+2024-08-23 13:56:01,609 - INFO - State checkpointed successfully.
+2024-08-23 13:57:09,154 - INFO - State checkpointed successfully.
+2024-08-23 13:58:12,782 - INFO - State checkpointed successfully.
+2024-08-23 13:59:16,071 - INFO - State checkpointed successfully.
+2024-08-23 14:00:20,001 - INFO - State checkpointed successfully.
+2024-08-23 14:01:24,443 - INFO - State checkpointed successfully.
+2024-08-23 14:02:31,964 - INFO - State checkpointed successfully.
+2024-08-23 14:03:39,541 - INFO - State checkpointed successfully.
+2024-08-23 14:04:46,572 - INFO - State checkpointed successfully.
+2024-08-23 14:05:50,134 - INFO - State checkpointed successfully.
+2024-08-23 14:06:53,290 - INFO - State checkpointed successfully.
+2024-08-23 14:07:59,783 - INFO - State checkpointed successfully.
