@@ -591,7 +591,7 @@ class GridTrader:
                                         logging.error(f"Failed to cancel order {id}: {e}")
                                         logging.error(f"Error occurred on line {traceback.format_exc().splitlines()[-2]}")
                                         self.upload_logs('order_cancellation_failure')
-                                break
+                                # break
                     else:
                         logging.error(f"Failed to place buy order: {next_buy_level}")
                 if count >= 12:
